@@ -66,7 +66,7 @@ h1 {
     background-image: url("images/la-coverphoto.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color:grey;
+    background-color:lightgoldenrodyellow;
     height: 50em;
   }
   .top-section-nav{
@@ -91,7 +91,8 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 50%;
+    margin: auto;
     text-align: center;
     
   }
@@ -109,14 +110,58 @@ h1 {
     font-weight: 400;
     border: 1px solid black;
     border-radius: 5px;
-    background-color: maroon;
+    background-color: black;
     color: lightslategray;
     padding: 10px;
     margin-top: 20px;
   }
 
+  .about-section{
+    display: flex;
+    justify-content: space-evenly;
+    height: 32em;
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+  }
+  .about-section img{
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+    border: 2px solid maroon;
+}
 
-  
-  
-  
-  
+  .about-me{
+    width: 50%;
+  }
+  .about-me h2{
+   text-align: center;
+   font-size: 36px;
+   font-weight: 500;
+   padding: 10px;
+   margin: 20px;
+  }
+  .about-me p{
+    line-height: 1.6;
+    font-size: 18px;
+    padding: 10px;
+  }
+
+
+
+/* Media Query*/
+  @media screen and (max-width: 480px){
+  .greeting{
+  width: 100%;
+    /* width: 50%; */
+    /* margin: auto; */
+    /* text-align: center; */
+}
+.about-section {
+ flex-direction: column;
+ height: auto;
+}
+.about-me{
+  width: 100%;
+}
+  }
