@@ -147,21 +147,107 @@ h1 {
     padding: 10px;
   }
 
+.footer-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 32vh;
+  color: whitesmoke;
+  background-color: #7f7f7f;
+}
+.company-contact-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 31vh;
+  border-right: 1px solid darkgrey;
+  width: 25%;
+}
+.company-contact-info img{
+  height: 8vh;
+  margin-bottom: 2em;
+}
+.company-contact-info ul li{
+  padding: 2px;
+}
+.contact-info{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  width: 50%;
+  height: 31vh;
+}
+.contact-info #name{
+  font-size: 20px;
+  font-weight: 600;
+}
+.contact-info #license{
+  padding-bottom: 10px;
+}
+.contact-info ul li{
+  padding: 2px;
+}
 
 
-/* Media Query*/
+/* ///////////////////////Media Query/////////////////////////////////////*/
   @media screen and (max-width: 480px){
+    .top-section-nav{
+      flex-direction: column;
+    }
+    #phone{
+      padding: 5px;
+    }
+    #email{
+      padding: 5px;
+    }
+
   .greeting{
   width: 100%;
+  height: 58vh;
     /* width: 50%; */
     /* margin: auto; */
     /* text-align: center; */
+}
+.greeting h2{
+  text-align: start;
+  font-size: 42px;
 }
 .about-section {
  flex-direction: column;
  height: auto;
 }
+.about-section img{
+  width: 75%;
+  margin: auto;
+}
 .about-me{
   width: 100%;
+}
+.footer-container{
+  flex-wrap: wrap;
+  height: 70vh;
+  justify-content: flex-start;
+}
+.company-contact-info{
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  color: whitesmoke;
+  padding: 10px;
+  border-right: none;
+  border-bottom: 1px solid darkgray;
+}
+.contact-info{
+  width: 100%;
+  color:  whitesmoke;
+  align-items: flex-start;
+  padding: 10px;
+}
+.contact-info h4{
+  font-size: 17px;
+  padding-bottom: 10px;
 }
   }
