@@ -91,6 +91,7 @@ h1 {
   }
   .top-section-nav h1{
     font-size: 30px;
+    font-weight: 400;
     
   }
   .greeting{
@@ -107,12 +108,12 @@ h1 {
   }
   .greeting h2{
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 400;
     padding: 10px;
   }
   .greeting p{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     padding: 5px;
   }
   .greeting a{
@@ -124,21 +125,113 @@ h1 {
     padding: 10px;
     margin-top: 20px;
   }
-  
+  .Home-Services-Section{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    /*border: 1px solid red;*/
+    height: 37vh;
+    width: 100%;
+    /*background-color: lightgoldenrodyellow;*/
+    background-color: #f5f5f5;
+
+
+  }
+  .Home-Services-Container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+   /* border: 1px solid black;*/
+    width: 75%;
+    height: 30vh;
+    margin-top: -7vh;
+    background-color: white;
+   
+  }
+  #Financial-Planning-Container{
+    text-align: center;
+   /* border: 1px solid blue;*/
+    width: 25%;
+    padding: 10px;
+  }
+  #Financial-Planning-Container img{
+    padding: 13px;
+    border-radius: 1px;
+    border: 1px solid darkgoldenrod;
+  }
+  #Financial-Planning-Container h2{
+    font-size: 26px;
+    font-weight: 300;
+    padding: 13px;
+  }
+  #Financial-Planning-Container p{
+   color: #999999;
+   line-height: 1.2;
+   padding-bottom: 6px;
+  }
+  #Investments-Management-Container{
+    text-align: center;
+    /*border: 1px solid orange;*/
+    width: 25%;
+    padding: 10px;
+  }
+  #Investments-Management-Container img{
+    padding: 13px;
+    border-radius: 1px;
+    border: 1px solid darkgoldenrod;
+  }
+
+  #Investments-Management-Container h2{
+    font-size: 26px;
+    font-weight: 300;
+    padding: 8px;
+  }
+  #Investments-Management-Container p{
+    color: #999999;
+    line-height: 1.2;
+    padding-bottom: 6px;
+    
+  }
+  #Retirement-Plan-Container{
+    text-align: center;
+    /*border: 1px solid purple;*/
+    width: 25%;
+    padding: 10px;
+
+  }
+  #Retirement-Plan-Container img{
+    padding: 13px;
+    border-radius: 1px;
+    border: 1px solid darkgoldenrod;
+   
+  }
+
+  #Retirement-Plan-Container h2{
+    font-size: 26px;
+    font-weight: 300;
+    padding: 13px;
+
+  }
+  #Retirement-Plan-Container p{
+    color: #999999;
+    line-height: 1.2;
+    padding-bottom: 6px;
+  }
 
   .about-section{
     display: flex;
     justify-content: space-evenly;
     height: 38em;
     width: 100%;
-    background-color: lightgoldenrodyellow;
+    background-color: #f5f5f5;
+    /*background-color: lightgoldenrodyellow;*/
     padding: 10px;
   }
   .about-section img{
+    height: 25em;
     padding: 10px;
-    background-color: black;
-    border-radius: 5px;
-    border: 2px solid maroon;
+    border-radius: 20px;
+
 }
 
   .about-me{
@@ -147,7 +240,7 @@ h1 {
   .about-me h2{
    text-align: center;
    font-size: 36px;
-   font-weight: 500;
+   font-weight: 300;
    padding: 10px;
    margin: 20px;
   }
@@ -176,7 +269,7 @@ h1 {
   width: 50%;
 }
 .company-contact-info img{
-  height: 13vh;
+  height: 10vh;
   margin-bottom: 2em;
 }
 .company-contact-info ul li{
@@ -227,7 +320,7 @@ h1 {
     }
   .greeting{
   width: 100%;
-  height: 72vh;
+  height: 56vh;
   text-align: start;
   flex-wrap: nowrap;
     /* width: 50%; */
@@ -237,6 +330,28 @@ h1 {
 .greeting h2{
   text-align: start;
   font-size: 42px;
+}
+.Home-Services-Section{
+  height: 128vh;
+}
+.Home-Services-Container{
+  flex-direction: column;
+  width: 100%;
+  margin-top: 0;
+  height: 116vh;
+
+}
+#Financial-Planning-Container{
+  width: 100%;
+  padding-bottom: 20px;
+}
+#Investments-Management-Container{
+  width: 100%;
+  padding-bottom: 20px;
+}
+#Retirement-Plan-Container {
+  width: 100%;
+  padding-bottom: 20px;
 }
 .about-section {
  flex-direction: column;
