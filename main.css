@@ -276,6 +276,7 @@ h1 {
   .experience span{
     color: #7d7d7d;
     font-weight: 700;
+    font-size: 15px;
     padding: 10px;
   }
   #experience-number{
@@ -456,6 +457,27 @@ h1 {
 #Retirement-Plan-Container {
   width: 100%;
   padding-bottom: 20px;
+}
+.grow-business-section{
+  height: 110vh;
+
+}
+.grow-business-container{
+  height: 41vh;
+ /* border: 1px solid red;*/
+  width: 75%;
+}
+.grow-business-container h1::after{
+  left: 43%;
+
+}
+.achievements-section{
+  flex-direction: column;
+  align-items: flex-start;
+  height: 56vh;
+  /*border: 1px solid blue;*/
+    
+  
 }
 .about-section {
  flex-direction: column;
