@@ -77,18 +77,28 @@ h1 {
    /* border: 1px solid red;*/
     width: 100%;
   }
+  .top-section .top-section-nav .contact-links{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    width: 50%;
+  }
   .top-section-nav{
     font-weight: 600;
   }
+  .top-section-nav a:link{
+    color: darkslategray;
+  }
   .top-section-nav h1{
     font-size: 30px;
+    font-weight: 400;
     
   }
   .greeting{
     height: 600px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
     justify-content: center;
     width: 50%;
@@ -98,37 +108,232 @@ h1 {
   }
   .greeting h2{
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 400;
     padding: 10px;
   }
   .greeting p{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     padding: 5px;
   }
-  .greeting h3{
+  .greeting a{
     font-weight: 400;
+    color: gray;
     border: 1px solid black;
     border-radius: 5px;
     background-color: black;
-    color: lightslategray;
     padding: 10px;
     margin-top: 20px;
   }
+  .Home-Services-Section{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    /*border: 1px solid red;*/
+    height: 33vh;
+    width: 100%;
+    /*background-color: lightgoldenrodyellow;*/
+    background-color: #f5f5f5;
+
+
+  }
+  .Home-Services-Container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+   /* border: 1px solid black;*/
+    width: 75%;
+    height: 30vh;
+    margin-top: -7vh;
+    background-color: white;
+   
+  }
+  #Financial-Planning-Container{
+    text-align: center;
+   /* border: 1px solid blue;*/
+    width: 25%;
+    padding: 10px;
+  }
+  #Financial-Planning-Container img{
+    padding: 13px;
+    border-radius: 1px;
+    border: 1px solid darkgoldenrod;
+  }
+  #Financial-Planning-Container h2{
+    font-size: 26px;
+    font-weight: 300;
+    color: #373c5f;
+    padding: 13px;
+  }
+  #Financial-Planning-Container p{
+   color: #999999;
+   line-height: 1.2;
+   padding-bottom: 6px;
+  }
+  #Investments-Management-Container{
+    text-align: center;
+    /*border: 1px solid orange;*/
+    width: 25%;
+    padding: 10px;
+  }
+  #Investments-Management-Container img{
+    padding: 13px;
+    border-radius: 1px;
+    border: 1px solid darkgoldenrod;
+  }
+
+  #Investments-Management-Container h2{
+    font-size: 26px;
+    font-weight: 300;
+    color: #373c5f;
+    padding: 8px;
+  }
+  #Investments-Management-Container p{
+    color: #999999;
+    line-height: 1.2;
+    padding-bottom: 6px;
+    
+  }
+  #Retirement-Plan-Container{
+    text-align: center;
+    /*border: 1px solid purple;*/
+    width: 25%;
+    padding: 10px;
+
+  }
+  #Retirement-Plan-Container img{
+    padding: 13px;
+    border-radius: 1px;
+    border: 1px solid darkgoldenrod;
+   
+  }
+
+  #Retirement-Plan-Container h2{
+    font-size: 26px;
+    font-weight: 300;
+    color: #373c5f;
+    padding: 13px;
+
+  }
+  #Retirement-Plan-Container p{
+    color: #999999;
+    line-height: 1.2;
+    padding-bottom: 6px;
+  }
+  .grow-business-section{
+    height: 46vh;
+    /*border: 1px solid blue;*/
+    background-color: #f5f5f5;
+  }
+  .grow-business-container{
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 19vh;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+  }
+  .grow-business-container h1{
+    font-size: 41px;
+      font-weight: 400;
+      letter-spacing: 0.50px;
+      color: #373c5f;
+      text-transform: uppercase;
+  }
+  .grow-business-container h1::after{
+    content: '';
+    width: 40px;
+    height: 2px;
+    background: #b49132;
+    display: block;
+    left: 50%;
+    position: relative;
+    margin-top: 8px;
+  
+  }
+  .grow-business-container p{
+    color: #9d9d9d;
+    max-width: 595px;
+    margin: 0 auto;
+    padding-top: 3px;
+  }
+  .achievements-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /*border: 1px solid red;*/
+    height: 23vh;
+    width: 75%;
+    margin: auto;
+
+  }
+  .experience{
+    display: flex;
+    align-items: center;
+  }
+  .experience span{
+    color: #7d7d7d;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px;
+  }
+  #experience-number{
+    font-size: 52px;
+    font-weight: 700;
+    color:#b49132;
+    padding: 20px;
+    border: 1px solid #b49132;
+
+  }
+  .award-winning{
+    display: flex;
+    align-items: center;
+
+  }
+  .award-winning span{
+    color: #7d7d7d;
+    font-weight: 700;
+    padding: 10px;
+    font-size: 15px;
+  }
+  .happy-customers{
+    display: flex;
+    align-items: center;
+  }
+  .happy-customers span{
+    color: #7d7d7d;
+    font-weight: 700;
+    padding: 10px;
+    font-size: 15px;
+  }
+  .satisfied-customers{
+    display: flex;
+    align-items: center;
+  }
+  .satisfied-customers span{
+    color: #7d7d7d;
+    font-weight: 700;
+    padding: 10px;
+    font-size: 15px;
+  }
+  
 
   .about-section{
     display: flex;
     justify-content: space-evenly;
-    height: 32em;
+    height: 33em;
     width: 100%;
-    background-color: lightgoldenrodyellow;
+    background-color: seashell;
+    /*background-color: lightgoldenrodyellow;*/
     padding: 10px;
   }
   .about-section img{
+    height: 25em;
     padding: 10px;
-    background-color: black;
-    border-radius: 5px;
-    border: 2px solid maroon;
+    border-radius: 20px;
+
 }
 
   .about-me{
@@ -137,7 +342,9 @@ h1 {
   .about-me h2{
    text-align: center;
    font-size: 36px;
-   font-weight: 500;
+   font-weight: 400;
+   letter-spacing: 0.50px;
+   color: #373c5f;
    padding: 10px;
    margin: 20px;
   }
@@ -147,12 +354,13 @@ h1 {
     padding: 10px;
   }
 
+
 .footer-container{
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 32vh;
+  height: 47vh;
   color: whitesmoke;
   background-color: #7f7f7f;
 }
@@ -163,10 +371,10 @@ h1 {
   align-items: center;
   height: 31vh;
   border-right: 1px solid darkgrey;
-  width: 25%;
+  width: 50%;
 }
 .company-contact-info img{
-  height: 8vh;
+  height: 10vh;
   margin-bottom: 2em;
 }
 .company-contact-info ul li{
@@ -174,11 +382,14 @@ h1 {
 }
 .contact-info{
   display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+   align-items: center;
   width: 50%;
-  height: 31vh;
+  padding: 20px;
+}
+.contact-info ul{
+  padding: 10px;
 }
 .contact-info #name{
   font-size: 20px;
@@ -192,7 +403,7 @@ h1 {
 }
 
 
-/* ///////////////////////Media Query/////////////////////////////////////*/
+/* ///////////////////////Media Query//////////////////////////////////////////////////////////////*/
   @media screen and (max-width: 480px){
     .top-section-nav{
       flex-direction: column;
@@ -203,10 +414,20 @@ h1 {
     #email{
       padding: 5px;
     }
-
+    .top-section .top-section-nav .contact-links{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .top-section .top-section-nav .contact-links a{
+      padding: 3px;
+    font-size: 20px;
+    }
   .greeting{
   width: 100%;
-  height: 58vh;
+  height: 56vh;
+  text-align: start;
+  flex-wrap: nowrap;
     /* width: 50%; */
     /* margin: auto; */
     /* text-align: center; */
@@ -214,6 +435,49 @@ h1 {
 .greeting h2{
   text-align: start;
   font-size: 42px;
+}
+.Home-Services-Section{
+  height: 128vh;
+}
+.Home-Services-Container{
+  flex-direction: column;
+  width: 100%;
+  margin-top: 0;
+  height: 116vh;
+
+}
+#Financial-Planning-Container{
+  width: 100%;
+  padding-bottom: 20px;
+}
+#Investments-Management-Container{
+  width: 100%;
+  padding-bottom: 20px;
+}
+#Retirement-Plan-Container {
+  width: 100%;
+  padding-bottom: 20px;
+}
+.grow-business-section{
+  height: 110vh;
+
+}
+.grow-business-container{
+  height: 41vh;
+ /* border: 1px solid red;*/
+  width: 75%;
+}
+.grow-business-container h1::after{
+  left: 43%;
+
+}
+.achievements-section{
+  flex-direction: column;
+  align-items: flex-start;
+  height: 56vh;
+  /*border: 1px solid blue;*/
+    
+  
 }
 .about-section {
  flex-direction: column;
@@ -228,13 +492,14 @@ h1 {
 }
 .footer-container{
   flex-wrap: wrap;
-  height: 70vh;
+  height: 82vh;
   justify-content: flex-start;
 }
 .company-contact-info{
   width: 100%;
-  flex-direction: row;
-  justify-content: space-around;
+  height: 39vh;
+  flex-direction: column;
+  align-items: flex-start;
   color: whitesmoke;
   padding: 10px;
   border-right: none;
@@ -248,6 +513,12 @@ h1 {
 }
 .contact-info h4{
   font-size: 17px;
-  padding-bottom: 10px;
+  padding-bottom: 3px;
+}
+.contact-info ul{
+  padding: 0;
+}
+.contact-info ul li{
+  padding: 3px;
 }
   }
