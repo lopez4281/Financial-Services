@@ -729,3 +729,39 @@ h1 {
   padding: 3px;
 }
   }
+  @media  screen and (min-width: 1024px){
+    .Home-Services-Section{
+      height: 50vh;
+    }
+    .Home-Services-Container{
+      height: 46vh;
+      margin-top: -12vh;
+    }
+    .grow-business-section{
+      height: 70vh;
+    }
+    .grow-business-container{
+      height: 34vh;
+    }
+    .about-section{
+      height: 38em;
+    }
+    .money-management-section{
+      height: 68vh;
+    }
+    .companies-section{
+      height: 97vh;
+    }
+    .company-overview-section{
+      height: 54vh;
+    }
+    .video-container{
+      width: 83%;
+    }
+    .companies-us img{
+      width: 17%;
+    }
+    .companies-canada img{
+      width: 17%;
+    }
+  }
