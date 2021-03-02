@@ -318,28 +318,14 @@ h1 {
     padding: 10px;
     font-size: 15px;
   }
-  .company-header-section{
-    width: 100%;
-    height: 23vh;
-    border: 1px solid red;
-
-  }
-  .company-header-container{
-    width: 100%;
-    height: 13vh;
-    border: 1px solid blue;
-  }
-  #company-message{
-    width: 50%;
-    border: 1px solid orange;
-  }
+  
 
   .about-section{
     display: flex;
     justify-content: space-evenly;
     height: 33em;
     width: 100%;
-    background-color: seashell;
+    background-color: #f5f5f5;
     /*background-color: lightgoldenrodyellow;*/
     padding: 10px;
   }
@@ -420,6 +406,105 @@ h1 {
   background-color: #b49132;
 
 }
+.companies-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 71vh;
+  /*border: 1px solid red;*/
+  background-color: #f5f5f5
+}
+.companies-container{
+  text-align: center;
+  /*border: 1px solid blue;*/
+  width: 50%;
+
+}
+.companies-container h1{
+  font-size: 2.5em;
+  font-weight: 400;
+  padding-top: 5vh;
+  padding-bottom: 2vh;
+  color:  #373c5f;
+}
+.companies-container p{
+  padding: 10px;
+  line-height: 1.6;
+  color: #9d9d9d;
+}
+.companies-container h3{
+  color: #373c5f;
+  font-weight: 600;
+  padding: 5px;
+}
+.companies-us-section{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+ /* border: 1px solid purple;*/
+  
+}
+.companies-us{
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+  padding: 16px;
+ /* border: 1px solid green;*/
+
+}
+
+.companies-us img{
+  width: 15%;
+}
+.companies-canada-section{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 24px;
+  /*border: 1px solid purple;*/
+  
+}
+.companies-canada{
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+  padding: 16px;
+ /* border: 1px solid green;*/
+
+}
+#canada-header{
+  color: #373c5f;
+  font-weight: 600;
+  padding: 5px;
+
+}
+.companies-canada img{
+  width: 14%;
+}
+.company-overview-section{
+  height: 41vh;
+  width: 100%;
+  /*background-color:#f5f5f5;*/
+  background-color: rgba(180, 145, 50, 0.9);
+  
+}
+.company-overview-header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 2em;
+  font-weight: 300;
+  color: whitesmoke;
+  padding: 30px;
+ 
+}
+.video-container {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin: auto;
+}
 .footer-container{
   width: 100%;
   display: flex;
@@ -427,7 +512,7 @@ h1 {
   align-items: center;
   height: 47vh;
   color: whitesmoke;
-  background-color: #7f7f7f;
+  background-color: black;
 }
 .company-contact-info{
   display: flex;
@@ -435,7 +520,7 @@ h1 {
   justify-content: center;
   align-items: center;
   height: 31vh;
-  border-right: 1px solid darkgrey;
+  border-right: .5px solid darkgrey;
   width: 50%;
 }
 .company-contact-info img{
@@ -557,6 +642,7 @@ h1 {
 }
 .money-management-section{
   height: 70vh;
+  
 }
 .money-management-container{
   width: 100%;
@@ -568,6 +654,48 @@ h1 {
 }
 .money-management-container h3{
   padding-bottom: 36px;
+}
+.companies-section{
+  height: 171vh;
+}
+.companies-container{
+  width: 100%;
+}
+.companies-us-section{
+  height: 57vh;
+}
+.companies-us{
+  flex-direction: column;
+  align-items: center;
+  height: 54vh;
+
+}
+.companies-us img{
+  width: 80%;
+}
+.companies-canada-section{
+  height: 57vh;
+}
+.companies-canada{
+  flex-direction: column;
+  align-items: center;
+  height: 54vh;
+
+}
+.companies-canada img{
+  width: 80%;
+}
+.company-overview-section{
+  height: 89vh;
+  width: 100%;
+
+}
+
+.video-container{
+  flex-direction: column;
+  height: 80vh;
+  padding: 10px;
+  align-items: center;
 }
 .footer-container{
   flex-wrap: wrap;
@@ -600,4 +728,40 @@ h1 {
 .contact-info ul li{
   padding: 3px;
 }
+  }
+  @media  screen and (min-width: 1024px){
+    .Home-Services-Section{
+      height: 50vh;
+    }
+    .Home-Services-Container{
+      height: 46vh;
+      margin-top: -12vh;
+    }
+    .grow-business-section{
+      height: 70vh;
+    }
+    .grow-business-container{
+      height: 34vh;
+    }
+    .about-section{
+      height: 38em;
+    }
+    .money-management-section{
+      height: 68vh;
+    }
+    .companies-section{
+      height: 97vh;
+    }
+    .company-overview-section{
+      height: 54vh;
+    }
+    .video-container{
+      width: 83%;
+    }
+    .companies-us img{
+      width: 17%;
+    }
+    .companies-canada img{
+      width: 17%;
+    }
   }
