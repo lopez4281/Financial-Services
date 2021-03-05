@@ -494,7 +494,7 @@ h1 {
   justify-content: center;
   width: 100%;
   font-size: 2em;
-  font-weight: 300;
+  font-weight: 400;
   color: whitesmoke;
   padding: 30px;
  
@@ -504,6 +504,66 @@ h1 {
   justify-content: space-around;
   width: 60%;
   margin: auto;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: darkgrey;
+}
+
+.contact-form-section {
+ height: 88vh;
+ width: 100%;
+
+}
+.contact-us-header{
+  text-align: center;
+  font-size: 33px;
+  padding: 10px;
+  width: 50%;
+}
+.contact-form-container{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 46px;
+}
+.contact-form-section img{
+  height: auto;
+  width: 50%;
+  border-radius: 5px;
+}
+.contact-form{
+  width: 50%;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+.contact-form h1{
+  font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 15px;
 }
 .footer-container{
   width: 100%;
@@ -697,6 +757,20 @@ h1 {
   padding: 10px;
   align-items: center;
 }
+.contact-form-section{
+  height: 98vh;
+}
+.contact-form-container{
+  flex-direction: column;
+  padding: 10px;
+}
+.contact-form-container img{
+  width: 100%;
+  padding-top: 10px;
+}
+.contact-form{
+  width: 100%;
+}
 .footer-container{
   flex-wrap: wrap;
   height: 82vh;
@@ -729,6 +803,7 @@ h1 {
   padding: 3px;
 }
   }
+/* end of 480 screens*/
   @media  screen and (min-width: 1024px){
     .Home-Services-Section{
       height: 50vh;
@@ -749,6 +824,9 @@ h1 {
     .money-management-section{
       height: 68vh;
     }
+    .money-management-container h1{
+      width: 100%;
+    }
     .companies-section{
       height: 97vh;
     }
@@ -765,3 +843,29 @@ h1 {
       width: 17%;
     }
   }
+  /*
+  @media screen and (max-width: 1200px){
+    .Home-Services-Container{
+      height: 32vh;
+    }
+    .Home-Services-Section{
+      height: 30vh;
+    }
+    .money-management-section{
+      height: 43vh;
+    }
+    .money-management-container{
+      height: auto;
+    }
+    .money-management-container h1{
+      width: 50%;
+    }
+    .companies-section{
+      height: 74vh;
+    }
+    .company-overview-section{
+      height: 43vh;
+    }
+    
+  }*/
+  
