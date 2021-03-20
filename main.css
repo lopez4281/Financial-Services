@@ -535,15 +535,32 @@ h1 {
     /*background-color: lightgoldenrodyellow;*/
     padding: 10px;
   }
-  .about-section img{
+  .about-section .profile-picture{
+    background-color: white;
+    height: 77vh;
+    padding: 10px;
+    border-radius: 2px;
+  }
+  .about-section .profile-picture img{
     height: 29em;
     padding: 10px;
     border-radius: 20px;
+}
+.about-section .profile-picture h4{
+  text-align: center;
+  font-weight: 600;
+  padding: 2px;
+}
+.about-section .profile-picture h5{
+  text-align: center;
+  color: #7d7d7d;
 
 }
 
+
   .about-me{
     width: 50%;
+    height: 16px;
   }
   .about-me h2{
    text-align: center;
@@ -711,6 +728,26 @@ h1 {
   width: 60%;
   margin: auto;
 }
+.company-overview-section .video-container .tfa-presentation h4{
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 600;
+}
+.company-overview-section .video-container .tfa-presentation h5{
+  text-align: center;
+  color: whitesmoke;
+}
+.company-overview-section .video-container .tfa-webinar h4{
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 600;
+}
+.company-overview-section .video-container .tfa-webinar h5{
+  text-align: center;
+  color: whitesmoke;
+  
+}
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -753,6 +790,7 @@ input[type=submit]:hover {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
+  height: 79vh;
   padding: 46px;
 }
 .contact-form-section img{
@@ -1041,7 +1079,7 @@ input[type=submit]:hover {
       height: 97vh;
     }
     .company-overview-section{
-      height: 54vh;
+      height: 57vh;
     }
     .video-container{
       width: 83%;
