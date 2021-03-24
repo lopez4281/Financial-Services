@@ -17,7 +17,7 @@
     padding: 24px;
     padding-left: 70px;
     width: 100%;
-    height: 20vh;
+    height: 14vh;
   }
   
   
@@ -31,7 +31,7 @@
     /*border: 1px solid red;*/
   }
   .wfg-logo img{
-    width: 70px;
+    width: 55px;
     height: auto;
   }
   .navbar-links{
@@ -73,7 +73,8 @@ h1 {
 }
 */
 .contact-links-section{
-  background-color: #b49132;
+  /*background-color: #b49132;*/
+  background-color: darkred;
 }
 .contact-links{
   display: flex;
@@ -152,7 +153,8 @@ h1 {
     font-size: 15px;
     font-weight: 500;
     color: white;
-    background-color: #b49132;
+   /* background-color: #b49132;*/
+    background-color: darkred;
     padding: 17px;
     margin-top: 20px;
     width: 188px;
@@ -189,7 +191,7 @@ h1 {
   #Financial-Planning-Container img{
     padding: 13px;
     border-radius: 1px;
-    border: 1px solid darkgoldenrod;
+    border: 1px solid  darkred;
   }
   #Financial-Planning-Container h2{
     font-size: 26px;
@@ -203,7 +205,7 @@ h1 {
    padding-bottom: 6px;
   }
   #Financial-Planning-Container a:link{
-    color:  #b49132;
+    color:  darkred;
   }
   #Financial-Planning-Container a:visited{
     color:  #b49132;
@@ -220,7 +222,7 @@ h1 {
   #Investments-Management-Container img{
     padding: 13px;
     border-radius: 1px;
-    border: 1px solid darkgoldenrod;
+    border: 1px solid darkred;
   }
 
   #Investments-Management-Container h2{
@@ -236,10 +238,10 @@ h1 {
     
   }
   #Investments-Management-Container a:link{
-    color: #b49132;
+    color: darkred;
   }
   #Investments-Management-Container a:visited{
-    color: #b49132;
+    color:  darkred;
   }
   #Investments-Management-Container a:hover{
     color: lightslategray;
@@ -255,7 +257,7 @@ h1 {
   #Retirement-Plan-Container img{
     padding: 13px;
     border-radius: 1px;
-    border: 1px solid darkgoldenrod;
+    border: 1px solid darkred;
    
   }
 
@@ -272,10 +274,10 @@ h1 {
     padding-bottom: 6px;
   }
   #Retirement-Plan-Container a:link{
-    color: #b49132;
+    color: darkred;
   }
   #Retirement-Plan-Container a:visited{
-    color: #b49132;
+    color:  darkred;
   }
   #Retirement-Plan-Container a:hover{
     color: lightslategray;
@@ -309,7 +311,7 @@ h1 {
     content: '';
     width: 40px;
     height: 2px;
-    background: #b49132;
+    background:  darkred;
     display: block;
     left: 50%;
     position: relative;
@@ -337,7 +339,7 @@ h1 {
     align-items: center;
     max-width: 180px;
     height: 180px;
-    border: 1px solid #b49132;
+    border: 1px solid  darkred;
   }
   .experience span{
     color: #7d7d7d;
@@ -354,7 +356,7 @@ h1 {
   #experience-number{
     font-size: 52px;
     font-weight: 700;
-    color:#b49132;
+    color: darkred;
     padding: 8px;
     padding-left: 59px;
     /*border: 1px solid #b49132;*/
@@ -365,7 +367,7 @@ h1 {
     align-items: center;
     max-width: 180px;
     height: 180px;
-    border: 1px solid #b49132;
+    border: 1px solid  darkred;
 
   }
   .award-winning #experience-number{
@@ -389,7 +391,7 @@ h1 {
     align-items: center;
     max-width: 180px;
     height: 180px;
-    border: 1px solid #b49132;
+    border: 1px solid  darkred;
   }
   
   .happy-customers span{
@@ -412,7 +414,7 @@ h1 {
     align-items: center;
     max-width: 180px;
     height: 180px;
-    border: 1px solid #b49132;
+    border: 1px solid  darkred;
   }
   .satisfied-customers span{
     color: #7d7d7d;
@@ -453,7 +455,7 @@ h1 {
     content: '';
     width: 40px;
     height: 2px;
-    background: #b49132;
+    background:  darkred;
     display: block;
     left: 47%;
     position: relative;
@@ -477,7 +479,7 @@ h1 {
     font-size: 15px;
     font-weight: 500;
     color: white;
-    background-color: #b49132;
+    background-color:  darkred;
     padding: 17px;
     margin-top: 20px;
     width: 188px;
@@ -512,7 +514,7 @@ h1 {
     content: '';
     width: 40px;
     height: 2px;
-    background: #b49132;
+    background:  darkred;
     display: block;
     left: 47%;
     position: relative;
@@ -625,8 +627,8 @@ h1 {
 .money-management-container a{
   color: #fff;
   padding: 10px;
-  border: 2px solid #b49132;
-  background-color: #b49132;
+  border: 2px solid  darkred;
+  background-color:  darkred;
 
 }
 .companies-section{
@@ -650,6 +652,9 @@ h1 {
   padding-top: 5vh;
   padding-bottom: 2vh;
   color:  #373c5f;
+}
+.companies-container h1 span{
+  color: darkred;
 }
 .companies-container p{
   padding: 10px;
@@ -709,7 +714,7 @@ h1 {
   height: 41vh;
   width: 100%;
   /*background-color:#f5f5f5;*/
-  background-color: rgba(180, 145, 50, 0.9);
+  background-color:  darkred;
   
 }
 .company-overview-header {
@@ -717,7 +722,7 @@ h1 {
   justify-content: center;
   width: 100%;
   font-size: 2em;
-  font-weight: 400;
+  font-weight: 600;
   color: whitesmoke;
   padding: 30px;
  
@@ -834,6 +839,15 @@ input[type=submit]:hover {
 .company-contact-info ul li{
   padding: 2px;
 }
+.company-contact-info ul a:link{
+  color:  whitesmoke;
+}
+.company-contact-info ul a:visited{
+  color:  whitesmoke;
+}
+.company-contact-info ul a:hover{
+  color: gray;
+}
 .contact-info{
   display: flex;
   flex-direction: column;
@@ -855,6 +869,16 @@ input[type=submit]:hover {
 .contact-info ul li{
   padding: 2px;
 }
+.contact-info ul a:link{
+  color: whitesmoke;
+}
+.contact-info ul a:visited{
+  color: whitesmoke;
+}
+.contact-info ul a:hover{
+  color: gray;
+}
+
 
 
 /* ///////////////////////Media Query//////////////////////////////////////////////////////////////*/
