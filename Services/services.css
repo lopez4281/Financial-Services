@@ -67,7 +67,7 @@
     height: 27em;
   }
   .greeting{
-    height: 500px;
+    height: 472px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column; 
@@ -108,3 +108,57 @@
     margin-top: 20px;
     width: 188px;
   }
+  .services-greeting{
+  display: flex;
+   justify-content: center;
+   width: 100%;
+   height: 31vh;
+    line-height: 1.6;
+    /*border: 1px solid red;*/
+}
+  .services-greeting-container{
+    text-align: center;
+    width: 50%;
+  }
+  .services-greeting-container h1{
+    font-size: 42px;
+    font-weight: 600;
+  }
+  .services-greeting-container h1 span{
+    color: darkred;
+  }
+  .financial-strategies-section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 60vh;
+    /*border: 1px solid blue;*/;
+  }
+  .financial-strategies-info{
+    width: 50%;
+    padding-top: 75px;
+    background-color: lightgray ;
+  }
+  .financial-strategies-info h1{
+    font-size: 30px;
+    font-weight: 300;
+    padding: 10px;
+  }
+  .financial-strategies-info p{
+    padding: 10px;
+  }
+  .financial-strategies-info ul{
+    padding: 10px;
+  }
+
+
+  .financial-cover-photo{ 
+    width: 50%;
+  }
+  .financial-cover-photo img{
+    width: 100%;
+    height: 412px;
+  }
+
+
+ 
