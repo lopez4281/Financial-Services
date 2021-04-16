@@ -406,4 +406,198 @@
     width: 100%;
     height: 373px;
   }
+  .companies-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+    /*border: 1px solid red;*/
+    background-color: #f5f5f5
+  }
+  .companies-container{
+    text-align: center;
+    /*border: 1px solid blue;*/
+    width: 50%;
+  
+  }
+  .companies-container h1{
+    font-size: 2.5em;
+    font-weight: 400;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+    color:  #373c5f;
+  }
+  .companies-container h1 span{
+    color: darkred;
+  }
+  .companies-container p{
+    padding: 10px;
+    line-height: 1.6;
+    color: #9d9d9d;
+  }
+  .companies-container h3{
+    color: #373c5f;
+    font-weight: 600;
+    padding: 5px;
+  }
+  .companies-us-section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   /* border: 1px solid purple;*/
+    
+  }
+  .companies-us{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    padding: 16px;
+   /* border: 1px solid green;*/
+  
+  }
+  
+  .companies-us img{
+    width: 15%;
+  }
+  .companies-canada-section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 24px;
+    /*border: 1px solid purple;*/
+    
+  }
+  .companies-canada{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    padding: 16px;
+   /* border: 1px solid green;*/
+  
+  }
+  #canada-header{
+    color: #373c5f;
+    font-weight: 600;
+    padding: 5px;
+  
+  }
+  .companies-canada img{
+    width: 14%;
+  }
+  .company-overview-section{
+    height: 41vh;
+    width: 100%;
+    /*background-color:#f5f5f5;*/
+    background-color:  darkred;
+    
+  }
+  .company-overview-header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 2em;
+    font-weight: 600;
+    color: whitesmoke;
+    padding: 30px;
+   
+  }
+  .footer-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 47vh;
+    color: whitesmoke;
+    background-color: black;
+  }
+  .company-contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 31vh;
+    border-right: .5px solid darkgrey;
+    width: 50%;
+  }
+  .company-contact-info img{
+    height: 10vh;
+    margin-bottom: 2em;
+  }
+  .company-contact-info ul li{
+    padding: 2px;
+  }
+  .company-contact-info ul a:link{
+    color:  whitesmoke;
+  }
+  .company-contact-info ul a:visited{
+    color:  whitesmoke;
+  }
+  .company-contact-info ul a:hover{
+    color: gray;
+  }
+  .contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+     align-items: center;
+    width: 50%;
+    padding: 20px;
+  }
+  .contact-info ul{
+    padding: 10px;
+  }
+  .contact-info #name{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .contact-info #license{
+    padding-bottom: 10px;
+  }
+  .contact-info ul li{
+    padding: 2px;
+  }
+  .contact-info ul a:link{
+    color: whitesmoke;
+  }
+  .contact-info ul a:visited{
+    color: whitesmoke;
+  }
+  .contact-info ul a:hover{
+    color: gray;
+  }
+  .help-section{
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    width: 100%;
+    background-color: darkred;
+    padding: 10px;
+    
+  }
+  .help-container{
+    color: white;
+    width: 60%;
+    padding-top: 50px;
+    text-align: center;
+    height: 35vh;
+   
+}
+.help-container h1{
+    font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.help-container p{
+  padding-bottom: 37px;
+}
+.help-container a{
+    padding: 11px;
+    border-radius: 20px;
+    background-color: white;
+    color: darkred;
+   
+}
+
+  
  
