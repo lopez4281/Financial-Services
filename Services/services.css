@@ -16,7 +16,6 @@
   .contact-links{
     display: flex;
     justify-content: space-evenly;
-    
     width: 70%;
   }
   .contact-links a{
@@ -35,7 +34,7 @@
     padding: 24px;
     padding-left: 70px;
     width: 100%;
-    height: 14vh;
+    height: 12vh;
   }
   
   
@@ -65,6 +64,7 @@
     background-size: cover;
     background-color:lightgoldenrodyellow;
     height: 27em;
+    width: 100%;
   }
   .greeting{
     height: 472px;
@@ -426,7 +426,7 @@
     font-weight: 400;
     padding-top: 5vh;
     padding-bottom: 2vh;
-    color:  #373c5f;
+    color:  black;
   }
   .companies-container h1 span{
     color: darkred;
@@ -434,7 +434,7 @@
   .companies-container p{
     padding: 10px;
     line-height: 1.6;
-    color: #9d9d9d;
+    color: black;
   }
   .companies-container h3{
     color: #373c5f;
@@ -607,6 +607,7 @@
   }
   .navbar-container{
     padding-left: 29px;
+    height: 12vh;
   }
   .navbar-links{
     width: 75%;
@@ -614,12 +615,18 @@
   .greeting h1{
     font-size: 40px;
     width: 100%;
+    text-align: start;
+    padding-left: 5px;
   }
   .greeting p{
     width: 100%;
+    text-align: start;
+    padding: 0;
+    padding-top: 10px;
+    padding-left: 5px;
   }
   .services-greeting{
-    height: 34vh;
+    height: 30vh;
   }
   .services-greeting-container{
     width: 100%;
@@ -631,11 +638,19 @@
   .financial-strategies-section{
     flex-direction: column;
     width: 100%;
-    height: 86vh;
+    height: 79vh;
   }
   .financial-strategies-info {
     width: 100%;
+    height: 40vh;
+    padding-top: 32px;
+    padding-bottom: 20px;
+
   }
+  .financial-strategies-info h1{
+    width: 326px;
+  }
+  
   .financial-cover-photo{
     width: 100%;
   }
@@ -646,8 +661,13 @@
     height: 93vh;
   }
   .insurance-protection-info{
-    width: 100%;
     order: 1;
+    width: 100%;
+    height: 47vh;
+    padding-top: 32px;
+  }
+  .insurance-protection-info h1{
+    width: 326px;
   }
   .insurance-cover-photo{
     order: 2;
@@ -656,10 +676,16 @@
   .retirement-strategies-section{
     flex-direction: column;
     width: 100%;
-    height: 88vh;
+    height: 82vh;
   }
   .retirement-strategies-info{
     width: 100%;
+    height: 47vh;
+    padding-top: 32px;
+    padding-bottom: 20px;
+  }
+  .retirement-strategies-info h1{
+    width: 326px;
   }
   .retirement-cover-photo{
     width: 100%;
@@ -667,11 +693,17 @@
   .college-funding-section{
     flex-direction: column;
     width: 100%;
-    height: 76vh;
+    height: 71vh;
   }
   .college-funding-info{
-    width: 100%;
     order: 1;
+    width: 100%;
+    height: 47vh;
+    padding-top: 32px;
+    padding-bottom: 20px;
+  }
+  .college-funding-info h1{
+   width: 326px;
   }
   .college-cover-photo{
     width: 100%;
@@ -680,10 +712,16 @@
   .business-strategies-section{
     flex-direction: column;
     width: 100%;
-    height: 89vh;
+    height: 83vh;
   }
   .business-strategies-info{
     width: 100%;
+    height: 47vh;
+    padding-top: 32px;
+    padding-bottom: 20px;
+  }
+  .business-strategies-info h1{
+    width: 326px;
   }
   .business-cover-photo{
     width: 100%;
@@ -694,12 +732,85 @@
     height: 93vh;
   }
   .estate-preservation-info{
-    width: 100%;
     order: 1;
+    width: 100%;
+    height: 47vh;
+    padding-top: 32px;
   }
+  .estate-preservation-info h1{
+    width: 326px;
+  }
+  
   .estate-cover-photo{
     width: 100%;
     order: 2;
   }
+.companies-section{
+  height: 171vh;
 }
- 
+.companies-container{
+  width: 100%;
+}
+.companies-us-section{
+  height: 57vh;
+}
+.companies-us{
+  flex-direction: column;
+  align-items: center;
+  height: 54vh;
+
+}
+.companies-us img{
+  width: 80%;
+}
+.companies-canada-section{
+  height: 57vh;
+}
+.companies-canada{
+  flex-direction: column;
+  align-items: center;
+  height: 54vh;
+
+}
+.companies-canada img{
+  width: 80%;
+}
+.help-section{
+  height: 42vh;
+}
+.help-container{
+  width: 100%;
+}
+.footer-container{
+  flex-wrap: wrap;
+  height: 82vh;
+  justify-content: flex-start;
+}
+.company-contact-info{
+  width: 100%;
+  height: 39vh;
+  flex-direction: column;
+  align-items: flex-start;
+  color: whitesmoke;
+  padding: 10px;
+  border-right: none;
+  border-bottom: 1px solid darkgray;
+}
+.contact-info{
+  width: 100%;
+  color:  whitesmoke;
+  align-items: flex-start;
+  padding: 10px;
+}
+.contact-info h4{
+  font-size: 17px;
+  padding-bottom: 3px;
+}
+.contact-info ul{
+  padding: 0;
+}
+.contact-info ul li{
+  padding: 3px;
+}
+
+}
