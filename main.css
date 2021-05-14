@@ -186,7 +186,7 @@ h1 {
     text-align: center;
    /* border: 1px solid blue;*/
     width: 25%;
-    padding: 10px;
+    /*padding: 10px;*/
   }
   #Financial-Planning-Container img{
     padding: 13px;
@@ -218,7 +218,7 @@ h1 {
     text-align: center;
     /*border: 1px solid orange;*/
     width: 25%;
-    padding: 10px;
+    /*padding: 10px;*/
   }
   #Investments-Management-Container img{
     padding: 13px;
@@ -252,7 +252,7 @@ h1 {
     text-align: center;
     /*border: 1px solid purple;*/
     width: 25%;
-    padding: 10px;
+   /* padding: 10px;*/
 
   }
   #Retirement-Plan-Container img{
@@ -448,7 +448,7 @@ h1 {
   .about-us-section-container{
     align-self: center;
     text-align: center;
-    height: 35vh;
+    height: 50vh;
     width: 50%;
    /* border: 1px solid red;*/
   }
@@ -473,15 +473,16 @@ h1 {
   }
   .about-us-section-container p{
     color: #7d7d7d;
-    padding: 10px;
-    padding-bottom: 67px;
+    padding: 20px;
+    padding-bottom: 45px;
+    line-height: 1.5;
   }
   .about-us-section-container a{
     font-size: 15px;
     font-weight: 500;
     color: white;
     background-color:  darkred;
-    padding: 17px;
+    padding: 10px;
     margin-top: 20px;
     width: 188px;
 
@@ -524,8 +525,10 @@ h1 {
   
 
   .about-section-header p{
-    padding: 10px;
+    font-size: 18px;
     color: #7d7d7d;
+    padding: 20px;
+    
   }
 
 
@@ -542,7 +545,7 @@ h1 {
     background-color: white;
     height: 77vh;
     padding: 10px;
-    border-radius: 2px;
+    border-radius: 12px;
   }
   .about-section .profile-picture img{
     height: 29em;
@@ -615,7 +618,7 @@ h1 {
  /*border: 1px solid blue;*/
 }
 .money-management-container h1{
-  font-size: 43px;
+  font-size: 50px;
   width: 51%;
   margin: auto;
   padding-bottom: 32px;
@@ -623,6 +626,7 @@ h1 {
 }
 .money-management-container h3{
   color: #fff;
+  font-size: 18px;
   padding-bottom: 36px;
 }
 .money-management-container a{
@@ -834,7 +838,7 @@ input[type=submit]:hover {
   width: 50%;
 }
 .company-contact-info img{
-  height: 10vh;
+  height: 13vh;
   margin-bottom: 2em;
 }
 .company-contact-info ul li{
@@ -969,17 +973,24 @@ input[type=submit]:hover {
 
 }
 .about-us-main-container{
-  height: 78vh;
+  height: 90vh;
  /* border: 1px solid red;*/
+}
+.about-section-header h2{
+  padding-top: 30px;
+}
+.about-section-header p{
+  font-size: 20px;
+  padding: 30px;
 }
 .about-us-section{
   flex-direction: column;
   width: 100%;
-  height: 69vh;
+  height: 90vh;
 }
 .about-us-section-container{
   width: 100%;
-  height: 50vh;
+  height: 62vh;
 }
 .about-us-section .about-us-section-image-container{
   width: 100%;
@@ -1032,8 +1043,9 @@ input[type=submit]:hover {
 
 }
 .money-management-container h1{
-  padding-bottom: 32px;
+  font-size: 42px;
   width: 100%;
+  padding-bottom: 32px;
 }
 .money-management-container h3{
   padding-bottom: 36px;
@@ -1131,11 +1143,14 @@ input[type=submit]:hover {
   @media  screen and (min-width: 1024px){
     .Home-Services-Section{
       height: 45vh;
+     /* border: 1px solid blue;*/
+
     }
     .Home-Services-Container{
-      height: 46vh;
+      height: 52vh;
       margin-top: -12vh;
       padding-top: 30px;
+      /*border: 1px solid red;*/
     }
     .grow-business-section{
       height: 70vh;
@@ -1165,16 +1180,16 @@ input[type=submit]:hover {
       width: 83%;
     }
     .companies-us img{
-      width: 17%;
+      width: 20%;
     }
     .companies-canada img{
       width: 17%;
     }
     .about-us-main-container{
-      height: 76vh;
+      height: 80vh;
     }
     .about-us-section{
-      height: 67vh;
+      height: 75vh;
     }
   }
   /*

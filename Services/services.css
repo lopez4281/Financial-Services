@@ -59,6 +59,49 @@
     /*border: 1px solid blue;*/
   }
   .top-section{
+    position: relative; 
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.top-section::before {    
+      content: "";
+      background-image: url("../images/papersigning.jpeg");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.75;
+}
+
+.top-section h1 {
+  position: relative;
+  color: black;  
+  font-size: 3rem;
+  line-height: 0.9;
+  text-align: center;
+  font-weight: 550;
+    width: 80%;
+}
+.top-section p{ 
+  position: relative;
+  color: black;  
+  font-size: 2rem;
+  line-height: 0.9;
+  text-align: center;
+  padding-top: 34px;
+    width: 80%;
+
+
+}
+/*
+  .top-section{
     background-image: url("../images/papersigning.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -66,6 +109,7 @@
     height: 27em;
     width: 100%;
   }
+  /*
   .greeting{
     height: 472px;
     display: flex;
@@ -102,12 +146,13 @@
     font-size: 15px;
     font-weight: 500;
     color: white;
-   /* background-color: #b49132;*/
     background-color: darkred;
     padding: 17px;
     margin-top: 20px;
     width: 188px;
   }
+  */
+  
   .services-greeting{
   display: flex;
    justify-content: center;
@@ -123,6 +168,7 @@
   .services-greeting-container h1{
     font-size: 42px;
     font-weight: 600;
+    padding-top: 33px;
   }
   .services-greeting-container h1 span{
     color: darkred;
@@ -521,7 +567,7 @@
     width: 50%;
   }
   .company-contact-info img{
-    height: 10vh;
+    height: 13vh;
     margin-bottom: 2em;
   }
   .company-contact-info ul li{
@@ -611,6 +657,14 @@
   }
   .navbar-links{
     width: 75%;
+  }
+  .top-section h1{
+    font-size: 41px;
+    text-align: start;
+  }
+  .top-section p{
+    font-size: 25px;
+    text-align: start;
   }
   .greeting h1{
     font-size: 40px;
@@ -725,6 +779,10 @@
   }
   .business-cover-photo{
     width: 100%;
+  }
+  .business-cover-photo img {
+   
+    height: 390px;
   }
   .estate-preservation-section{
     flex-direction: column;
