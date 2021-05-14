@@ -1,0 +1,874 @@
+*{
+    box-sizing: border-box;
+  }
+  html{
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+  
+  }
+  a{
+    text-decoration: none;
+  }
+  .contact-links-section{
+    /*background-color: #b49132;*/
+    background-color: darkred;
+  }
+  .contact-links{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+  }
+  .contact-links a{
+    color: white;
+    font-size: 14px;
+    padding: 17px;
+  }
+  .contact-links a i{
+    padding-right: 5px;
+  }
+  .navbar-container{
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+    height: 100px;
+    padding: 24px;
+    padding-left: 70px;
+    width: 100%;
+    height: 12vh;
+  }
+  
+  
+  .navbar-container a{
+    color: whitesmoke;
+  }
+  .wfg-logo{
+    display: flex;
+    align-items: center;
+    width: 25%;
+    /*border: 1px solid red;*/
+  }
+  .wfg-logo img{
+    width: 55px;
+    height: auto;
+  }
+  .navbar-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 45%;
+    /*border: 1px solid blue;*/
+  }
+  .top-section{
+    position: relative; 
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.top-section::before {    
+      content: "";
+      background-image: url("../images/papersigning.jpeg");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.75;
+}
+
+.top-section h1 {
+  position: relative;
+  color: black;  
+  font-size: 3rem;
+  line-height: 0.9;
+  text-align: center;
+  font-weight: 550;
+    width: 80%;
+}
+.top-section p{ 
+  position: relative;
+  color: black;  
+  font-size: 2rem;
+  line-height: 0.9;
+  text-align: center;
+  padding-top: 34px;
+    width: 80%;
+
+
+}
+/*
+  .top-section{
+    background-image: url("../images/papersigning.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:lightgoldenrodyellow;
+    height: 27em;
+    width: 100%;
+  }
+  /*
+  .greeting{
+    height: 472px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    
+  }
+  .greeting h2{
+    font-size: 47px;
+    font-weight: 400;
+    letter-spacing: 0.50px;
+    padding: 10px;
+    
+  }
+  .greeting h1{
+    font-size: 46px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    width: 75%;
+    
+  }
+  .greeting p{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 16px;
+    width: 50%;
+  }
+  .greeting a{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: darkred;
+    padding: 17px;
+    margin-top: 20px;
+    width: 188px;
+  }
+  */
+  
+  .services-greeting{
+  display: flex;
+   justify-content: center;
+   width: 100%;
+   height: 31vh;
+    line-height: 1.6;
+    /*border: 1px solid red;*/
+}
+  .services-greeting-container{
+    text-align: center;
+    width: 50%;
+  }
+  .services-greeting-container h1{
+    font-size: 42px;
+    font-weight: 600;
+    padding-top: 33px;
+  }
+  .services-greeting-container h1 span{
+    color: darkred;
+  }
+  .financial-strategies-section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 54vh;
+    /*border: 1px solid blue;*/;
+  }
+  .financial-strategies-info{
+    width: 50%;
+    padding-top: 75px;
+    padding-left: 20px;
+    background-color: #f5f5f5;
+  }
+  .financial-strategies-info h1{
+    font-size: 30px;
+    font-weight: 300;
+    width: 400px;
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+  .financial-strategies-info p{
+    font-size: 17px;
+    font-weight: 300;
+    padding: 10px;
+  }
+  .financial-strategies-info ul{
+    font-size: 17px;
+    font-weight: 300;
+    padding: 10px;
+    padding-left: 29px;
+  }
+  .financial-strategies-info li{
+    list-style: square;
+    padding-bottom: 5px;
+  }
+  .financial-cover-photo{ 
+    width: 50%;
+  }
+  .financial-cover-photo img{
+    width: 100%;
+    height: 373px;
+  }
+
+
+  .insurance-protection-section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 54vh;
+    /*border: 1px solid blue;*/;
+  }
+  .insurance-protection-info{
+    order: 2;
+    width: 50%;
+    padding-top: 75px;
+    padding-left: 20px;
+    background-color: firebrick;
+    color: white;
+  }
+  .insurance-protection-info h1{
+    font-size: 30px;
+    font-weight: 300;
+    width: 400px;
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+  .insurance-protection-info p{
+    font-size: 17px;
+    font-weight: 300;
+    padding: 10px;
+  }
+  .insurance-protection-info ul{
+    font-size: 17px;
+    font-weight: 300;
+    padding: 10px;
+    padding-left: 29px;
+  }
+  .insurance-protection-info li{
+    list-style: square;
+    padding-bottom: 5px;
+  }
+  .insurance-cover-photo{ 
+    order: 1;
+    width: 50%;
+  }
+  .insurance-cover-photo img{
+    width: 100%;
+    height: 373px;
+  }
+
+
+  .retirement-strategies-section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 54vh;
+    /*border: 1px solid blue;*/;
+  }
+  .retirement-strategies-info{
+    order: 1;
+    width: 50%;
+    padding-top: 75px;
+    padding-left: 20px;
+    color: white;
+    background-color: darkslategray;
+  }
+  .retirement-strategies-info h1{
+    font-size: 30px;
+    font-weight: 300;
+    width: 400px;
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+  .retirement-strategies-info p{
+    font-size: 17px;
+    font-weight: 300;
+    padding: 10px;
+  }
+  .retirement-strategies-info ul{
+    font-size: 17px;
+    font-weight: 300;
+    padding: 10px;
+    padding-left: 29px;
+  }
+  .retirement-strategies-info li{
+    list-style: square;
+    padding-bottom: 5px;
+  }
+  .retirement-cover-photo{ 
+    order: 2;
+    width: 50%;
+  }
+  .retirement-cover-photo img{
+    width: 100%;
+    height: 373px;
+  }
+
+
+
+  .college-funding-section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 54vh;
+    /*border: 1px solid blue;*/;
+  }
+  .college-funding-info{
+    order: 2;
+    width: 50%;
+    padding-top: 75px;
+    padding-left: 20px;
+    background-color: #f5f5f5;
+  }
+  .college-funding-info h1{
+    font-size: 30px;
+    font-weight: 300;
+    width: 400px;
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+  .college-funding-info p{
+    font-size: 17px;
+    font-weight: 300;
+    padding: 10px;
+  }
+  .college-funding-info ul{
+    font-size: 17px;
+    font-weight: 300;
+    padding: 10px;
+    padding-left: 29px;
+  }
+  .college-funding-info li{
+    list-style: square;
+    padding-bottom: 5px;
+  }
+  .college-cover-photo{ 
+    order: 1;
+    width: 50%;
+  }
+  .college-cover-photo img{
+    width: 100%;
+    height: 373px;
+  }
+
+
+
+  .business-strategies-section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 54vh;
+    /*border: 1px solid blue;*/;
+  }
+  .business-strategies-info{
+    order: 1;
+    width: 50%;
+    padding-top: 75px;
+    padding-left: 20px;
+    background-color: firebrick;
+    color: white;
+  }
+  .business-strategies-info h1{
+    font-size: 30px;
+    font-weight: 300;
+    width: 400px;
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+  .business-strategies-info p{
+    font-size: 17px;
+    font-weight: 300;
+    padding: 10px;
+  }
+  .business-strategies-info ul{
+    font-size: 17px;
+    font-weight: 300;
+    padding: 10px;
+    padding-left: 29px;
+  }
+  .business-strategies-info li{
+    list-style: square;
+    padding-bottom: 5px;
+  }
+  .business-cover-photo{ 
+    order: 2;
+    width: 50%;
+  }
+  .business-cover-photo img{
+    width: 100%;
+    height: 373px;
+  }
+ 
+
+
+  .estate-preservation-section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 54vh;
+    /*border: 1px solid blue;*/;
+  }
+  .estate-preservation-info{
+    order: 2;
+    width: 50%;
+    padding-top: 75px;
+    padding-left: 20px;
+    color: white;
+    background-color: darkslategray;
+  }
+  .estate-preservation-info h1{
+    font-size: 30px;
+    font-weight: 300;
+    width: 400px;
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+  .estate-preservation-info p{
+    font-size: 17px;
+    font-weight: 300;
+    padding: 10px;
+  }
+  .estate-preservation-info ul{
+    font-size: 17px;
+    font-weight: 300;
+    padding: 10px;
+    padding-left: 29px;
+  }
+  .estate-preservation-info li{
+    list-style: square;
+    padding-bottom: 5px;
+  }
+  .estate-cover-photo{ 
+    order: 1;
+    width: 50%;
+  }
+  .estate-cover-photo img{
+    width: 100%;
+    height: 372px;
+  }
+  .companies-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+    /*border: 1px solid red;*/
+    background-color: #f5f5f5
+  }
+  .companies-container{
+    text-align: center;
+    /*border: 1px solid blue;*/
+    width: 50%;
+  
+  }
+  .companies-container h1{
+    font-size: 2.5em;
+    font-weight: 400;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+    color:  black;
+  }
+  .companies-container h1 span{
+    color: darkred;
+  }
+  .companies-container p{
+    padding: 10px;
+    line-height: 1.6;
+    color: black;
+  }
+  .companies-container h3{
+    color: #373c5f;
+    font-weight: 600;
+    padding: 5px;
+  }
+  .companies-us-section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   /* border: 1px solid purple;*/
+    
+  }
+  .companies-us{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    padding: 16px;
+   /* border: 1px solid green;*/
+  
+  }
+  
+  .companies-us img{
+    width: 15%;
+  }
+  .companies-canada-section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 24px;
+    /*border: 1px solid purple;*/
+    
+  }
+  .companies-canada{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    padding: 16px;
+   /* border: 1px solid green;*/
+  
+  }
+  #canada-header{
+    color: #373c5f;
+    font-weight: 600;
+    padding: 5px;
+  
+  }
+  .companies-canada img{
+    width: 14%;
+  }
+  .company-overview-section{
+    height: 41vh;
+    width: 100%;
+    /*background-color:#f5f5f5;*/
+    background-color:  darkred;
+    
+  }
+  .company-overview-header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 2em;
+    font-weight: 600;
+    color: whitesmoke;
+    padding: 30px;
+   
+  }
+  .footer-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 47vh;
+    color: whitesmoke;
+    background-color: black;
+  }
+  .company-contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 31vh;
+    border-right: .5px solid darkgrey;
+    width: 50%;
+  }
+  .company-contact-info img{
+    height: 13vh;
+    margin-bottom: 2em;
+  }
+  .company-contact-info ul li{
+    padding: 2px;
+  }
+  .company-contact-info ul a:link{
+    color:  whitesmoke;
+  }
+  .company-contact-info ul a:visited{
+    color:  whitesmoke;
+  }
+  .company-contact-info ul a:hover{
+    color: gray;
+  }
+  .contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+     align-items: center;
+    width: 50%;
+    padding: 20px;
+  }
+  .contact-info ul{
+    padding: 10px;
+  }
+  .contact-info #name{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .contact-info #license{
+    padding-bottom: 10px;
+  }
+  .contact-info ul li{
+    padding: 2px;
+  }
+  .contact-info ul a:link{
+    color: whitesmoke;
+  }
+  .contact-info ul a:visited{
+    color: whitesmoke;
+  }
+  .contact-info ul a:hover{
+    color: gray;
+  }
+  .help-section{
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    width: 100%;
+    background-color: darkred;
+    padding: 10px;
+    
+  }
+  .help-container{
+    color: white;
+    width: 60%;
+    padding-top: 50px;
+    text-align: center;
+    height: 35vh;
+   
+}
+.help-container h1{
+    font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.help-container p{
+  padding-bottom: 37px;
+}
+.help-container a{
+    padding: 11px;
+    border-radius: 20px;
+    background-color: white;
+    color: darkred;
+   
+}
+
+/*//////////////////////////////////////Media Queries/////////////////////////////////////*/
+@media screen and (max-width: 480px){
+  .contact-links-section{
+    display: none;
+
+  }
+  .navbar-container{
+    padding-left: 29px;
+    height: 12vh;
+  }
+  .navbar-links{
+    width: 75%;
+  }
+  .top-section h1{
+    font-size: 41px;
+    text-align: start;
+  }
+  .top-section p{
+    font-size: 25px;
+    text-align: start;
+  }
+  .greeting h1{
+    font-size: 40px;
+    width: 100%;
+    text-align: start;
+    padding-left: 5px;
+  }
+  .greeting p{
+    width: 100%;
+    text-align: start;
+    padding: 0;
+    padding-top: 10px;
+    padding-left: 5px;
+  }
+  .services-greeting{
+    height: 30vh;
+  }
+  .services-greeting-container{
+    width: 100%;
+  }
+  .services-greeting-container h1{
+    padding-bottom: 20px;
+  }
+
+  .financial-strategies-section{
+    flex-direction: column;
+    width: 100%;
+    height: 79vh;
+  }
+  .financial-strategies-info {
+    width: 100%;
+    height: 40vh;
+    padding-top: 32px;
+    padding-bottom: 20px;
+
+  }
+  .financial-strategies-info h1{
+    width: 326px;
+  }
+  
+  .financial-cover-photo{
+    width: 100%;
+  }
+
+  .insurance-protection-section {
+    flex-direction: column;
+    width: 100%;
+    height: 93vh;
+  }
+  .insurance-protection-info{
+    order: 1;
+    width: 100%;
+    height: 47vh;
+    padding-top: 32px;
+  }
+  .insurance-protection-info h1{
+    width: 326px;
+  }
+  .insurance-cover-photo{
+    order: 2;
+    width: 100%;
+}
+  .retirement-strategies-section{
+    flex-direction: column;
+    width: 100%;
+    height: 82vh;
+  }
+  .retirement-strategies-info{
+    width: 100%;
+    height: 47vh;
+    padding-top: 32px;
+    padding-bottom: 20px;
+  }
+  .retirement-strategies-info h1{
+    width: 326px;
+  }
+  .retirement-cover-photo{
+    width: 100%;
+  }
+  .college-funding-section{
+    flex-direction: column;
+    width: 100%;
+    height: 71vh;
+  }
+  .college-funding-info{
+    order: 1;
+    width: 100%;
+    height: 47vh;
+    padding-top: 32px;
+    padding-bottom: 20px;
+  }
+  .college-funding-info h1{
+   width: 326px;
+  }
+  .college-cover-photo{
+    width: 100%;
+    order: 2;
+  }
+  .business-strategies-section{
+    flex-direction: column;
+    width: 100%;
+    height: 83vh;
+  }
+  .business-strategies-info{
+    width: 100%;
+    height: 47vh;
+    padding-top: 32px;
+    padding-bottom: 20px;
+  }
+  .business-strategies-info h1{
+    width: 326px;
+  }
+  .business-cover-photo{
+    width: 100%;
+  }
+  .business-cover-photo img {
+   
+    height: 390px;
+  }
+  .estate-preservation-section{
+    flex-direction: column;
+    width: 100%;
+    height: 93vh;
+  }
+  .estate-preservation-info{
+    order: 1;
+    width: 100%;
+    height: 47vh;
+    padding-top: 32px;
+  }
+  .estate-preservation-info h1{
+    width: 326px;
+  }
+  
+  .estate-cover-photo{
+    width: 100%;
+    order: 2;
+  }
+.companies-section{
+  height: 171vh;
+}
+.companies-container{
+  width: 100%;
+}
+.companies-us-section{
+  height: 57vh;
+}
+.companies-us{
+  flex-direction: column;
+  align-items: center;
+  height: 54vh;
+
+}
+.companies-us img{
+  width: 80%;
+}
+.companies-canada-section{
+  height: 57vh;
+}
+.companies-canada{
+  flex-direction: column;
+  align-items: center;
+  height: 54vh;
+
+}
+.companies-canada img{
+  width: 80%;
+}
+.help-section{
+  height: 42vh;
+}
+.help-container{
+  width: 100%;
+}
+.footer-container{
+  flex-wrap: wrap;
+  height: 82vh;
+  justify-content: flex-start;
+}
+.company-contact-info{
+  width: 100%;
+  height: 39vh;
+  flex-direction: column;
+  align-items: flex-start;
+  color: whitesmoke;
+  padding: 10px;
+  border-right: none;
+  border-bottom: 1px solid darkgray;
+}
+.contact-info{
+  width: 100%;
+  color:  whitesmoke;
+  align-items: flex-start;
+  padding: 10px;
+}
+.contact-info h4{
+  font-size: 17px;
+  padding-bottom: 3px;
+}
+.contact-info ul{
+  padding: 0;
+}
+.contact-info ul li{
+  padding: 3px;
+}
+
+}
