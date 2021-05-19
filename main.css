@@ -951,14 +951,25 @@ input[type=submit]:hover {
   width: 100%;
   padding-bottom: 20px;
 }
+#Financial-Planning-Container i{
+  font-size: 40px;
+}
 #Investments-Management-Container{
   width: 100%;
   padding-bottom: 20px;
 }
+#Investments-Management-Container i{
+  font-size: 40px;
+}
+
 #Retirement-Plan-Container {
   width: 100%;
   padding-bottom: 20px;
 }
+#Retirement-Plan-Container i{
+  font-size: 40px;
+}
+
 .grow-business-section{
   height: 150vh;
 
