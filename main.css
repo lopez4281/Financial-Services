@@ -883,6 +883,32 @@ input[type=submit]:hover {
 .contact-info ul a:hover{
   color: gray;
 }
+.social-links{
+  display: flex;
+   justify-content: center;
+  width: 100%;
+  font-size: 27px;
+    height: 7vh;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+.social-links ul{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 20%;
+
+}
+.social-links ul li a:link{
+  color: white;
+}
+.social-links ul li a:visited{
+  color: white;
+}
+.social-links ul li a:hover{
+  color: lightgrey;
+}
 
 
 
@@ -1148,6 +1174,12 @@ input[type=submit]:hover {
 }
 .contact-info ul li{
   padding: 3px;
+}
+.social-links{
+  justify-content: start;
+}
+.social-links ul {
+  width: 50%;
 }
   }
 /*///////////////////////////////////////// end of 480 screens////////////////////////////////////////////////*/
