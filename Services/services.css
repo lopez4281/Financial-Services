@@ -755,6 +755,9 @@
     order: 2;
     width: 100%;
 }
+.insurance-cover-photo img{
+  height: 382px;
+}
   .retirement-strategies-section{
     flex-direction: column;
     width: 100%;
@@ -808,11 +811,9 @@
   .business-cover-photo{
     width: 100%;
   }
-  /*.business-cover-photo img {
-   
-    height: 390px;
+  .business-cover-photo img{
+    height: 373px;
   }
-  */
   .estate-preservation-section{
     flex-direction: column;
     width: 100%;
