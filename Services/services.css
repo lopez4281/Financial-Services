@@ -548,6 +548,38 @@
     padding: 30px;
    
   }
+  .help-section{
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    width: 100%;
+    background-color: darkred;
+    padding: 10px;
+    
+  }
+  .help-container{
+    color: white;
+    width: 60%;
+    padding-top: 50px;
+    text-align: center;
+    height: 35vh;
+   
+}
+.help-container h1{
+    font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.help-container p{
+  padding-bottom: 37px;
+}
+.help-container a{
+    padding: 11px;
+    border-radius: 20px;
+    background-color: white;
+    color: darkred;
+   
+}
   .footer-container{
     width: 100%;
     display: flex;
@@ -612,38 +644,34 @@
   .contact-info ul a:hover{
     color: gray;
   }
-  .help-section{
+  .social-links{
     display: flex;
-    justify-content: center;
-    height: 40vh;
+     justify-content: center;
     width: 100%;
-    background-color: darkred;
-    padding: 10px;
-    
+    font-size: 27px;
+      height: 7vh;
+      color: white;
+      background-color: black;
+      padding: 5px;
   }
-  .help-container{
+  .social-links ul{
+    display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 20%;
+  
+  }
+  .social-links ul li a:link{
     color: white;
-    width: 60%;
-    padding-top: 50px;
-    text-align: center;
-    height: 35vh;
-   
-}
-.help-container h1{
-    font-size: 45px;
-    font-weight: 600;
-    padding-bottom: 20px;
-}
-.help-container p{
-  padding-bottom: 37px;
-}
-.help-container a{
-    padding: 11px;
-    border-radius: 20px;
-    background-color: white;
-    color: darkred;
-   
-}
+  }
+  .social-links ul li a:visited{
+    color: white;
+  }
+  .social-links ul li a:hover{
+    color: lightgrey;
+  }
+ 
+
 
 /*//////////////////////////////////////Media Queries/////////////////////////////////////*/
 @media screen and (max-width: 480px){
@@ -780,10 +808,11 @@
   .business-cover-photo{
     width: 100%;
   }
-  .business-cover-photo img {
+  /*.business-cover-photo img {
    
     height: 390px;
   }
+  */
   .estate-preservation-section{
     flex-direction: column;
     width: 100%;
@@ -792,7 +821,7 @@
   .estate-preservation-info{
     order: 1;
     width: 100%;
-    height: 47vh;
+    height: 48vh;
     padding-top: 32px;
   }
   .estate-preservation-info h1{
@@ -869,6 +898,12 @@
 }
 .contact-info ul li{
   padding: 3px;
+}
+.social-links{
+  justify-content: start;
+}
+.social-links ul {
+  width: 50%;
 }
 
 }
