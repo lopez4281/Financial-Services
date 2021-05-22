@@ -203,6 +203,7 @@ h1 {
   #Financial-Planning-Container p{
    color: #999999;
    line-height: 1.2;
+   font-size: 15px;
    padding-bottom: 6px;
   }
   #Financial-Planning-Container a:link{
@@ -235,6 +236,7 @@ h1 {
   #Investments-Management-Container p{
     color: #999999;
     line-height: 1.2;
+    font-size: 15px;
     padding-bottom: 6px;
     
   }
@@ -272,6 +274,7 @@ h1 {
   #Retirement-Plan-Container p{
     color: #999999;
     line-height: 1.2;
+    font-size: 15px;
     padding-bottom: 6px;
   }
   #Retirement-Plan-Container a:link{
@@ -372,7 +375,7 @@ h1 {
 
   }
   .award-winning #experience-number{
-    padding-left: 60px;
+    padding-left: 29px;
   }
   .award-winning span{
     color: #7d7d7d;
@@ -407,7 +410,7 @@ h1 {
     padding-bottom: 10px;
   }
   .happy-customers #experience-number{
-    padding-left: 45px;
+    padding-left: 15px;
   }
   
   .satisfied-customers{
@@ -897,7 +900,7 @@ input[type=submit]:hover {
   display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 20%;
+    width: 15%;
 
 }
 .social-links ul li a:link{
