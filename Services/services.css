@@ -92,11 +92,11 @@
 .top-section p{ 
   position: relative;
   color: black;  
-  font-size: 2rem;
+  font-size: 22px;
   line-height: 0.9;
   text-align: center;
   padding-top: 34px;
-    width: 80%;
+    max-width: 800px;
 
 
 }
