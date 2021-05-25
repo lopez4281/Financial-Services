@@ -159,6 +159,7 @@ h1 {
     margin-top: 20px;
     width: 188px;
   }
+  
   .Home-Services-Section{
     display: flex;
     justify-content: center;
@@ -203,6 +204,7 @@ h1 {
   #Financial-Planning-Container p{
    color: #999999;
    line-height: 1.2;
+   font-size: 15px;
    padding-bottom: 6px;
   }
   #Financial-Planning-Container a:link{
@@ -235,6 +237,7 @@ h1 {
   #Investments-Management-Container p{
     color: #999999;
     line-height: 1.2;
+    font-size: 15px;
     padding-bottom: 6px;
     
   }
@@ -272,6 +275,7 @@ h1 {
   #Retirement-Plan-Container p{
     color: #999999;
     line-height: 1.2;
+    font-size: 15px;
     padding-bottom: 6px;
   }
   #Retirement-Plan-Container a:link{
@@ -372,7 +376,7 @@ h1 {
 
   }
   .award-winning #experience-number{
-    padding-left: 60px;
+    padding-left: 71px;
   }
   .award-winning span{
     color: #7d7d7d;
@@ -407,7 +411,7 @@ h1 {
     padding-bottom: 10px;
   }
   .happy-customers #experience-number{
-    padding-left: 45px;
+    padding-left: 15px;
   }
   
   .satisfied-customers{
@@ -726,11 +730,25 @@ h1 {
   display: flex;
   justify-content: center;
   width: 100%;
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 600;
   color: whitesmoke;
   padding: 30px;
  
+}
+.company-overview-section .webinar{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+.company-overview-section .webinar p{
+  text-align: center;
+    color: white;
+    font-size: 20px;
+    width: 50%;
+    padding-bottom: 10px;
+
 }
 .video-container {
   display: flex;
@@ -897,7 +915,7 @@ input[type=submit]:hover {
   display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 20%;
+    width: 12%;
 
 }
 .social-links ul li a:link{
@@ -1009,6 +1027,10 @@ input[type=submit]:hover {
   left: 43%;
 
 }
+.award-winning span h4 {
+  padding-left: 36px;
+ 
+}
 .about-us-main-container{
   height: 90vh;
  /* border: 1px solid red;*/
@@ -1118,9 +1140,13 @@ input[type=submit]:hover {
   width: 80%;
 }
 .company-overview-section{
-  height: 104vh;
+  height: 117vh;
   width: 100%;
 
+}
+.company-overview-section .webinar p{
+  text-align: start;
+  width: 80%;
 }
 
 .video-container{
@@ -1217,7 +1243,7 @@ input[type=submit]:hover {
       height: 97vh;
     }
     .company-overview-section{
-      height: 57vh;
+      height: 70vh;
     }
     .video-container{
       width: 83%;
