@@ -150,14 +150,15 @@ h1 {
     width: 50%;
   }
   .greeting a{
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 800;
     color: white;
    /* background-color: #b49132;*/
-    background-color: darkred;
-    padding: 17px;
+    /*background-color: darkred;*/
     margin-top: 20px;
     width: 188px;
+    padding: 17px;
+    border: 3px solid white;
   }
   
   .Home-Services-Section{
@@ -177,9 +178,10 @@ h1 {
     justify-content: space-evenly;
     padding: 10px;
    /* border: 1px solid black;*/
-    width: 90%;
+    /*width: 90%;*/
+    width: 100%;
     height: 30vh;
-    margin-top: -7vh;
+   /* margin-top: -7vh;*/
     background-color: white;
    
   }
@@ -205,6 +207,7 @@ h1 {
    color: #999999;
    line-height: 1.2;
    font-size: 15px;
+   font-weight: 200;
    padding-bottom: 6px;
   }
   #Financial-Planning-Container a:link{
@@ -238,6 +241,7 @@ h1 {
     color: #999999;
     line-height: 1.2;
     font-size: 15px;
+    font-weight: 200;
     padding-bottom: 6px;
     
   }
@@ -276,6 +280,7 @@ h1 {
     color: #999999;
     line-height: 1.2;
     font-size: 15px;
+    font-weight: 200;
     padding-bottom: 6px;
   }
   #Retirement-Plan-Container a:link{
@@ -306,8 +311,8 @@ h1 {
     text-align: center;
   }
   .grow-business-container h1{
-    font-size: 41px;
-      font-weight: 400;
+      font-size: 41px;
+      font-weight: 300;
       letter-spacing: 0.50px;
       color: black;
       text-transform: uppercase;
@@ -325,6 +330,7 @@ h1 {
   }
   .grow-business-container p{
     color: #9d9d9d;
+    font-weight: 200;
     max-width: 595px;
     margin: 0 auto;
     padding-top: 3px;
@@ -335,7 +341,8 @@ h1 {
     align-items: center;
     /*border: 1px solid red;*/
     height: 23vh;
-    width: 90%;
+    width: 100%;
+    padding-top: 50px;
     margin: auto;
 
   }
@@ -354,6 +361,7 @@ h1 {
     background-color: #f5f5f5;
   }
   .experience span h4{
+    font-weight: 200;
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -376,7 +384,7 @@ h1 {
 
   }
   .award-winning #experience-number{
-    padding-left: 71px;
+    padding-left: 60px;
   }
   .award-winning span{
     color: #7d7d7d;
@@ -387,6 +395,7 @@ h1 {
     background-color:#f5f5f5;
   }
   .award-winning span h4{
+    font-weight: 200;
     padding-left: 23px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -406,12 +415,13 @@ h1 {
     font-size: 15px;
   }
   .happy-customers span h4{
+    font-weight: 200;
     background-color: #f5f5f5;
     padding-top: 10px;
     padding-bottom: 10px;
   }
   .happy-customers #experience-number{
-    padding-left: 15px;
+    padding-left: 40px;
   }
   
   .satisfied-customers{
@@ -428,6 +438,7 @@ h1 {
     font-size: 15px;
   }
   .satisfied-customers span h4{
+    font-weight: 200;
     background-color: #f5f5f5;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -445,7 +456,7 @@ h1 {
     justify-content: space-evenly;
     width: 95%;
     height: 61vh;
-    background-color: white;
+   /* background-color: white;*/
     margin: auto;
     /*border: 1px solid red;*/
   }
@@ -470,20 +481,23 @@ h1 {
 
   .about-us-section-container h3{
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 300;
     color: black;
     padding: 20px;
     padding-bottom: 47px;
   }
   .about-us-section-container p{
-    color: #7d7d7d;
+    font-weight: 200;
+    /*color: #7d7d7d;*/
+    color: black;
     padding: 20px;
     padding-bottom: 45px;
     line-height: 1.5;
+    text-align: start;
   }
   .about-us-section-container a{
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 200;
     color: white;
     background-color:  darkred;
     padding: 10px;
@@ -513,6 +527,7 @@ h1 {
   }
   .about-section-header h2{
     font-size: 40px;
+    font-weight: 300;
     padding: 10px;
     color: black;
   }
@@ -530,6 +545,7 @@ h1 {
 
   .about-section-header p{
     font-size: 18px;
+    font-weight: 300;
     color: #7d7d7d;
     padding: 20px;
     
@@ -546,7 +562,7 @@ h1 {
     padding: 10px;
   }
   .about-section .profile-picture{
-    background-color: white;
+   /* background-color: white;*/
     height: 77vh;
     padding: 10px;
     border-radius: 12px;
@@ -558,10 +574,11 @@ h1 {
 }
 .about-section .profile-picture h4{
   text-align: center;
-  font-weight: 600;
+  font-weight: 300;
   padding: 2px;
 }
 .about-section .profile-picture h5{
+  font-weight: 200;
   text-align: center;
   color: #7d7d7d;
 
@@ -582,6 +599,7 @@ h1 {
    margin: 20px;
   }
   .about-me p{
+    font-weight: 200;
     line-height: 1.6;
     font-size: 18px;
     padding: 10px;
@@ -623,6 +641,7 @@ h1 {
 }
 .money-management-container h1{
   font-size: 50px;
+  font-weight: 300;
   width: 51%;
   margin: auto;
   padding-bottom: 32px;
@@ -630,11 +649,13 @@ h1 {
 }
 .money-management-container h3{
   color: #fff;
+  font-weight: 300;
   font-size: 18px;
   padding-bottom: 36px;
 }
 .money-management-container a{
   color: #fff;
+  font-weight: 200;
   padding: 10px;
   border: 2px solid  darkred;
   background-color:  darkred;
@@ -657,7 +678,7 @@ h1 {
 }
 .companies-container h1{
   font-size: 2.5em;
-  font-weight: 400;
+  font-weight: 300;
   padding-top: 5vh;
   padding-bottom: 2vh;
   color:  black;
@@ -666,13 +687,14 @@ h1 {
   color: darkred;
 }
 .companies-container p{
-  padding: 10px;
+  font-weight: 200;
   line-height: 1.6;
   color: black;
+  padding: 10px;
 }
 .companies-container h3{
   color: #373c5f;
-  font-weight: 600;
+  font-weight: 500;
   padding: 5px;
 }
 .companies-us-section{
@@ -712,7 +734,7 @@ h1 {
 }
 #canada-header{
   color: #373c5f;
-  font-weight: 600;
+  font-weight: 500;
   padding: 5px;
 
 }
@@ -723,7 +745,7 @@ h1 {
   height: 41vh;
   width: 100%;
   /*background-color:#f5f5f5;*/
-  background-color:  darkred;
+ /* background-color:  darkred;*/
   
 }
 .company-overview-header {
@@ -732,10 +754,14 @@ h1 {
   width: 100%;
   font-size: 3em;
   font-weight: 600;
-  color: whitesmoke;
   padding: 30px;
  
 }
+.company-overview-header h1{
+  color: black;
+  font-weight: 300;
+}
+
 .company-overview-section .webinar{
   display: flex;
   justify-content: center;
@@ -744,10 +770,11 @@ h1 {
 }
 .company-overview-section .webinar p{
   text-align: center;
-    color: white;
+    color: black;
     font-size: 20px;
+    font-weight: 200;
     width: 50%;
-    padding-bottom: 10px;
+    padding-bottom: 35px;
 
 }
 .video-container {
@@ -758,21 +785,21 @@ h1 {
 }
 .company-overview-section .video-container .tfa-presentation h4{
   text-align: center;
-  color: whitesmoke;
+  color: black;
   font-weight: 600;
 }
 .company-overview-section .video-container .tfa-presentation h5{
   text-align: center;
-  color: whitesmoke;
+  color: black;
 }
 .company-overview-section .video-container .tfa-webinar h4{
   text-align: center;
-  color: whitesmoke;
+  color: black;
   font-weight: 600;
 }
 .company-overview-section .video-container .tfa-webinar h5{
   text-align: center;
-  color: whitesmoke;
+  color: black;
   
 }
 
@@ -1211,13 +1238,13 @@ input[type=submit]:hover {
 /*///////////////////////////////////////// end of 480 screens////////////////////////////////////////////////*/
   @media  screen and (min-width: 1024px){
     .Home-Services-Section{
-      height: 45vh;
+      height: 65vh;
      /* border: 1px solid blue;*/
 
     }
     .Home-Services-Container{
       height: 52vh;
-      margin-top: -12vh;
+      /*margin-top: -12vh;*/
       padding-top: 30px;
       /*border: 1px solid red;*/
     }
@@ -1255,7 +1282,7 @@ input[type=submit]:hover {
       width: 17%;
     }
     .about-us-main-container{
-      height: 80vh;
+      height: 88vh;
     }
     .about-us-section{
       height: 75vh;
