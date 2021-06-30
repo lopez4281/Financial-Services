@@ -1030,6 +1030,64 @@ input[type=submit]:hover {
 
 
 /* ///////////////////////Media Query//////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 1201px) {
+  .Home-Services-Container {
+    height: 45vh
+  }
+  .Home-Services-Section{
+    height: 55vh;
+  }
+ .grow-business-container p {
+      padding-top: 30px;
+ }
+  .about-section{
+    height: 35em;
+  }
+  .achievements-section{
+    height: 35vh;
+  }
+  .money-management-container h1{
+    width: 100%;
+  }
+  .company-overview-section{
+    height: 70vh;
+  }
+  .companies-section{
+    height: 85vh;
+  }
+  .video-container{
+    width: 100%;
+  }
+}
+/* desktops */
+@media screen and (max-width: 1200px){
+  .Home-Services-Section{
+    height: 24rem;
+    border: 1px solid red;
+  }
+  .Home-Services-Container{
+    height: 23em;
+  }
+  
+  .about-section{
+    height: 37em;
+  }
+  .grow-business-section{
+    height: 30rem; 
+    border: 1px solid blue;
+  }
+  .grow-business-container{
+    height: 13rem;
+    border: 1px solid pink;
+  }
+  .achievements-section{
+    height: 12rem;
+  }
+  .about-us-main-container{
+    height: 31rem;
+    border: 1px solid purple;
+  }
+}
 /* laptops */
 @media screen and (max-width: 1024px){
   .Home-Services-Container{
@@ -1057,7 +1115,7 @@ input[type=submit]:hover {
   height: 50vh;
 }
 }
-/* Tablets */
+/* tablets */
 @media screen and (max-width: 768px){
   .contact-links{
     width: 90%;
@@ -1069,26 +1127,54 @@ input[type=submit]:hover {
   .greeting h1{
     font-size: 4em;
   }
+  .Home-Services-Section{
+    height: 85vh;
+  }
+  .Home-Services-Container{
+    flex-direction: column;
+    align-items: center;
+    height: 83vh;
+  }
+  #Financial-Planning-Container{
+    width: 50%;
+  }
   #Financial-Planning-Container p{
     font-size: 11px;
+}
+#Investments-Management-Container {
+  text-align: center;
+  /* border: 1px solid orange; */
+  width: 50%;
 }
 #Investments-Management-Container p{
   color: #999999;
   line-height: 1.2;
   font-size: 11px;
 }
+#Retirement-Plan-Container {
+  text-align: center;
+  /* border: 1px solid purple; */
+  width: 50%;
+}
 #Retirement-Plan-Container p{
   font-size: 11px;
 
 }
 .grow-business-section {
-  height: 48vh;
+  height: 115vh;
+}
+.grow-business-container{
+  height: 35vh;
 }
 .grow-business-container h1 {
   font-size: 2em;
 }
 .grow-business-container p {
   font-size: .8em;
+}
+.achievements-section {
+  flex-direction: column;
+  height: 70vh;
 }
 .experience{
   max-width: 150px;
@@ -1176,6 +1262,8 @@ input[type=submit]:hover {
 }
 .video-container{
   width: 100%;
+  flex-direction: column;
+  align-items: center;
 }
 .tfa-presentation iframe{
   width: 300;
@@ -1184,25 +1272,39 @@ input[type=submit]:hover {
   width: 300;
 }
 .company-overview-section{
-  height: 50vh;
+  height: 85vh;
 }
 .contact-form-section{
   height: 62vh;
 }
 .contact-form-container{
   height: 55vh;
+  flex-direction: column;
+  align-items: center;
 }
 .social-links ul {
   width: 20%;
 }
 }
+
+
 /* smartphones */
+/*@media screen and (min-width: 481px){
+.grow-business-section{
+  height: 105vh;
+}
+.achievements-section{
+  flex-direction: column;
+  height: 70vh;
+}
+}*/
 @media screen and (max-width: 480px){
   .contact-links-section {
     display: none;
   }
   .navbar-container{
     padding-left: 17px;
+    height: 10vh;
   }
   .navbar-links{
     width: 70%;
@@ -1218,7 +1320,7 @@ input[type=submit]:hover {
     width: 80%;
   }
 .Home-Services-Section{
-  height: 173vh;
+  height: 160vh;
 }
 .Home-Services-Section .Home-Services-Container{
   flex-direction: column;
@@ -1241,6 +1343,7 @@ input[type=submit]:hover {
 }
 .grow-business-section .grow-business-container{
   width: 100%;
+  padding: 10px;
 }
 .grow-business-container p{
   line-height: 1.6;
@@ -1250,7 +1353,7 @@ input[type=submit]:hover {
   height: 150vh;
 }
 .about-us-main-container{
-  height: 113vh;
+  height: 130vh;
 }
 .about-us-section{
   flex-direction: column;
@@ -1327,7 +1430,7 @@ input[type=submit]:hover {
   width: 50%;
 }
 .company-overview-section{
-  height: 135vh;
+  height: 155vh;
 }
 .company-overview-section .webinar p{
   width: 90%;
@@ -1388,10 +1491,15 @@ input[type=submit]:hover {
 @media screen and (max-width: 320px){
   .navbar-container {
     padding-left: 5px;
+    height: 10vh;
 }
 .top-section .greeting{
   height: 82vh;
 }
+.top-section .greeting h1 {
+  font-size: 3.2em;
+}
+
   .grow-business-container h1{
     font-size: 35px;
   }
@@ -1423,6 +1531,10 @@ input[type=submit]:hover {
   /*border: 1px solid purple;*/
 
 }
+.money-management-container h1 {
+  width: 100%;
+  font-size: 2em;
+}
 .video-container .tfa-presentation iframe{
   width: 100%;
 }
@@ -1433,7 +1545,7 @@ input[type=submit]:hover {
   height: 185vh;
 }
 .company-overview-section {
-  height: 166vh;
+  height: 180vh;
 }
 .contact-info {
   padding: 0px;
