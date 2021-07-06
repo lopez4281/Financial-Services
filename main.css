@@ -1061,6 +1061,9 @@ input[type=submit]:hover {
 }
 /* desktops */
 @media screen and (max-width: 1200px){
+  .navbar-container{
+    height: 4rem;
+  }
   .Home-Services-Section{
     height: 24rem;
     border: 1px solid red;
@@ -1087,17 +1090,71 @@ input[type=submit]:hover {
     height: 31rem;
     border: 1px solid purple;
   }
+  .money-management-section{
+    height: 20rem;
+
+  }
+  .money-management-container{
+    height: 15rem;
+  }
+  .money-management-container h1{
+    width: 100%;
+  }
+  .about-section-header{
+    height: 10rem;
+  }
+  .companies-section{
+    height: 40rem;
+  }
+  .video-container{
+    width: 100%;
+  }
+  .company-overview-section{
+    height: 30rem;
+  }
+  .contact-form-section{
+    height: 40rem;
+  }
+  .contact-form-container{
+    height: 34rem;
+  }
+  .footer-container{
+    height: 22rem;
+  }
+  .company-contact-info {
+    height: 15rem;
+  }
+  .company-contact-info img{
+    height: auto;
+    width: 25%;
+  }
+  .social-links{
+    height: 3rem;
+  }
 }
 /* laptops */
 @media screen and (max-width: 1024px){
   .Home-Services-Container{
-    height: 34vh;
+    height: 23rem;
   }
   .grow-business-container{
-    height: 35vh;
+    height: 12rem;
+    width: 100%;
   }
   .about-us-main-container {
-    height: 70vh;
+    height: 40rem;
+  }
+  .about-us-section{
+    height: 20rem;
+  }
+  .about-us-section-container{
+    height: 15rem;
+  }
+  .about-us-section .about-us-section-image-container {
+    height: 4rem;
+  }
+  .about-us-picture-container img{
+    width: 100%;
   }
   .about-section{
     height: 37em;
@@ -1122,18 +1179,18 @@ input[type=submit]:hover {
   }
   .navbar-container{
     padding-left: 25px;
-    height: 7vh;
+    height: 4rem;
   }
   .greeting h1{
     font-size: 4em;
   }
   .Home-Services-Section{
-    height: 85vh;
+    height: 50rem;
   }
   .Home-Services-Container{
     flex-direction: column;
     align-items: center;
-    height: 83vh;
+    height: 49rem;
   }
   #Financial-Planning-Container{
     width: 50%;
@@ -1160,11 +1217,11 @@ input[type=submit]:hover {
   font-size: 11px;
 
 }
-.grow-business-section {
-  height: 115vh;
+.grow-business-section{
+  height: 65rem;
 }
 .grow-business-container{
-  height: 35vh;
+  height: 15rem;
 }
 .grow-business-container h1 {
   font-size: 2em;
@@ -1174,7 +1231,7 @@ input[type=submit]:hover {
 }
 .achievements-section {
   flex-direction: column;
-  height: 70vh;
+  height: 50rem;
 }
 .experience{
   max-width: 150px;
@@ -1216,6 +1273,22 @@ input[type=submit]:hover {
 .satisfied-customers span {
   font-size: 14px;
 }
+.about-us-main-container{
+  height: 50rem;
+}
+.about-us-section{
+  flex-direction: column;
+  height: 45rem;
+  width:100%;
+}
+.about-us-section-container{
+  height: 20rem;
+  width: 100%;
+}
+.about-us-section .about-us-section-image-container {
+  height: auto;
+  width: 75%;
+}
 .about-us-picture-container img {
   width: 100%;
   height: auto;
@@ -1225,43 +1298,74 @@ input[type=submit]:hover {
 }
 .about-us-section-container p {
   font-size: .8em;
-}
-.about-us-main-container {
-  height: 54vh;
+  padding: 40px;
 }
 .about-section{
-  height: 45em;
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+  height: 60rem;
+  
+}
+.about-section .profile-picture {
+  width: 100%;
+  height: 45rem;
+  text-align: center;
+}
+
+.about-me{
+  height: 25rem;
+  width: 100%;
 }
 .about-me p{
   font-size: 1em;
 }
 .money-management-section{
-  height: 37vh;
+  height: 21rem;
 }
 .money-management-container{
   width: 100%;
-  height: 27vh;
+  height: 13rem;
 }
 .money-management-container h1 {
   width: 100%;
+  font-size: 3rem;
 }
 .companies-section{
-  height: 62vh;
+  height: 70rem;
 }
 .companies-container {
   width: 80%;
 }
 .companies-us {
+  flex-direction: column;
+  align-items: center;
   width: 80%;
+  height: 18rem;
+}
+.companies-us img{
+  width: 30%;
+  height: auto;
 }
 .companies-canada {
-  width: 80%;
+  flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 25rem;
+}
+.companies-canada img{
+  width: 30%;
+  height: auto;
+}
+.company-overview-section{
+  height: 65rem;
 }
 .company-overview-section .webinar p {
   width: 70%;
 }
 .video-container{
   width: 100%;
+  height: 40rem;
   flex-direction: column;
   align-items: center;
 }
@@ -1271,14 +1375,12 @@ input[type=submit]:hover {
 .tfa-webinar iframe{
   width: 300;
 }
-.company-overview-section{
-  height: 85vh;
-}
+
 .contact-form-section{
-  height: 62vh;
+  height: 45rem;
 }
 .contact-form-container{
-  height: 55vh;
+  height: 45rem;
   flex-direction: column;
   align-items: center;
 }
