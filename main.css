@@ -1504,9 +1504,10 @@ input[type=submit]:hover {
   height: 13rem;
 }
 .money-management-container h1 {
-  width: 100%;
-  font-size: 3rem;
-}
+width: 100%;
+font-size: 3rem;
+
+
 .companies-section{
   height: 70rem;
 }
@@ -1549,6 +1550,7 @@ input[type=submit]:hover {
   flex-direction: column;
   align-items: center;
 }
+
 .tfa-presentation iframe{
   width: 300;
 }
