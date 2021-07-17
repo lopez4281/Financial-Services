@@ -722,7 +722,7 @@ padding-top: 34px;
   font-weight: 200;
   padding: 10px;
   border: 2px solid  darkred;
-  background-color:  darkred;
+ 
 
 }
 .companies-section{
@@ -1030,36 +1030,138 @@ input[type=submit]:hover {
 
 
 /* ///////////////////////Media Query//////////////////////////////////////////////////////////////*/
-@media screen and (min-width: 1201px) {
-  .Home-Services-Container {
-    height: 45vh
+@media screen and (min-width: 1201px){
+  .contact-links{
+    width: 60%;
+    justify-content: start;
+  }
+  .navbar-container{
+    height: 4rem;
+  }
+  .top-section{
+    display: flex;
+    align-items: center;
+    height: 40rem;
   }
   .Home-Services-Section{
-    height: 55vh;
+    height: 30rem;
   }
- .grow-business-container p {
-      padding-top: 30px;
- }
-  .about-section{
-    height: 35em;
+  .Home-Services-Container{
+    height: 23rem;
   }
-  .achievements-section{
-    height: 35vh;
-  }
-  .money-management-container h1{
-    width: 100%;
-  }
-  .company-overview-section{
-    height: 70vh;
-  }
-  .companies-section{
-    height: 85vh;
-  }
-  .video-container{
-    width: 100%;
-  }
+  #Financial-Planning-Container {
+    width: 33.33%;
+    height: 22rem;
+    padding-top: 10px;
+    border-right: 1px solid lightgray;
 }
-/* desktops */
+#Financial-Planning-Container p {
+  line-height: 1.8;
+  padding: 10px;
+}
+#Investments-Management-Container {
+  width: 33.33%;
+  padding-top: 10px;
+}
+#Investments-Management-Container p {
+  line-height: 1.8;
+  padding: 10px;
+}
+#Retirement-Plan-Container{
+  width: 33.33%;
+  padding-top: 10px;
+  border-left: 1px solid lightgray;
+}
+#Retirement-Plan-Container p{
+  line-height: 1.8;
+  padding: 10px;
+}
+.grow-business-section{
+  height: 38rem;
+}
+.grow-business-container{
+  height: 12rem;
+}
+.achievements-section{
+  height: 23rem;
+  width: 90%;
+}
+.about-us-main-container{
+  height: 50rem;
+}
+.about-us-section{
+  height: 41rem;
+}
+.about-us-section-container{
+  height: 28rem;
+}
+.about-us-section-container p{
+  line-height: 1.8;
+}
+.about-us-section .about-us-section-image-container{
+  height: 38rem;
+  width: 40%;
+}
+.about-us-picture-container img{
+  width: 100%;
+  height: auto;
+}
+.about-section-header{
+  height: 12rem;
+  padding: 10px;
+}
+.about-section{
+  height: 40em;
+  padding: 50px;
+
+}
+.about-section .profile-picture{
+  height: 33rem;
+}
+.about-me{
+  height: 30rem;
+}
+.about-me p{
+  line-height: 1.8;
+  font-size: 16px;
+}
+.money-management-section{
+  height: 25rem;
+}
+.money-management-container{
+  height: 16rem;
+  width: 75%;
+}
+.money-management-container a{
+  font-size: 16px;
+    font-weight: 800;
+    color: white;
+    margin-top: 20px;
+    width: 188px;
+    padding: 17px;
+    border: 3px solid white;
+}
+.companies-section{
+  height: 50rem;
+}
+.company-overview-section{
+  height: 36rem;
+}
+.video-container{
+  width: 90%;
+}
+.footer-container{
+  height: 32rem;
+}
+.company-contact-info img{
+  height: auto;
+  width: 18%;
+}
+.social-links{
+  height: 4rem;
+}
+}
+/* Desktop*/
 @media screen and (max-width: 1200px){
   .navbar-container{
     height: 4rem;
@@ -1070,7 +1172,39 @@ input[type=submit]:hover {
   .Home-Services-Container{
     height: 23em;
   }
-  
+  #Financial-Planning-Container {
+    width: 33.33%;
+    height: 21rem;
+    padding-top: 10px;
+    border-right: 1px solid lightgrey;
+}
+#Financial-Planning-Container p {
+  line-height: 1.8;
+  font-size: 14px;
+  padding: 10px;
+}
+#Investments-Management-Container {
+  width: 33.33%;
+  height: 21rem;
+  padding-top: 10px;
+}
+#Investments-Management-Container p{
+  line-height: 1.8;
+  font-size: 14px;
+  padding: 10px;
+}
+#Retirement-Plan-Container{
+  width: 33.33%;
+  height: 21rem;
+  padding-top: 10px;
+  border-left: 1px solid lightgrey;
+}
+#Retirement-Plan-Container p{
+  line-height: 1.8;
+  font-size: 14px;
+  padding: 10px;
+}
+
   .about-section{
     height: 37em;
   }
@@ -1132,7 +1266,47 @@ input[type=submit]:hover {
 @media screen and (max-width: 1024px){
   .Home-Services-Container{
     height: 23rem;
+    align-items: center;
   }
+  #Financial-Planning-Container{
+    height: 19rem;
+    width: 33%;
+    padding: 10px;
+    border-right: 1px solid lightgrey;
+  }
+  #Financial-Planning-Container h2{
+    font-size: 23px;
+  }
+  #Financial-Planning-Container p{
+    line-height: 1.8;
+    font-size: 12px;
+  }
+  #Investments-Management-Container{
+    width: 33%;
+    height: 19rem;
+    padding-top: 10px;
+
+  }
+  #Investments-Management-Container h2{
+    font-size: 23px;
+  }
+  #Investments-Management-Container p{
+    line-height: 1.8;
+    font-size: 12px;
+  }
+  #Retirement-Plan-Container{
+    width: 33%;
+    height: 19rem;
+    border-left: 1px solid lightgray;
+  }
+  #Retirement-Plan-Container h2{
+    font-size: 23px;
+  }
+  #Retirement-Plan-Container p{
+    line-height: 1.8;
+    font-size: 12px;
+  }
+
   .grow-business-container{
     height: 12rem;
     width: 100%;
@@ -1153,19 +1327,22 @@ input[type=submit]:hover {
     width: 100%;
   }
   .about-section{
-    height: 37em;
+    height: 46em;
   }
   .money-management-container h1 {
     width: 100%;
 }
 .company-overview-section{
-  height: 55vh;
+  height: 38rem;
 }
 .video-container {
   width: 100%;
 }
 .contact-form-container{
   height: 50vh;
+}
+.social-links ul{
+  width: 16%;
 }
 }
 /* tablets */
@@ -1184,36 +1361,34 @@ input[type=submit]:hover {
     font-size: 4em;
   }
   .Home-Services-Section{
-    height: 50rem;
+    height: 58rem;
   }
   .Home-Services-Container{
     flex-direction: column;
     align-items: center;
-    height: 49rem;
+    height: 55rem;
   }
   #Financial-Planning-Container{
-    width: 50%;
+    width: 70%;
+    border-right: none;
   }
   #Financial-Planning-Container p{
-    font-size: 11px;
+    font-size: 13px;
 }
 #Investments-Management-Container {
-  text-align: center;
-  /* border: 1px solid orange; */
-  width: 50%;
+  width: 70%;
 }
 #Investments-Management-Container p{
   color: #999999;
-  line-height: 1.2;
-  font-size: 11px;
+  line-height: 1.8;
+  font-size: 13px;
 }
 #Retirement-Plan-Container {
-  text-align: center;
-  /* border: 1px solid purple; */
-  width: 50%;
+  width: 70%;
+  border-left: none;
 }
 #Retirement-Plan-Container p{
-  font-size: 11px;
+  font-size: 13px;
 
 }
 .grow-business-section{
@@ -1221,6 +1396,7 @@ input[type=submit]:hover {
 }
 .grow-business-container{
   height: 15rem;
+  width: 90%;
 }
 .grow-business-container h1 {
   font-size: 2em;
@@ -1303,7 +1479,7 @@ input[type=submit]:hover {
   display: flex;
   flex-direction: column;
    align-items: center;
-  height: 60rem;
+  height: 70rem;
   
 }
 .about-section .profile-picture {
@@ -1313,7 +1489,7 @@ input[type=submit]:hover {
 }
 
 .about-me{
-  height: 25rem;
+  height: 35rem;
   width: 100%;
 }
 .about-me p{
@@ -1422,11 +1598,11 @@ input[type=submit]:hover {
     width: 100%;
   }
 .Home-Services-Section{
-  height: 48rem;
+  height: 65rem;
 }
 .Home-Services-Section .Home-Services-Container{
   flex-direction: column;
-  height: 47rem;
+  height: 60rem;
 }
 
 .grow-business-section {
@@ -1444,7 +1620,7 @@ input[type=submit]:hover {
 }
 .achievements-section{
   flex-direction: column;
-  height: 52rem;
+  height: 55rem;
 }
 .about-us-main-container{
   height: 56rem;
@@ -1471,7 +1647,7 @@ input[type=submit]:hover {
 }
 .about-section{
   flex-direction: column;
-  height: 75rem;
+  height: 83rem;
 }
 .about-section-header{
   height: 11rem;
@@ -1487,7 +1663,7 @@ input[type=submit]:hover {
 
 .about-me{
   width: 100%;
-  height: 45rem;
+  height: 57rem;
 }
 .money-management-section{
   height: 23rem;
@@ -1613,10 +1789,16 @@ input[type=submit]:hover {
   width: 10rem;
 }
 .Home-Services-Section{
-  height: 50rem;
+  height: 75rem;
+}
+.Home-Services-Section .Home-Services-Container {
+  height: 70rem;
 }
   .grow-business-container h1{
     font-size: 2rem;
+  }
+  .achievements-section{
+    height: 55rem;
   }
   .about-us-main-container {
     height: 54rem;
@@ -1645,14 +1827,14 @@ input[type=submit]:hover {
 }
 
 .about-section {
-    height: 64rem;
+    height: 70rem;
    /* border: 1px solid red;*/
 }
 .about-section .profile-picture {
   height: 33rem;
 }
 .about-me {
-  height: 45rem;
+  height: 53rem;
   /*border: 1px solid purple;*/
 
 }
