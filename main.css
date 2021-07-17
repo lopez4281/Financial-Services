@@ -721,7 +721,7 @@ padding-top: 34px;
   color: #fff;
   font-weight: 200;
   padding: 10px;
-  border: 2px solid  darkred;
+  border: 2px solid  whitesmoke;
  
 
 }
@@ -1226,6 +1226,7 @@ input[type=submit]:hover {
   }
   .money-management-container{
     height: 15rem;
+    width: 70%;
   }
   .money-management-container h1{
     width: 100%;
