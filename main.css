@@ -721,7 +721,7 @@ padding-top: 34px;
   color: #fff;
   font-weight: 200;
   padding: 10px;
-  border: 2px solid  darkred;
+  border: 2px solid  whitesmoke;
  
 
 }
@@ -1505,7 +1505,7 @@ input[type=submit]:hover {
 .money-management-container h1 {
 width: 100%;
 font-size: 3rem;
-
+}
 
 .companies-section{
   height: 70rem;
