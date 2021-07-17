@@ -1226,6 +1226,7 @@ input[type=submit]:hover {
   }
   .money-management-container{
     height: 15rem;
+    width: 70%;
   }
   .money-management-container h1{
     width: 100%;
