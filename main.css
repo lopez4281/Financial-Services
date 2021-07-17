@@ -90,6 +90,71 @@ h1 {
 .contact-links a i{
   padding-right: 5px;
 }
+/*
+.top-section{
+  position: relative; 
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.top-section::before {    
+    content: "";
+    background-image: url("images/la-coverphoto.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+}
+.top-section h2 {
+  position: relative;
+  color: black;  
+  font-size: 2rem;
+  line-height: 0.9;
+  text-align: center;
+  font-weight: 550;
+    width: 80%;
+  }
+.top-section h1 {
+position: relative;
+color: black;  
+font-size: 5rem;
+line-height: 0.9;
+text-align: center;
+font-weight: 550;
+  width: 80%;
+  padding-top: 10px;
+}
+.top-section p{ 
+position: relative;
+color: black;  
+font-size: 1.5rem;
+line-height: 0.9;
+text-align: center;
+padding-top: 34px;
+  max-width: 60%;
+
+
+}
+.top-section a{ 
+  position: relative;
+  color: black;  
+  font-size: 22px;
+  line-height: 0.9;
+  text-align: center;
+  padding-top: 34px;
+    max-width: 800px;
+  
+  
+  }
+  */
+
   .top-section{
     background-image: url("images/la-coverphoto.jpg");
     background-repeat: no-repeat;
@@ -102,7 +167,7 @@ h1 {
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 20px;
-   /* border: 1px solid red;*/
+   
     width: 100%;
   }
    
@@ -153,13 +218,12 @@ h1 {
     font-size: 16px;
     font-weight: 800;
     color: white;
-   /* background-color: #b49132;*/
-    /*background-color: darkred;*/
     margin-top: 20px;
     width: 188px;
     padding: 17px;
     border: 3px solid white;
   }
+  
   
   .Home-Services-Section{
     display: flex;
@@ -658,7 +722,7 @@ h1 {
   font-weight: 200;
   padding: 10px;
   border: 2px solid  darkred;
-  background-color:  darkred;
+ 
 
 }
 .companies-section{
@@ -955,362 +1019,865 @@ input[type=submit]:hover {
   color: lightgrey;
 }
 
+/* common breakpoints
+
+320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens.
+1201px and more — Extra large screens, TV.
+*/
 
 
 /* ///////////////////////Media Query//////////////////////////////////////////////////////////////*/
-  @media screen and (max-width: 480px){
-    .contact-links-section{
-      display: none;
-    }
-    .navbar-container{
-      padding-left: 29px;
-      height: 12vh;
-    }
-    .navbar-links{
-      width: 75%;
-    }
-    /*
-    .top-section-nav{
-      flex-direction: column;
-    }
-    #phone{
-      padding: 5px;
-    }
-    #email{
-      padding: 5px;
-    }
-    .top-section .top-section-nav .contact-links{
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-    }
-    .top-section .top-section-nav .contact-links a{
-      padding: 3px;
-    font-size: 20px;
-    }
-    */
-  .greeting{
-  width: 100%;
-  height: 56vh;
-  text-align: center;
-  flex-wrap: nowrap;
-    /* width: 50%; */
-    /* margin: auto; */
-    /* text-align: start; */
+@media screen and (min-width: 1201px){
+  .contact-links{
+    width: 60%;
+    justify-content: start;
+  }
+  .navbar-container{
+    height: 4rem;
+  }
+  .top-section{
+    display: flex;
+    align-items: center;
+    height: 40rem;
+  }
+  .Home-Services-Section{
+    height: 30rem;
+  }
+  .Home-Services-Container{
+    height: 23rem;
+  }
+  #Financial-Planning-Container {
+    width: 33.33%;
+    height: 22rem;
+    padding-top: 10px;
+    border-right: 1px solid lightgray;
 }
-.greeting h2{
-  text-align: start;
-  font-size: 42px;
+#Financial-Planning-Container p {
+  line-height: 1.8;
+  padding: 10px;
 }
-.greeting p{
-  width: 100%;
+#Investments-Management-Container {
+  width: 33.33%;
+  padding-top: 10px;
 }
-.greeting a{
-  text-align: center;
+#Investments-Management-Container p {
+  line-height: 1.8;
+  padding: 10px;
 }
-.Home-Services-Section{
-  height: 124vh;
+#Retirement-Plan-Container{
+  width: 33.33%;
+  padding-top: 10px;
+  border-left: 1px solid lightgray;
 }
-.Home-Services-Container{
-  flex-direction: column;
-  width: 100%;
-  margin-top: 0;
-  height: 116vh;
-
+#Retirement-Plan-Container p{
+  line-height: 1.8;
+  padding: 10px;
 }
-#Financial-Planning-Container{
-  width: 100%;
-  padding-bottom: 20px;
-}
-#Financial-Planning-Container i{
-  font-size: 40px;
-}
-#Investments-Management-Container{
-  width: 100%;
-  padding-bottom: 20px;
-}
-#Investments-Management-Container i{
-  font-size: 40px;
-}
-
-#Retirement-Plan-Container {
-  width: 100%;
-  padding-bottom: 20px;
-}
-#Retirement-Plan-Container i{
-  font-size: 40px;
-}
-
 .grow-business-section{
-  height: 150vh;
-
+  height: 38rem;
 }
 .grow-business-container{
-  height: 41vh;
- /* border: 1px solid red;*/
-  width: 75%;
+  height: 12rem;
 }
-.grow-business-container h1::after{
-  left: 43%;
-
-}
-.award-winning span h4 {
-  padding-left: 36px;
- 
+.achievements-section{
+  height: 23rem;
+  width: 90%;
 }
 .about-us-main-container{
-  height: 90vh;
- /* border: 1px solid red;*/
+  height: 50rem;
 }
-.about-section-header h2{
-  padding-top: 30px;
+.about-us-section{
+  height: 41rem;
 }
-.about-section-header p{
-  font-size: 20px;
-  padding: 30px;
+.about-us-section-container{
+  height: 28rem;
+}
+.about-us-section-container p{
+  line-height: 1.8;
+}
+.about-us-section .about-us-section-image-container{
+  height: 38rem;
+  width: 40%;
+}
+.about-us-picture-container img{
+  width: 100%;
+  height: auto;
+}
+.about-section-header{
+  height: 12rem;
+  padding: 10px;
+}
+.about-section{
+  height: 40em;
+  padding: 50px;
+
+}
+.about-section .profile-picture{
+  height: 33rem;
+}
+.about-me{
+  height: 30rem;
+}
+.about-me p{
+  line-height: 1.8;
+  font-size: 16px;
+}
+.money-management-section{
+  height: 25rem;
+}
+.money-management-container{
+  height: 16rem;
+  width: 75%;
+}
+.money-management-container a{
+  font-size: 16px;
+    font-weight: 800;
+    color: white;
+    margin-top: 20px;
+    width: 188px;
+    padding: 17px;
+    border: 3px solid white;
+}
+.companies-section{
+  height: 50rem;
+}
+.company-overview-section{
+  height: 36rem;
+}
+.video-container{
+  width: 90%;
+}
+.footer-container{
+  height: 32rem;
+}
+.company-contact-info img{
+  height: auto;
+  width: 18%;
+}
+.social-links{
+  height: 4rem;
+}
+}
+/* Desktop*/
+@media screen and (max-width: 1200px){
+  .navbar-container{
+    height: 4rem;
+  }
+  .Home-Services-Section{
+    height: 24rem;
+  }
+  .Home-Services-Container{
+    height: 23em;
+  }
+  #Financial-Planning-Container {
+    width: 33.33%;
+    height: 21rem;
+    padding-top: 10px;
+    border-right: 1px solid lightgrey;
+}
+#Financial-Planning-Container p {
+  line-height: 1.8;
+  font-size: 14px;
+  padding: 10px;
+}
+#Investments-Management-Container {
+  width: 33.33%;
+  height: 21rem;
+  padding-top: 10px;
+}
+#Investments-Management-Container p{
+  line-height: 1.8;
+  font-size: 14px;
+  padding: 10px;
+}
+#Retirement-Plan-Container{
+  width: 33.33%;
+  height: 21rem;
+  padding-top: 10px;
+  border-left: 1px solid lightgrey;
+}
+#Retirement-Plan-Container p{
+  line-height: 1.8;
+  font-size: 14px;
+  padding: 10px;
+}
+
+  .about-section{
+    height: 37em;
+  }
+  .grow-business-section{
+    height: 30rem; 
+  }
+  .grow-business-container{
+    height: 13rem;
+  }
+  .achievements-section{
+    height: 12rem;
+  }
+  .about-us-main-container{
+    height: 31rem;
+  }
+  .money-management-section{
+    height: 20rem;
+
+  }
+  .money-management-container{
+    height: 15rem;
+  }
+  .money-management-container h1{
+    width: 100%;
+  }
+  .about-section-header{
+    height: 10rem;
+  }
+  .companies-section{
+    height: 40rem;
+  }
+  .video-container{
+    width: 100%;
+  }
+  .company-overview-section{
+    height: 30rem;
+  }
+  .contact-form-section{
+    height: 40rem;
+  }
+  .contact-form-container{
+    height: 34rem;
+  }
+  .footer-container{
+    height: 22rem;
+  }
+  .company-contact-info {
+    height: 15rem;
+  }
+  .company-contact-info img{
+    height: auto;
+    width: 25%;
+  }
+  .social-links{
+    height: 3rem;
+  }
+}
+/* laptops */
+@media screen and (max-width: 1024px){
+  .Home-Services-Container{
+    height: 23rem;
+    align-items: center;
+  }
+  #Financial-Planning-Container{
+    height: 19rem;
+    width: 33%;
+    padding: 10px;
+    border-right: 1px solid lightgrey;
+  }
+  #Financial-Planning-Container h2{
+    font-size: 23px;
+  }
+  #Financial-Planning-Container p{
+    line-height: 1.8;
+    font-size: 12px;
+  }
+  #Investments-Management-Container{
+    width: 33%;
+    height: 19rem;
+    padding-top: 10px;
+
+  }
+  #Investments-Management-Container h2{
+    font-size: 23px;
+  }
+  #Investments-Management-Container p{
+    line-height: 1.8;
+    font-size: 12px;
+  }
+  #Retirement-Plan-Container{
+    width: 33%;
+    height: 19rem;
+    border-left: 1px solid lightgray;
+  }
+  #Retirement-Plan-Container h2{
+    font-size: 23px;
+  }
+  #Retirement-Plan-Container p{
+    line-height: 1.8;
+    font-size: 12px;
+  }
+
+  .grow-business-container{
+    height: 12rem;
+    width: 100%;
+  }
+  .about-us-main-container {
+    height: 40rem;
+  }
+  .about-us-section{
+    height: 20rem;
+  }
+  .about-us-section-container{
+    height: 15rem;
+  }
+  .about-us-section .about-us-section-image-container {
+    height: 4rem;
+  }
+  .about-us-picture-container img{
+    width: 100%;
+  }
+  .about-section{
+    height: 46em;
+  }
+  .money-management-container h1 {
+    width: 100%;
+}
+.company-overview-section{
+  height: 38rem;
+}
+.video-container {
+  width: 100%;
+}
+.contact-form-container{
+  height: 50vh;
+}
+.social-links ul{
+  width: 16%;
+}
+}
+/* tablets */
+@media screen and (max-width: 768px){
+  .contact-links{
+    width: 90%;
+  }
+  .contact-links a{
+    padding: 8px;
+  }
+  .navbar-container{
+    padding-left: 25px;
+    height: 4rem;
+  }
+  .greeting h1{
+    font-size: 4em;
+  }
+  .Home-Services-Section{
+    height: 58rem;
+  }
+  .Home-Services-Container{
+    flex-direction: column;
+    align-items: center;
+    height: 55rem;
+  }
+  #Financial-Planning-Container{
+    width: 70%;
+    border-right: none;
+  }
+  #Financial-Planning-Container p{
+    font-size: 13px;
+}
+#Investments-Management-Container {
+  width: 70%;
+}
+#Investments-Management-Container p{
+  color: #999999;
+  line-height: 1.8;
+  font-size: 13px;
+}
+#Retirement-Plan-Container {
+  width: 70%;
+  border-left: none;
+}
+#Retirement-Plan-Container p{
+  font-size: 13px;
+
+}
+.grow-business-section{
+  height: 75rem;
+}
+.grow-business-container{
+  height: 15rem;
+  width: 90%;
+}
+.grow-business-container h1 {
+  font-size: 2em;
+}
+.grow-business-container p {
+  font-size: .8em;
+}
+.achievements-section {
+  flex-direction: column;
+  height: 50rem;
+}
+.experience{
+  max-width: 150px;
+  height: 150px;
+}
+#experience-number{
+  font-size: 2em;
+}
+.experience span h4{
+  font-size:14px;
+}
+.award-winning {
+  max-width: 150px;
+  height: 150px;
+}
+.award-winning #experience-number {
+  padding-left: 51px;
+}
+.award-winning span {
+  font-size: 14px;
+}
+.happy-customers {
+  max-width: 150px;
+  height: 150px;
+}
+.happy-customers #experience-number{
+  padding-left: 44px;
+}
+.happy-customers span {
+  font-size: 14px;
+}
+.satisfied-customers{
+  max-width: 150px;
+  height: 150px;
+}
+.satisfied-customers #experience-number {
+  padding-left: 19px;
+}
+.satisfied-customers span {
+  font-size: 14px;
+}
+.about-us-main-container{
+  height: 60rem;
+}
+.about-us-section{
+  flex-direction: column;
+  height: 45rem;
+  width:100%;
+}
+.about-us-section-container{
+  height: 20rem;
+  width: 100%;
+}
+.about-us-section .about-us-section-image-container {
+  height: auto;
+  width: 75%;
+}
+.about-us-picture-container img {
+  width: 100%;
+  height: auto;
+}
+.about-us-section-container h3 {
+  font-size: 37px;
+}
+.about-us-section-container p {
+  font-size: .8em;
+  padding: 40px;
+}
+.about-section{
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+  height: 70rem;
+  
+}
+.about-section .profile-picture {
+  width: 100%;
+  height: 45rem;
+  text-align: center;
+}
+
+.about-me{
+  height: 35rem;
+  width: 100%;
+}
+.about-me p{
+  font-size: 1em;
+}
+.money-management-section{
+  height: 21rem;
+}
+.money-management-container{
+  width: 100%;
+  height: 13rem;
+}
+.money-management-container h1 {
+width: 100%;
+font-size: 3rem;
+
+
+.companies-section{
+  height: 70rem;
+}
+.companies-container {
+  width: 80%;
+}
+.companies-us {
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 18rem;
+}
+.companies-us img{
+  width: 30%;
+  height: auto;
+}
+.companies-canada {
+  flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 25rem;
+}
+.companies-canada img{
+  width: 30%;
+  height: auto;
+}
+.company-overview-section{
+  height: 65rem;
+}
+.company-overview-header{
+  text-align: center;
+  padding: 2rem;
+}
+.company-overview-section .webinar p {
+  width: 70%;
+}
+.video-container{
+  width: 100%;
+  height: 40rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tfa-presentation iframe{
+  width: 300;
+}
+.tfa-webinar iframe{
+  width: 300;
+}
+
+.contact-form-section{
+  height: 45rem;
+}
+.contact-form-container{
+  height: 45rem;
+  flex-direction: column;
+  align-items: center;
+}
+.social-links ul {
+  width: 40%;
+}
+}
+@media screen and (max-width: 481px){
+  .contact-links-section {
+    display: none;
+  }
+  .navbar-container{
+    padding-left: 17px;
+    height: 4rem;
+  }
+  .navbar-links{
+    width: 70%;
+  }
+  .top-section .greeting h2{
+    font-size: 2em;
+  }
+  .top-section .greeting h1{
+    font-size: 4.2em;
+  }
+  .top-section .greeting p{
+    font-size: 1em;
+    width: 80%;
+  }
+  #Financial-Planning-Container{
+    width: 100%;
+  }
+  #Investments-Management-Container {
+    width: 100%;
+  }
+  #Retirement-Plan-Container {
+    width: 100%;
+  }
+.Home-Services-Section{
+  height: 65rem;
+}
+.Home-Services-Section .Home-Services-Container{
+  flex-direction: column;
+  height: 60rem;
+}
+
+.grow-business-section {
+  width: 100%;
+}
+.grow-business-section{
+  height: 73rem;
+}
+.grow-business-section .grow-business-container{
+  width: 100%;
+  padding: 10px;
+}
+.grow-business-container p{
+  line-height: 1.6;
+}
+.achievements-section{
+  flex-direction: column;
+  height: 55rem;
+}
+.about-us-main-container{
+  height: 56rem;
 }
 .about-us-section{
   flex-direction: column;
   width: 100%;
-  height: 90vh;
+  height: 57rem;
 }
 .about-us-section-container{
   width: 100%;
-  height: 62vh;
+  height: 25rem;
 }
-.about-us-section .about-us-section-image-container{
-  width: 100%;
- /* border: 1px solid blue;*/
+.about-us-section .about-us-section-image-container {
+  width: 75%;
+  height: 15rem;
 }
 .about-us-picture-container{
   width: 100%;
 }
-.about-us-section-container h3{
-  padding-top: 46px;
-}
-
 .about-us-picture-container img {
-    max-width: 350px;
-    max-height: 250px;
+  width: 100%;
+  height: auto;
 }
-
-.achievements-section{
+.about-section{
   flex-direction: column;
-  align-items: flex-start;
-  height: 100vh;
-  width: 73%;
-  /*border: 1px solid blue;*/
-    
-  
+  height: 83rem;
 }
-.about-section {
- flex-direction: column;
- align-items: center;
- height: 170vh;
+.about-section-header{
+  height: 11rem;
 }
-.about-section .profile-picture{
-  height: 66vh;
+.about-section .profile-picture {
+  height: 45rem;
+}
+.about-section .profile-picture img {
+  width: 100%;
+  height: auto;
+
 }
 
 .about-me{
   width: 100%;
-  height: 81vh;
-}
-.about-me p{
-  padding: 20px;
+  height: 57rem;
 }
 .money-management-section{
-  height: 56vh;
-  background-attachment: initial;
-  
+  height: 23rem;
 }
 .money-management-container{
   width: 100%;
-
+  height: 15rem;
 }
 .money-management-container h1{
-  font-size: 42px;
   width: 100%;
-  padding-bottom: 32px;
-}
-.money-management-container h3{
-  padding-bottom: 36px;
+  font-size: 2.5rem;
 }
 .companies-section{
-  height: 171vh;
+  height: 80rem;
 }
-.companies-container{
+.companies-container {
   width: 100%;
+  height: 25rem;
+}
+.companies-container h1{
+  padding-top: 2.3rem;
+  padding-bottom: 1.3rem;
 }
 .companies-us-section{
-  height: 57vh;
+  height: 25rem;
 }
 .companies-us{
   flex-direction: column;
   align-items: center;
-  height: 54vh;
-
+  width: 85%;
+  height: 23rem;
 }
 .companies-us img{
-  width: 80%;
+  width: 50%;
 }
 .companies-canada-section{
-  height: 57vh;
+  height: 23rem;
 }
 .companies-canada{
   flex-direction: column;
   align-items: center;
-  height: 54vh;
-
+  width: 85%;
+  height: 23rem;
 }
 .companies-canada img{
-  width: 80%;
+  width: 50%;
 }
 .company-overview-section{
-  height: 117vh;
-  width: 100%;
-
+  height: 60rem;
 }
 .company-overview-section .webinar p{
+  width: 90%;
   text-align: start;
-  width: 80%;
 }
-
 .video-container{
   flex-direction: column;
-  height: 80vh;
-  padding: 10px;
-  align-items: center;
-}
-.contact-form-section{
-  height: 98vh;
-}
-.contact-form-container{
-  flex-direction: column;
-  padding: 10px;
-  height: 102vh;
-}
-.contact-form-container img{
   width: 100%;
-  padding-top: 10px;
+  height: 40rem;
+}
+.video-container .tfa-presentation iframe{
+  width: 100%;
+}
+.video-container .tfa-webinar iframe{
+  width: 100%;
+}
+.contact-form-container {
+  flex-direction: column;
+}
+.contact-form-section img {
+  width: 100%;
 }
 .contact-form{
   width: 100%;
 }
+.contact-form-section{
+  height: 97vh;
+}
 .footer-container{
-  flex-wrap: wrap;
-  height: 82vh;
-  justify-content: flex-start;
+  height: 35rem;
+  flex-direction: column;
+  align-items: start;
 }
 .company-contact-info{
+  align-items: start;
   width: 100%;
-  height: 39vh;
-  flex-direction: column;
-  align-items: flex-start;
-  color: whitesmoke;
-  padding: 10px;
-  border-right: none;
-  border-bottom: 1px solid darkgray;
+  height: 16rem;
+  padding-left: 10px;
+  border-right: 0;
+  border-bottom: .5px solid;
 }
 .contact-info{
+  align-items: start;
   width: 100%;
-  color:  whitesmoke;
-  align-items: flex-start;
-  padding: 10px;
+  height: 16rem;
+  padding: 0px;
 }
 .contact-info h4{
-  font-size: 17px;
-  padding-bottom: 3px;
-}
-.contact-info ul{
-  padding: 0;
-}
-.contact-info ul li{
-  padding: 3px;
+  padding-left: 13px;
 }
 .social-links{
   justify-content: start;
 }
-.social-links ul {
-  width: 50%;
+.social-links ul{
+  width: 35%;
 }
-  }
-/*///////////////////////////////////////// end of 480 screens////////////////////////////////////////////////*/
-  @media  screen and (min-width: 1024px){
-    .Home-Services-Section{
-      height: 65vh;
-     /* border: 1px solid blue;*/
 
-    }
-    .Home-Services-Container{
-      height: 52vh;
-      /*margin-top: -12vh;*/
-      padding-top: 30px;
-      /*border: 1px solid red;*/
-    }
-    .grow-business-section{
-      height: 70vh;
-    }
-    .grow-business-container{
-      height: 34vh;
-    }
-    .grow-business-container h1::after{
-      left: 46%;
-    }
-    .about-section{
-      height: 38em;
-    }
-    .money-management-section{
-      height: 68vh;
-    }
-    .money-management-container h1{
-      width: 100%;
-    }
-    .companies-section{
-      height: 97vh;
-    }
-    .company-overview-section{
-      height: 70vh;
-    }
-    .video-container{
-      width: 83%;
-    }
-    .companies-us img{
-      width: 20%;
-    }
-    .companies-canada img{
-      width: 17%;
-    }
-    .about-us-main-container{
-      height: 88vh;
-    }
-    .about-us-section{
-      height: 75vh;
-    }
+}
+@media screen and (max-width: 320px){
+  .navbar-container {
+    padding-left: 0px;
+    height: 4rem;
+}
+.top-section .greeting{
+  height: 28rem;
+}
+.top-section .greeting h2{
+  font-size: 1.5em;
+}
+.top-section .greeting h1 {
+  font-size: 3em;
+}
+.top-section .greeting a{
+  width: 10rem;
+}
+.Home-Services-Section{
+  height: 75rem;
+}
+.Home-Services-Section .Home-Services-Container {
+  height: 70rem;
+}
+  .grow-business-container h1{
+    font-size: 2rem;
   }
-  /*
-  @media screen and (max-width: 1200px){
-    .Home-Services-Container{
-      height: 32vh;
-    }
-    .Home-Services-Section{
-      height: 30vh;
-    }
-    .money-management-section{
-      height: 43vh;
-    }
-    .money-management-container{
-      height: auto;
-    }
-    .money-management-container h1{
-      width: 50%;
-    }
-    .companies-section{
-      height: 74vh;
-    }
-    .company-overview-section{
-      height: 43vh;
-    }
-    
-  }*/
-  
+  .achievements-section{
+    height: 55rem;
+  }
+  .about-us-main-container {
+    height: 54rem;
+}
+.about-us-section {
+  height: 50rem;
+}
+.about-us-section-container {
+  height: 30rem;
+}
+.about-us-section-container h3 {
+  font-size: 2rem;
+}
+.about-us-section .about-us-section-image-container {
+  width: 100%;
+  height: 13rem;
+}
+  .about-section .profile-picture {
+    height: 35rem;
+}
+.about-section-header {
+  height: 12rem;
+}
+.about-section-header h2{
+  font-size: 2rem;
+}
+
+.about-section {
+    height: 70rem;
+   /* border: 1px solid red;*/
+}
+.about-section .profile-picture {
+  height: 33rem;
+}
+.about-me {
+  height: 53rem;
+  /*border: 1px solid purple;*/
+
+}
+.about-me p{
+  font-size: .8rem
+}
+.money-management-container h1 {
+  width: 100%;
+  font-size: 2em;
+}
+.money-management-container h3{
+  font-size: 1rem;
+}
+.companies-section{
+  height: 73rem;
+}
+.companies-container{
+  height: 18rem;
+}
+.companies-container h1{
+  font-size: 2rem;
+}
+.companies-container p{
+  font-size: .8rem;
+}
+.company-overview-section {
+  height: 60rem;
+}
+.company-overview-header h1{
+  font-size: 2.5rem;
+}
+.video-container .tfa-presentation iframe{
+  width: 100%;
+}
+.video-container .tfa-webinar iframe{
+  width: 100%;
+}
+.contact-info {
+  padding: 0px;
+}
+.social-links ul {
+  width: 40%;
+}
+}
