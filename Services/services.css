@@ -70,14 +70,15 @@
 
 .top-section::before {    
       content: "";
-      background-image: url("../images/papersigning.jpeg");
+      background-image: url("../images/coffee.jpg");
       background-size: cover;
+      background-position: center;
       position: absolute;
       top: 0px;
       right: 0px;
       bottom: 0px;
       left: 0px;
-      opacity: 0.75;
+      opacity: 0.65;
 }
 
 .top-section h1 {
@@ -238,7 +239,7 @@
     padding-top: 75px;
     padding-left: 20px;
     */
-    background-color: firebrick;
+    background-color: cornflowerblue;
     color: white;
     padding: 5rem
   }
@@ -292,7 +293,7 @@
     padding-left: 20px;
     */
     color: white;
-    background-color: darkslategray;
+    background-color: lightslategray;
     padding: 5rem;
   }
   .retirement-strategies-info h1{
@@ -400,7 +401,7 @@
     padding-top: 75px;
     padding-left: 20px;
     */
-    background-color: firebrick;
+    background-color: cornflowerblue;
     color: white;
     padding: 5rem;
   }
@@ -456,7 +457,7 @@
     padding-left: 20px;
     */
     color: white;
-    background-color: darkslategray;
+    background-color: lightslategray;
     padding: 5rem;
   }
   .estate-preservation-info h1{
@@ -594,7 +595,7 @@
     justify-content: center;
     height: 40vh;
     width: 100%;
-    background-color: darkred;
+    background-color: crimson;
     padding: 10px;
     
   }
@@ -715,6 +716,7 @@
 
 
 /*//////////////////////////////////////Media Queries/////////////////////////////////////*/
+/*large desktops*/
 @media screen and (min-width: 1201px){
   .contact-links{
     justify-content: start;
@@ -839,4 +841,109 @@
     height: 4rem;
     
   }
+}
+/*small desktops*/
+@media screen and (max-width: 1200px){
+  .navbar-container{
+    height: 4rem;
+  }
+.top-section{
+  height: 30rem;
+}
+.top-section h1{
+  width: 65%;
+  font-size: 2.5rem;
+}
+.top-section p{
+  width: 50%;
+  font-size: 1.4rem;
+}
+.services-greeting{
+  height: 13rem;
+}
+.financial-strategies-section{
+  height: 20rem;
+}
+.financial-strategies-info{
+  padding: 3rem;
+}
+.financial-cover-photo img{
+  max-width: 38rem;
+  width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+.insurance-protection-section{
+  height: 20rem;
+}
+.insurance-protection-info{
+  padding: 2rem;
+}
+.insurance-cover-photo img{
+  max-width: 38rem;
+  width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+.retirement-strategies-section{
+  height: 20rem;
+
+}
+.retirement-strategies-info{
+  padding: 3rem;
+}
+.retirement-cover-photo img{
+  max-width: 38rem;
+  width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+.college-funding-section{
+  height: 20rem;
+}
+.college-funding-info{
+  padding: 3rem;
+}
+.college-cover-photo img{
+  max-width: 38rem;
+  width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+.business-strategies-section{
+  height: 20rem;
+}
+.business-strategies-info{
+  padding: 3rem;
+}
+.business-cover-photo img{
+  max-width: 38rem;
+  width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+.estate-preservation-section{
+  height: 20rem;
+}
+.estate-preservation-info{
+  padding: 1.5rem;
+}
+.estate-cover-photo img{
+  max-width: 38rem;
+  width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+.companies-section{
+  height: 36rem;
+}
+.help-section{
+  height: 20rem;
+}
+.footer-container{
+  height: 20rem;
+}
+.social-links{
+  height: 3rem;
+}
 }
