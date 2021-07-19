@@ -182,9 +182,12 @@
   }
   .financial-strategies-info{
     width: 50%;
+    /*
     padding-top: 75px;
     padding-left: 20px;
+    */
     background-color: #f5f5f5;
+    padding: 5rem;
   }
   .financial-strategies-info h1{
     font-size: 30px;
@@ -231,10 +234,13 @@
   .insurance-protection-info{
     order: 2;
     width: 50%;
+    /*
     padding-top: 75px;
     padding-left: 20px;
+    */
     background-color: firebrick;
     color: white;
+    padding: 5rem
   }
   .insurance-protection-info h1{
     font-size: 30px;
@@ -281,10 +287,13 @@
   .retirement-strategies-info{
     order: 1;
     width: 50%;
+    /*
     padding-top: 75px;
     padding-left: 20px;
+    */
     color: white;
     background-color: darkslategray;
+    padding: 5rem;
   }
   .retirement-strategies-info h1{
     font-size: 30px;
@@ -333,9 +342,12 @@
   .college-funding-info{
     order: 2;
     width: 50%;
+    /*
     padding-top: 75px;
     padding-left: 20px;
+    */
     background-color: #f5f5f5;
+    padding: 5rem;
   }
   .college-funding-info h1{
     font-size: 30px;
@@ -384,10 +396,13 @@
   .business-strategies-info{
     order: 1;
     width: 50%;
+    /*
     padding-top: 75px;
     padding-left: 20px;
+    */
     background-color: firebrick;
     color: white;
+    padding: 5rem;
   }
   .business-strategies-info h1{
     font-size: 30px;
@@ -436,10 +451,13 @@
   .estate-preservation-info{
     order: 2;
     width: 50%;
+    /*
     padding-top: 75px;
     padding-left: 20px;
+    */
     color: white;
     background-color: darkslategray;
+    padding: 5rem;
   }
   .estate-preservation-info h1{
     font-size: 30px;
@@ -493,8 +511,8 @@
   .companies-container h1{
     font-size: 2.5em;
     font-weight: 400;
-    padding-top: 5vh;
-    padding-bottom: 2vh;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
     color:  black;
   }
   .companies-container h1 span{
@@ -697,247 +715,128 @@
 
 
 /*//////////////////////////////////////Media Queries/////////////////////////////////////*/
-
-@media screen and (max-width: 480px){
-  .contact-links-section{
-    display: none;
-
+@media screen and (min-width: 1201px){
+  .contact-links{
+    justify-content: start;
   }
   .navbar-container{
-    padding-left: 29px;
-    height: 12vh;
+    height: 4rem;
   }
-  .navbar-links{
-    width: 75%;
+  .top-section{
+    height: 35rem;
   }
   .top-section h1{
-    width: 100%;
-    font-size: 41px;
-    text-align: start;
-    padding-left: 10px;
-  }
-  .top-section p{
-    font-size: 25px;
-    text-align: start;
-    width: 100%;
-    padding-left: 10px;
-  }
-  .greeting h1{
-    font-size: 40px;
-    width: 100%;
-    text-align: start;
-    padding-left: 5px;
-  }
-  .greeting p{
-    width: 100%;
-    text-align: start;
-    padding: 0;
-    padding-top: 10px;
-    padding-left: 5px;
+    width: 60%;
   }
   .services-greeting{
-    height: 40vh;
+    height: 15rem;
   }
-  .services-greeting-container{
-    width: 100%;
-  }
-  .services-greeting-container h1{
-    padding-bottom: 20px;
-  }
-  .services-greeting-container p{
-    padding: 5px;
-  }
-
   .financial-strategies-section{
-    flex-direction: column;
-    width: 100%;
-    height: 56vh;
+    height: 26rem;
   }
-  .financial-strategies-info {
-    width: 100%;
-    height: 40vh;
-    padding-top: 32px;
-    padding-bottom: 20px;
-
+  .financial-strategies-info{
+    height: 26rem;
   }
-  .financial-strategies-info h1{
-    width: 326px;
-  }
-  
   .financial-cover-photo{
-    width: 100%;
+    height: 26rem;
   }
-
-  .insurance-protection-section {
-    flex-direction: column;
+  .financial-cover-photo img{
     width: 100%;
-    height: 78vh;
+    height: 26rem;
+    max-width: 60rem;
+    object-fit: cover;
+  }
+  .insurance-protection-section{
+    height: 26rem;
   }
   .insurance-protection-info{
-    order: 1;
-    width: 100%;
-    height: 47vh;
-    padding-top: 32px;
-  }
-  .insurance-protection-info h1{
-    width: 326px;
+    height: 26rem;
   }
   .insurance-cover-photo{
-    order: 2;
+    height: 26rem;
+  }
+  .insurance-cover-photo img{
     width: 100%;
-}
-/*.insurance-cover-photo img{
-  height: 382px;
-}
-*/
+    height: 26rem;
+    max-width: 60rem;
+    object-fit: cover;
+  }
   .retirement-strategies-section{
-    flex-direction: column;
-    width: 100%;
-    height: 70vh;
+    height: 26rem;
   }
   .retirement-strategies-info{
-    width: 100%;
-    height: 47vh;
-    padding-top: 32px;
-    padding-bottom: 20px;
-  }
-  .retirement-strategies-info h1{
-    width: 326px;
+    height: 26rem;
   }
   .retirement-cover-photo{
+    height: 26rem;
+  }
+  .retirement-cover-photo img{
     width: 100%;
+    height: 26rem;
+    max-width: 60rem;
+    object-fit: cover;
   }
   .college-funding-section{
-    flex-direction: column;
-    width: 100%;
-    height: 71vh;
+    height: 26rem;
   }
   .college-funding-info{
-    order: 1;
-    width: 100%;
-    height: 47vh;
-    padding-top: 32px;
-    padding-bottom: 20px;
-  }
-  .college-funding-info h1{
-   width: 326px;
+    height: 26rem;
   }
   .college-cover-photo{
+    height: 26rem;
+  }
+  .college-cover-photo img{
     width: 100%;
-    order: 2;
+    height: 26rem;
+    max-width: 60rem;
+    object-fit: cover;
   }
   .business-strategies-section{
-    flex-direction: column;
-    width: 100%;
-    height: 68vh;
+    height: 26rem;
   }
   .business-strategies-info{
-    width: 100%;
-    height: 47vh;
-    padding-top: 32px;
-    padding-bottom: 20px;
-  }
-  .business-strategies-info h1{
-    width: 326px;
+    height: 26rem;
   }
   .business-cover-photo{
+    height: 26rem;
+  }
+  .business-cover-photo img{
     width: 100%;
+    height: 26rem;
+    max-width: 60rem;
+    object-fit: cover;
   }
-  /*.business-cover-photo img{
-    height: 373px;
-  }
-  */
   .estate-preservation-section{
-    flex-direction: column;
-    width: 100%;
-    height: 76vh;
+    height: 26rem;
   }
   .estate-preservation-info{
-    order: 1;
-    width: 100%;
-    height: 48vh;
-    padding-top: 32px;
+    height: 26rem;
   }
-  .estate-preservation-info h1{
-    width: 326px;
-  }
-  
   .estate-cover-photo{
-    width: 100%;
-    order: 2;
+    height: 26rem;
   }
-.companies-section{
-  height: 171vh;
-}
-.companies-container{
-  width: 100%;
-}
-.companies-us-section{
-  height: 57vh;
-}
-.companies-us{
-  flex-direction: column;
-  align-items: center;
-  height: 54vh;
-
-}
-.companies-us img{
-  width: 80%;
-}
-.companies-canada-section{
-  height: 57vh;
-}
-.companies-canada{
-  flex-direction: column;
-  align-items: center;
-  height: 54vh;
-
-}
-.companies-canada img{
-  width: 80%;
-}
-.help-section{
-  height: 42vh;
-}
-.help-container{
-  width: 100%;
-}
-.footer-container{
-  flex-wrap: wrap;
-  height: 82vh;
-  justify-content: flex-start;
-}
-.company-contact-info{
-  width: 100%;
-  height: 39vh;
-  flex-direction: column;
-  align-items: flex-start;
-  color: whitesmoke;
-  padding: 10px;
-  border-right: none;
-  border-bottom: 1px solid darkgray;
-}
-.contact-info{
-  width: 100%;
-  color:  whitesmoke;
-  align-items: flex-start;
-  padding: 10px;
-}
-.contact-info h4{
-  font-size: 17px;
-  padding-bottom: 3px;
-}
-.contact-info ul{
-  padding: 0;
-}
-.contact-info ul li{
-  padding: 3px;
-}
-.social-links{
-  justify-content: start;
-}
-.social-links ul {
-  width: 50%;
-}
-
+  .estate-cover-photo img{
+    width: 100%;
+    height: 26rem;
+    max-width: 60rem;
+    object-fit: cover;
+  }
+  .companies-section{
+    height: 40rem;
+  }
+  .help-section{
+    height: 22rem;
+  }
+  .help-container{
+    height: 20rem;
+    padding-top: 72px;
+  }
+  .footer-container{
+    height: 30rem;
+  }
+  .social-links{
+    font-size: 2rem;
+    height: 4rem;
+    
+  }
 }

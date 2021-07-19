@@ -79,8 +79,7 @@ h1 {
 .contact-links{
   display: flex;
   justify-content: space-evenly;
-  
-  width: 70%;
+  width: 85%;
 }
 .contact-links a{
   color: white;
@@ -1311,6 +1310,9 @@ input[type=submit]:hover {
   .grow-business-container{
     height: 12rem;
     width: 100%;
+  }
+  #experience-number{
+    font-size: 42px;
   }
   .about-us-main-container {
     height: 40rem;
