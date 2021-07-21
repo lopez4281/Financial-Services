@@ -31,8 +31,8 @@
     justify-content: space-between;
     background-color:black;
     height: 100px;
-    padding: 24px;
-    padding-left: 70px;
+    padding: 10px;
+    padding-left: 10px;
     width: 100%;
     height: 12vh;
   }
@@ -946,4 +946,415 @@
 .social-links{
   height: 3rem;
 }
+}
+/*laptops*/
+@media screen and (max-width: 1024px){
+  .top-section{
+    height: 26rem;
+  }
+  .services-greeting-container{
+    width: 61%;
+  }
+  .financial-strategies-section{
+    height: 22rem;
+  }
+  .financial-strategies-info{
+    padding: 2rem;
+  }
+  .financial-cover-photo img{
+    height: 22rem;
+  }
+  .insurance-protection-section{
+    height: 22rem;
+  }
+  .insurance-protection-info{
+    padding: 1.3rem;
+  }
+  .insurance-protection-info h1{
+    width: 90%;
+  }
+  .insurance-cover-photo img{
+     height: 22rem;
+  }
+  .retirement-strategies-section{
+    height: 22rem;
+  }
+  .retirement-strategies-info{
+    padding: 2rem;
+  }
+  .retirement-cover-photo img{
+    height: 22rem;
+  }
+  .college-funding-section{
+    height: 22rem;
+  }
+  .college-funding-info{
+    padding: 3rem;
+  }
+  .college-cover-photo img{
+    height: 22rem;
+  }
+  .college-funding-info h1{
+    width: 100%;
+  }
+  .business-strategies-section{
+    height: 22rem;
+  }
+  .business-strategies-info{
+    padding: 1.3rem;
+  }
+  .business-cover-photo img{
+    height: 22rem;
+  }
+  .estate-preservation-section{
+    height: 22rem;
+  }
+  .estate-preservation-info{
+    padding: 1.0rem;
+  }
+  .estate-preservation-info h1{
+    width: 90%;
+  }
+  .estate-cover-photo img{
+    height: 22rem;
+  }
+  .companies-section{
+    height: 36rem;
+  }
+  .companies-container{
+    width: 75%;
+  }
+  .companies-us{
+    width: 70%;
+  }
+  .companies-canada{
+    width: 70%;
+  }
+  .help-section{
+    height: 18rem;
+  }
+  .help-container{
+    height: 14rem;
+    padding-top: 35px;
+    
+  }
+  .social-links ul{
+    width: 20%;
+  }
+}
+/*tablets*/
+@media screen and (max-width: 768px){
+  .contact-links-section{
+    display: none;
+  }
+  .top-section{
+    height: 19rem;
+  }
+  .top-section h1{
+    width: 90%;
+    font-size: 1.8rem;
+  }
+  .top-section p{
+    width: 70%;
+    font-size: 1rem;
+  }
+  .services-greeting {
+    height: 11rem;
+  }
+  .services-greeting h1{
+    font-size: 2rem;
+  }
+  .services-greeting-container{
+    width: 90%;
+  }
+  .services-greeting-container p{
+    font-size: .9rem;
+  }
+  .financial-strategies-section{
+    flex-direction: column;
+    height: 38rem;
+  }
+  .financial-strategies-info{
+    width: 100%;
+  }
+  .financial-strategies-info h1{
+    font-size: 1.6rem;
+  }
+  .financial-strategies-info p{
+    font-size: 1rem;
+  }
+  .financial-strategies-info ul{
+    font-size: 1rem;
+  }
+  .financial-cover-photo{
+    width: 100%;
+  }
+  .financial-cover-photo img{
+    height: 22rem;
+    max-width: 47rem;
+  }
+  .insurance-protection-section{
+    flex-direction: column;
+    height: 38rem;
+  }
+  .insurance-protection-info{
+    width: 100%;
+    order: 1;
+  }
+  .insurance-protection-info h1{
+    font-size: 1.6rem;
+  }
+  .insurance-protection-info p{
+    font-size: 1rem;
+  }
+  .insurance-protection-info ul{
+    font-size: 1rem;
+  }
+  .insurance-cover-photo{
+    width: 100%;
+    order: 2;
+  }
+  .insurance-cover-photo img{
+    height: 22rem;
+    max-width: 47rem;
+  }
+  .retirement-strategies-section{
+    flex-direction: column;
+    height: 38rem;
+  }
+  .retirement-strategies-info{
+    width: 100%;
+  }
+  .retirement-strategies-info h1{
+    font-size: 1.6rem;
+  }
+  .retirement-strategies-info p{
+    font-size: 1rem;
+  }
+  .retirement-strategies-info ul{
+    font-size: 1rem;
+  }
+  .retirement-cover-photo{
+    width: 100%;
+  }
+  .retirement-cover-photo img{
+    height: 22rem;
+    max-width: 47rem;
+  }
+  .college-funding-section{
+    flex-direction: column;
+    height: 35rem;
+  }
+  .college-funding-info{
+    width: 100%;
+    order: 1;
+    padding: 2rem;
+  }
+  .college-funding-info h1{
+    font-size: 1.6rem;
+  }
+  .college-funding-info p{
+    font-size: 1rem;
+  }
+  .college-funding-info ul{
+    font-size: 1rem;
+  }
+  .college-cover-photo{
+    width: 100%;
+    order: 2;
+  }
+  .college-cover-photo img{
+    height: 22rem;
+    max-width: 47rem;
+  }
+  .business-strategies-section{
+    flex-direction: column;
+    height: 38rem;
+  }
+  .business-strategies-info{
+    width: 100%;
+  }
+  .business-strategies-info h1{
+    font-size: 1.6rem;
+  }
+  .business-strategies-info p{
+    font-size: 1rem;
+  }
+  .business-strategies-info ul{
+    font-size: 1rem;
+  }
+  .business-cover-photo{
+    width: 100%;
+  }
+  .business-cover-photo img{
+    height: 22rem;
+    max-width: 47rem;
+  }
+  .estate-preservation-section{
+    flex-direction: column;
+    height: 38rem;
+  }
+  .estate-preservation-info{
+    width: 100%;
+    order: 1;
+  }
+  .estate-preservation-info h1{
+    font-size: 1.6rem;
+  }
+  .estate-preservation-info p{
+    font-size: 1rem;
+  }
+  .estate-preservation-info ul{
+    font-size: 1rem;
+  }
+  .estate-cover-photo{
+    width: 100%;
+    order: 2;
+  }
+  .estate-cover-photo img{
+    height: 22rem;
+    max-width: 47rem;
+  }
+  .companies-section{
+    height: 37rem;
+  }
+  .help-container{
+    width: 90%;
+  }
+  .companies-us{
+    width: 100%;
+  }
+  .companies-canada{
+    width: 100%;
+  }
+  .footer-container{
+    height: 24rem;
+  }
+  .company-contact-info img{
+    height: 5rem;
+  }
+  .social-links{
+    height: 2.5rem;
+  }
+  .social-links ul{
+    width: 30%;
+  }
+}
+/*large mobile screem*/
+@media screen and (max-width: 481px){
+  .navbar-container{
+    height: 3rem;
+  }
+  .wfg-logo img{
+    width: 3rem;
+  }
+  .navbar-links{
+    width: 60%;
+  }
+  .top-section h1{
+    font-size: 1.4rem;
+  }
+  .top-section p{
+    font-size: .8rem;
+    padding-top: 0.6rem;
+  }
+  .services-greeting{
+    height: 11rem;
+  }
+  .services-greeting h1{
+    font-size: 1.5rem;
+  }
+  .services-greeting-container p{
+    font-size: .7rem;
+  }
+  .financial-strategies-section{
+    height: 34rem;
+  }
+  .financial-strategies-info{
+    padding: 1rem;
+  }
+  .financial-strategies-info h1{
+    font-size: 1.3rem;
+  }
+  .financial-strategies-info p{
+    font-size: .8rem;
+  }
+  .financial-strategies-info ul {
+    font-size: .8rem;
+}
+  .insurance-protection-section{
+    height: 34rem;
+  }
+  .insurance-protection-info{
+    padding: 1rem;
+  }
+  .insurance-protection-info h1{
+    font-size: 1.3rem;
+  }
+  .insurance-protection-info p{
+    font-size: .8rem;
+  }
+  .insurance-protection-info ul{
+    font-size: .8rem;
+  }
+  .retirement-strategies-section{
+    height: 34rem;
+  }
+  .retirement-strategies-info{
+    padding: 1rem;
+  }
+  .retirement-strategies-info h1{
+    font-size: 1.3rem;
+  }
+  .retirement-strategies-info p{
+    font-size: .8rem;
+  }
+  .retirement-strategies-info ul{
+    font-size: .8rem;
+  }
+  .college-funding-section{
+    height: 34rem;
+  }
+  .college-funding-info{
+    padding: 1rem;
+  }
+  .college-funding-info h1{
+    font-size: 1.3rem;
+  }
+  .college-funding-info p{
+    font-size: .8rem;
+  }
+  .college-funding-info ul{
+    font-size: .8rem;
+  }
+  .business-strategies-section{
+    height: 34rem;
+  }
+  .business-strategies-info{
+    padding: 1rem;
+  }
+  .business-strategies-info h1{
+    font-size: 1.3rem;
+  }
+  .business-strategies-info p{
+    font-size: .8rem;
+  }
+  .business-strategies-info ul{
+    font-size: .8rem;
+  }
+  .estate-preservation-section{
+    height: 34rem;
+  }
+  .estate-preservation-info{
+    padding: 1rem;
+  }
+  .estate-preservation-info h1{
+    font-size: 1.3rem;
+  }
+  .estate-preservation-info p{
+    font-size: .8rem;
+  }
+  .estate-preservation-info ul{
+    font-size: .8rem;
+  }
 }
