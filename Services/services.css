@@ -1038,6 +1038,9 @@
     padding-top: 35px;
     
   }
+  .company-contact-info img{
+    height: 5rem;
+  }
   .social-links ul{
     width: 20%;
   }
@@ -1249,7 +1252,7 @@
     width: 3rem;
   }
   .navbar-links{
-    width: 60%;
+    width: 100%;
   }
   .top-section {
     height: 14rem;
@@ -1468,3 +1471,120 @@
   }
   
 }
+@media screen and (max-width: 320px){
+  .top-section h1{
+    font-size: 1.2rem;
+  }
+  .top-section p{
+    font-size: .7rem;
+  }
+  .services-greeting{
+    height: 8rem;
+  }
+  .services-greeting-container h1{
+    font-size: 1.2rem;
+  }
+  .services-greeting-container p{
+    font-size: .6rem;
+  }
+  .financial-strategies-info h1{
+    font-size: 1rem;
+  }
+  .financial-strategies-info p{
+    font-size: .6rem;
+  }
+  .financial-strategies-info ul{
+    font-size: .6rem;
+  }
+  .insurance-protection-info h1{
+    font-size: 1rem;
+  }
+  .insurance-protection-info p{
+    font-size: .6rem;
+  }
+  .insurance-protection-info ul{
+    font-size: .6rem;
+  }
+  .retirement-strategies-info h1{
+    font-size: 1rem;
+  }
+  .retirement-strategies-info p{
+    font-size: .6rem;
+  }
+  .retirement-strategies-info ul{
+    font-size: .6rem;
+  }
+  .college-funding-section{
+    height: 24rem;
+  }
+  .college-funding-info h1{
+    font-size: 1rem;
+  }
+  .college-funding-section p{
+    font-size: .6rem;
+  }
+  .college-funding-section ul{
+    font-size: .6rem;
+  }
+  .business-strategies-info h1{
+    font-size: 1rem;
+  }
+  .business-strategies-info p{
+    font-size: .6rem;
+  }
+  .business-strategies-info ul{
+    font-size: .6rem;
+  }
+  .estate-preservation-section{
+    height: 28rem;
+  }
+  .estate-preservation-info h1{
+    font-size: 1rem;
+  }
+  .estate-preservation-info p{
+    font-size: .6rem;
+  }
+  .estate-preservation-info ul{
+    font-size: .6rem;
+  }
+  .companies-section{
+    height: 68rem;
+  }
+  .companies-container {
+    height: 15rem;
+  }
+  .companies-container h1{
+    font-size: 1.8rem;
+  }
+  .companies-container p{
+    font-size: .7rem;
+  }
+  .help-section{
+    height: 14rem;
+  }
+  .help-container{
+    width: 100%;
+  }
+  .help-container h1{
+    font-size: 1.6rem;
+  }
+  .help-container p{
+    font-size: .7rem;
+  }
+  .connect-button{
+    font-size: .7rem;
+  }
+  .company-contact-info ul{
+    font-size: .8rem;
+  }
+  .contact-info h4{
+    font-size: .9rem;
+  }
+  .contact-info ul{
+    font-size: .8rem;
+  }
+  .social-links ul{
+    width: 40%;
+  }
+}
+
