@@ -1249,7 +1249,7 @@
 /*large mobile screem*/
 @media screen and (max-width: 481px){
   .navbar-container{
-    height: 3rem;
+    height: 4rem;
   }
   .wfg-logo img{
     width: 3rem;
@@ -1261,10 +1261,13 @@
     height: 26rem;
   }
   .top-section h1{
-    font-size: 1.9rem;
+    font-size: 2.2rem;
+    text-align: start;
   }
   .top-section p{
-    font-size: 1rem;
+    width: 90%;
+    font-size: 1.2rem;
+    text-align: start;
     padding-top: 0.6rem;
   }
   .services-greeting{
@@ -1569,7 +1572,7 @@
     font-size: 1.8rem;
   }
   .companies-container p{
-    font-size: .7rem;
+    font-size: .8rem;
   }
   .help-section{
     height: 14rem;
