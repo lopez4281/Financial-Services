@@ -949,6 +949,9 @@
 }
 /*laptops*/
 @media screen and (max-width: 1024px){
+  .navbar-container{
+    height: 3.6rem;
+  }
   .top-section{
     height: 26rem;
   }
@@ -1255,140 +1258,143 @@
     width: 100%;
   }
   .top-section {
-    height: 14rem;
+    height: 26rem;
   }
   .top-section h1{
-    font-size: 1.4rem;
+    font-size: 1.9rem;
   }
   .top-section p{
-    font-size: .8rem;
+    font-size: 1rem;
     padding-top: 0.6rem;
   }
   .services-greeting{
-    height: 11rem;
+    height: 15rem;
   }
   .services-greeting h1{
-    font-size: 1.5rem;
+    font-size: 2rem;
+  }
+  .services-greeting-container{
+    width: 90%;
   }
   .services-greeting-container p{
-    font-size: .7rem;
+    font-size: 1rem;
   }
   .financial-strategies-section{
-    height: 26rem;
+    height: 35rem;
   }
   .financial-strategies-info{
     padding: 1rem;
   }
   .financial-strategies-info h1{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     width: 90%;
   }
   .financial-strategies-info p{
-    font-size: .8rem;
+    font-size: 1rem;
   }
   .financial-strategies-info ul {
-    font-size: .8rem;
+    font-size: 1rem;
   }
   .financial-cover-photo img{
-   height: 14rem;
-   max-width: 24rem;
+   height: 20rem;
+   max-width: 30rem;
   }
   .insurance-protection-section{
-    height: 26rem;
+    height: 35rem;
   }
   .insurance-protection-info{
     padding: 1rem;
   }
   .insurance-protection-info h1{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
   }
   .insurance-protection-info p{
-    font-size: .8rem;
+    font-size: 1rem;
   }
   .insurance-protection-info ul{
-    font-size: .8rem;
+    font-size: 1rem;
   }
   .insurance-cover-photo img{
-    height: 14rem;
-   max-width: 24rem;
+    height: 18rem;
+   max-width: 32rem;
   }
   .retirement-strategies-section{
-    height: 26rem;
+    height: 33rem;
   }
   .retirement-strategies-info{
     padding: 1rem;
   }
   .retirement-strategies-info h1{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     width: 100%;
   }
   .retirement-strategies-info p{
-    font-size: .8rem;
+    font-size: 1rem;
   }
   .retirement-strategies-info ul{
-    font-size: .8rem;
+    font-size: 1rem;
   }
   .retirement-cover-photo img{
-    height: 14rem;
-    max-width: 24rem;
+    height: 18rem;
+    max-width: 32rem;
   }
   .college-funding-section{
-    height: 26rem;
+    height: 27rem;
   }
   .college-funding-info{
     padding: 1rem;
   }
   .college-funding-info h1{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
   }
   .college-funding-info p{
-    font-size: .8rem;
+    font-size: 1rem;
   }
   .college-funding-info ul{
-    font-size: .8rem;
+    font-size: 1rem;
   }
   .college-cover-photo img{
-    height: 14rem;
-    max-width: 24rem;
+    height: 18rem;
+    max-width: 32rem;
   }
   .business-strategies-section{
-    height: 26rem;
+    height: 34rem;
   }
   .business-strategies-info{
     padding: 1rem;
   }
   .business-strategies-info h1{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     width: 100%;
   }
   .business-strategies-info p{
-    font-size: .8rem;
+    font-size: 1rem;
   }
   .business-strategies-info ul{
-    font-size: .8rem;
+    font-size: 1rem;
   }
   .business-cover-photo img{
-    height: 14rem;
-    max-width: 24rem;
+    height: 18rem;
+    max-width: 32rem;
   }
   .estate-preservation-section{
-    height: 31rem;
+    height: 37rem;
   }
   .estate-preservation-info{
     padding: 1rem;
   }
   .estate-preservation-info h1{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
   }
   .estate-preservation-info p{
-    font-size: .8rem;
+    font-size: 1rem;
   }
   .estate-preservation-info ul{
-    font-size: .8rem;
+    font-size: 1rem;
   }
   .estate-cover-photo img{
-    height: 14rem;
-    max-width: 24rem;
+    height: 18rem;
+    max-width: 32rem;
   }
   .companies-section{
     height: 75rem;
@@ -1430,16 +1436,19 @@
     width: 50%;
   }
   .help-section{
-    height: 16rem;
+    height: 18rem;
+  }
+  .help-container{
+    width: 100%;
   }
   .help-container h1{
-    font-size: 2rem;
+    font-size: 2.8rem;
   }
   .help-container p{
-    font-size: .9rem;
+    font-size: 1rem;
   }
   .connect-button{
-    font-size: .8rem;
+    font-size: 1rem;
   }
   .footer-container{
     height: 35rem;
@@ -1473,79 +1482,82 @@
 }
 @media screen and (max-width: 320px){
   .top-section h1{
-    font-size: 1.2rem;
+    font-size: 1.8rem;
   }
   .top-section p{
-    font-size: .7rem;
+    font-size: .9rem;
   }
   .services-greeting{
-    height: 8rem;
+    height: 12rem;
   }
   .services-greeting-container h1{
-    font-size: 1.2rem;
+    font-size: 1.7rem;
   }
   .services-greeting-container p{
-    font-size: .6rem;
+    font-size: .7rem;
   }
   .financial-strategies-info h1{
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
   .financial-strategies-info p{
-    font-size: .6rem;
+    font-size: .8rem;
   }
   .financial-strategies-info ul{
-    font-size: .6rem;
+    font-size: .8rem;
   }
   .insurance-protection-info h1{
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
   .insurance-protection-info p{
-    font-size: .6rem;
+    font-size: .8rem;
   }
   .insurance-protection-info ul{
-    font-size: .6rem;
+    font-size: .8rem;
   }
   .retirement-strategies-info h1{
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
   .retirement-strategies-info p{
-    font-size: .6rem;
+    font-size: .8rem;
   }
   .retirement-strategies-info ul{
-    font-size: .6rem;
+    font-size: .8rem;
   }
   .college-funding-section{
     height: 24rem;
   }
   .college-funding-info h1{
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
   .college-funding-section p{
-    font-size: .6rem;
+    font-size: .8rem;
   }
   .college-funding-section ul{
-    font-size: .6rem;
+    font-size: .8rem;
+  }
+  .business-strategies-section{
+    height: 33rem;
   }
   .business-strategies-info h1{
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
   .business-strategies-info p{
-    font-size: .6rem;
+    font-size: .8rem;
   }
   .business-strategies-info ul{
-    font-size: .6rem;
+    font-size: .8rem;
   }
   .estate-preservation-section{
-    height: 28rem;
+    height: 34rem;
   }
   .estate-preservation-info h1{
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
   .estate-preservation-info p{
-    font-size: .6rem;
+    font-size: .8rem;
   }
   .estate-preservation-info ul{
-    font-size: .6rem;
+    font-size: .8rem;
   }
   .companies-section{
     height: 68rem;
