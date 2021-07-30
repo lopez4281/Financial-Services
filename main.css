@@ -11,13 +11,11 @@
   }
   .navbar-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color:black;
-    height: 100px;
     padding: 24px;
     padding-left: 70px;
     width: 100%;
-    height: 12vh;
   }
   
   
@@ -89,97 +87,12 @@ h1 {
 .contact-links a i{
   padding-right: 5px;
 }
-/*
-.top-section{
-  position: relative; 
-  height: 70vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.top-section::before {    
-    content: "";
-    background-image: url("images/la-coverphoto.jpg");
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.75;
-}
-.top-section h2 {
-  position: relative;
-  color: black;  
-  font-size: 2rem;
-  line-height: 0.9;
-  text-align: center;
-  font-weight: 550;
-    width: 80%;
-  }
-.top-section h1 {
-position: relative;
-color: black;  
-font-size: 5rem;
-line-height: 0.9;
-text-align: center;
-font-weight: 550;
-  width: 80%;
-  padding-top: 10px;
-}
-.top-section p{ 
-position: relative;
-color: black;  
-font-size: 1.5rem;
-line-height: 0.9;
-text-align: center;
-padding-top: 34px;
-  max-width: 60%;
-
-
-}
-.top-section a{ 
-  position: relative;
-  color: black;  
-  font-size: 22px;
-  line-height: 0.9;
-  text-align: center;
-  padding-top: 34px;
-    max-width: 800px;
-  
-  
-  }
-  */
-
   .top-section{
     background-image: url("images/la-coverphoto.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color:lightgoldenrodyellow;
     height: 37em;
-  }
-  .top-section-nav{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding: 20px;
-   
-    width: 100%;
-  }
-   
-  .top-section-nav{
-    font-weight: 600;
-  }
-  .top-section-nav a:link{
-    color: darkslategray;
-  }
-  .top-section-nav h1{
-    font-size: 30px;
-    font-weight: 400;
-    
   }
   .greeting{
     height: 600px;
@@ -1036,6 +949,7 @@ input[type=submit]:hover {
   }
   .navbar-container{
     height: 4rem;
+    justify-content: space-evenly;
   }
   .top-section{
     display: flex;
@@ -1076,7 +990,7 @@ input[type=submit]:hover {
   padding: 10px;
 }
 .grow-business-section{
-  height: 38rem;
+  height: 4rem;
 }
 .grow-business-container{
   height: 12rem;

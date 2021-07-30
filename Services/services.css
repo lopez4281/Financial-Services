@@ -723,6 +723,9 @@
   }
   .navbar-container{
     height: 4rem;
+    justify-content: space-evenly;
+    padding: 24px;
+    padding-left: 70px;
   }
   .top-section{
     height: 35rem;
