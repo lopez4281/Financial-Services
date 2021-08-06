@@ -11,7 +11,7 @@
   }
 .contact-links-section{
     /*background-color: #b49132;*/
-    background-color: darkred;
+    background-color: crimson;
   }
   .contact-links{
     display: flex;
@@ -129,15 +129,6 @@
     /*border: 1px solid purple;*/
    
   }
-  .resources-info .start-button{
-    width: 13rem;
-    font-size: 1.2rem;
-    color: whitesmoke;
-    background-color: crimson;
-    border-radius: .8rem;
-    padding: .5rem;
-   /* border: 1px solid crimson;*/
-  }
   .resources-info p{
       line-height: 1.6;
       padding: .8rem;
@@ -148,7 +139,14 @@
     padding-bottom: 2rem;
   }
   .resources-info a{
-    padding: .8rem;
+    padding: 1rem;
+    color: whitesmoke;
+    background-color: crimson;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 2rem;
+    border: 1px solid crimson;
+    margin-left: 1rem;
   }
   .resources-cover-photo{
     width: 40%;
@@ -177,6 +175,7 @@
   .agent-job-container h3{
     font-size: 3rem;
     padding: 1rem;
+    padding-top: 4rem;
   }
   .agent-job-container h3 span{
     color: crimson;
@@ -237,3 +236,226 @@
     border: 1px solid crimson;
     margin-left: 1rem;
   }
+  .tech-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      height: 55rem;
+      width: 100%;
+     /*border: 1px solid red;*/
+  }
+  .tech-container{
+    text-align: center;
+    width: 43%;
+  }
+  .tech-container h2{
+    font-size: 3rem;
+    padding-top: 4rem;
+  }
+  .tech-container h2 span{
+    color: crimson;
+  }
+  .tech-container p{
+    padding: 1rem;
+      line-height: 1.6;
+  }
+  .tech-image-container{
+    width: 60%;
+    height: 35rem;
+  text-align: center;
+  /*border: 1px solid blue;*/
+  margin-top: 1rem;
+  }
+  .tech-image-container img{
+    width: 100%;
+    height: 30rem;
+    max-width: 73rem;
+    object-fit: cover;
+  }
+  .investment-section{
+    height: 50rem;
+    /*border: 3px solid blue;*/
+  }
+  .investment-section .investment-header{
+    text-align: start;
+    /*border: 1px solid orange;*/
+  }
+  .investment-section .investment-header h2{
+    font-size: 3rem;
+    padding: 1rem;
+  }
+  .investment-section .investment-header h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem;
+  }
+  .investment-section .investment-header p{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: grey;
+    padding: 1rem;
+  }
+  .investment-section .investment-header h2 span{
+    color: crimson;
+  }
+  .investment-info{
+    height: 30rem;
+   /* border: 1px solid green;*/
+  }
+  .investment-info h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem;
+  }
+  .investment-info ul{
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 3rem;
+    list-style-type: circle;
+  }
+  .investment-info ul li{
+    padding: .5rem;
+  }
+  .investment-info h3{
+    font-size: 1rem;
+    color: grey;
+    padding: 1rem;
+  }
+  .investment-video-section{
+    height: 38rem;
+    /*border: 3px solid purple;*/
+  }
+  .investment-video-section h2{
+   text-align: center;
+   font-size: 3rem;
+   padding: 1rem;
+   padding-bottom: 3rem;
+  }
+  .investment-video-section .video-container{
+    text-align: center;
+  }
+  .help-section{
+    display: flex;
+    justify-content: center;
+    height: 22rem;
+    width: 100%;
+    background-color: grey;
+    padding: 10px;
+    
+  }
+  .help-container{
+    color: white;
+    width: 35%;
+    padding-top: 2rem;
+    text-align: center;
+    height: 17rem;
+   
+}
+.help-container h1{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.help-container p{
+  padding-bottom: 2.5rem;
+}
+.help-container a{
+  background-color: white;
+  color: grey;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 3rem;
+}
+  .footer-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 47vh;
+    color: whitesmoke;
+    background-color: black;
+  }
+  .company-contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 31vh;
+    border-right: .5px solid darkgrey;
+    width: 50%;
+  }
+  .company-contact-info img{
+    height: 13vh;
+    margin-bottom: 2em;
+  }
+  .company-contact-info ul li{
+    padding: 2px;
+  }
+  .company-contact-info ul a:link{
+    color:  whitesmoke;
+  }
+  .company-contact-info ul a:visited{
+    color:  whitesmoke;
+  }
+  .company-contact-info ul a:hover{
+    color: gray;
+  }
+  .contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+     align-items: center;
+    width: 50%;
+    padding: 20px;
+  }
+  .contact-info ul{
+    padding: 10px;
+  }
+  .contact-info #name{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .contact-info #license{
+    padding-bottom: 10px;
+  }
+  .contact-info ul li{
+    padding: 2px;
+  }
+  .contact-info ul a:link{
+    color: whitesmoke;
+  }
+  .contact-info ul a:visited{
+    color: whitesmoke;
+  }
+  .contact-info ul a:hover{
+    color: gray;
+  }
+  .social-links{
+    display: flex;
+     justify-content: center;
+    width: 100%;
+    font-size: 27px;
+      height: 7vh;
+      color: white;
+      background-color: black;
+      padding: 5px;
+  }
+  .social-links ul{
+    display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 12%;
+  
+  }
+  .social-links ul li a:link{
+    color: white;
+  }
+  .social-links ul li a:visited{
+    color: white;
+  }
+  .social-links ul li a:hover{
+    color: lightgrey;
+  }
+  

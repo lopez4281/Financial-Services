@@ -72,7 +72,7 @@ h1 {
 */
 .contact-links-section{
   /*background-color: #b49132;*/
-  background-color: darkred;
+  background-color: crimson;
 }
 .contact-links{
   display: flex;
@@ -170,7 +170,7 @@ h1 {
   #Financial-Planning-Container img{
     padding: 13px;
     border-radius: 1px;
-    border: 1px solid  darkred;
+    border: 1px solid  crimson;
   }
   #Financial-Planning-Container h2{
     font-size: 26px;
@@ -187,7 +187,7 @@ h1 {
    padding-bottom: 6px;
   }
   #Financial-Planning-Container a:link{
-    color:  darkred;
+    color:  crimson;
   }
   #Financial-Planning-Container a:visited{
     color:  darkred;
@@ -222,7 +222,7 @@ h1 {
     
   }
   #Investments-Management-Container a:link{
-    color: darkred;
+    color: crimson;
   }
   #Investments-Management-Container a:visited{
     color:  darkred;
@@ -241,7 +241,7 @@ h1 {
   #Retirement-Plan-Container img{
     padding: 13px;
     border-radius: 1px;
-    border: 1px solid darkred;
+    border: 1px solid crimson;
    
   }
 
@@ -260,7 +260,7 @@ h1 {
     padding-bottom: 6px;
   }
   #Retirement-Plan-Container a:link{
-    color: darkred;
+    color: crimson;
   }
   #Retirement-Plan-Container a:visited{
     color:  darkred;
@@ -297,7 +297,7 @@ h1 {
     content: '';
     width: 40px;
     height: 2px;
-    background:  darkred;
+    background:  crimson;
     display: block;
     left: 50%;
     position: relative;
@@ -327,7 +327,7 @@ h1 {
     align-items: center;
     max-width: 180px;
     height: 180px;
-    border: 1px solid  darkred;
+    border: 1px solid  crimson;
   }
   .experience span{
     color: #7d7d7d;
@@ -345,7 +345,7 @@ h1 {
   #experience-number{
     font-size: 52px;
     font-weight: 700;
-    color: darkred;
+    color: crimson;
     padding: 8px;
     padding-left: 59px;
     /*border: 1px solid #b49132;*/
@@ -356,7 +356,7 @@ h1 {
     align-items: center;
     max-width: 180px;
     height: 180px;
-    border: 1px solid  darkred;
+    border: 1px solid  crimson;
 
   }
   .award-winning #experience-number{
@@ -381,7 +381,7 @@ h1 {
     align-items: center;
     max-width: 180px;
     height: 180px;
-    border: 1px solid  darkred;
+    border: 1px solid crimson;
   }
   
   .happy-customers span{
@@ -405,7 +405,7 @@ h1 {
     align-items: center;
     max-width: 180px;
     height: 180px;
-    border: 1px solid  darkred;
+    border: 1px solid crimson;
   }
   .satisfied-customers span{
     color: #7d7d7d;
@@ -447,7 +447,7 @@ h1 {
     content: '';
     width: 40px;
     height: 2px;
-    background:  darkred;
+    background:  crimson;
     display: block;
     left: 47%;
     position: relative;
@@ -474,11 +474,15 @@ h1 {
   .about-us-section-container a{
     font-size: 15px;
     font-weight: 200;
-    color: white;
-    background-color:  darkred;
-    padding: 10px;
-    margin-top: 20px;
     width: 188px;
+    color: white;
+    background-color:  crimson;
+    padding: 10px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 3rem;
+    margin-top: 20px;
+    
 
   }
   .about-us-section .about-us-section-image-container{
@@ -511,7 +515,7 @@ h1 {
     content: '';
     width: 40px;
     height: 2px;
-    background:  darkred;
+    background:  crimson;
     display: block;
     left: 47%;
     position: relative;
@@ -660,7 +664,7 @@ h1 {
   color:  black;
 }
 .companies-container h1 span{
-  color: darkred;
+  color: crimson;
 }
 .companies-container p{
   font-weight: 200;
@@ -1052,7 +1056,10 @@ input[type=submit]:hover {
     margin-top: 20px;
     width: 188px;
     padding: 17px;
+    padding-left: 2rem;
+    padding-right: 2rem;
     border: 3px solid white;
+    border-radius: 3rem;
 }
 .companies-section{
   height: 50rem;
