@@ -16,7 +16,7 @@
   .contact-links{
     display: flex;
     justify-content: space-evenly;
-    width: 35%;
+    width: 100%;
   }
   .contact-links a{
     color: white;
@@ -67,7 +67,7 @@
   }
   .training-container{
      text-align: center;
-      width: 43%;
+      width: 60%;
   /* border: 1px solid blue;*/
 
   }
@@ -104,7 +104,7 @@
   }
   .resources-container-header {
    text-align: center;
-   width: 33%;
+   width: 46%;
    padding-bottom: 5rem;
   }
   .resources-container-header h3{
@@ -119,7 +119,7 @@
     display: flex;
      flex-direction: row;
      justify-content: space-evenly;
-      height: 30rem;
+      height: 35rem;
       width: 100%;
       padding-left: 4rem;
      /* border: 1px solid orange;*/
@@ -246,7 +246,7 @@
   }
   .tech-container{
     text-align: center;
-    width: 43%;
+    width: 50%;
   }
   .tech-container h2{
     font-size: 3rem;
@@ -345,7 +345,7 @@
   }
   .help-container{
     color: white;
-    width: 35%;
+    width: 60%;
     padding-top: 2rem;
     text-align: center;
     height: 17rem;
@@ -458,4 +458,124 @@
   .social-links ul li a:hover{
     color: lightgrey;
   }
-  
+   /*media queries*/
+   @media screen and (max-width: 1200px){
+     .contact-links{
+       width: 100%;
+     }
+     .training-container{
+       width: 60%;
+     }
+     .resources-container-header {
+      width: 60%;
+   }
+   .resources-container {
+     height: 36rem;
+   }
+   .resources-info{
+     width: 50%;
+   }
+   .resources-cover-photo{
+     width: 40%;
+   }
+   .agent-job-section{
+     height: 16rem;
+   }
+   .agent-job-container{
+     width: 68%;
+   }
+   .agent-info-container{
+     width: 50%;
+   }
+   .tech-section{
+     height: 53rem;
+   }
+   .tech-container{
+     width: 60%;
+     padding-bottom: 2rem;
+   }
+   .tech-image-container{
+     width: 80%;
+   }
+   .help-container{
+     width: 70%;
+   }
+   .footer-container{
+     height: 30rem;
+   }
+   .company-contact-info{
+     height: 20rem;
+   }
+   .company-contact-info img{
+     height: 10rem;
+   }
+   .contact-info{
+     height: 20rem;
+   }
+   .social-links{
+     height: 3rem;
+   }
+  }
+  @media screen and (max-width: 1024px){
+    .nav-bar-links{
+      width: 60%;
+    }
+    .training-container{
+      width: 82%;
+    }
+    .resources{
+      height: 4rem;
+    }
+    .resources-container-header{
+      width: 72%;
+    }
+    .resources-container{
+      flex-direction: column;
+      height: 61rem;
+      padding-left: 0;
+    }
+    .resources-info{
+      width: 100%;
+    }
+    .resources-info p{
+      padding: 1rem;
+    }
+    .resources-cover-photo{
+      width: 100%;
+      text-align: center;
+    }
+    .agent-job-container{
+      width: 90%;
+    }
+    .agent-info-section{
+      flex-direction: column;
+      height: 61rem;
+    }
+    .agent-image-container{
+      width: 100%;
+    }
+    .agent-info-container{
+      width: 100%;
+    }
+    .agent-info-container p{
+      padding-left: 0;
+    }
+    .tech-container{
+      width: 75%;
+    }
+    .tech-section{
+      height: 56rem;
+    }
+    .investment-section{
+      height: 54rem;
+    }
+    .help-section{
+      height: 24rem;
+    }
+    .company-contact-info img{
+      height: 7rem;
+    }
+    .social-links ul{
+      width: 25%;
+    }
+  }
