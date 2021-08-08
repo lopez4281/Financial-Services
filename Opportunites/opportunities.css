@@ -579,3 +579,102 @@
       width: 25%;
     }
   }
+  @media screen and (max-width: 768px){
+    .contact-links-section{
+      display: none;
+    }
+    .navbar-container .navbar-links{
+      width: 70%;
+    }
+    .opportunities-section{
+      height: 56rem;
+    }
+    .training-image-container{
+      width: 100%;
+    }
+    .training-container h2{
+      font-size: 2.7rem;
+      padding-top: 4rem;
+    }
+    .training-container p{
+      text-align: start;
+    }
+    .training-image-container img{
+      height: 27rem;
+    }
+    .resources-container{
+      height: 75rem;
+    }
+    .resources-container-header{
+      width: 70%;
+    }
+    .resources-container-header h3{
+      font-size: 2.7rem;
+    }
+    .resources-info h3{
+      padding-bottom: 4rem;
+    }
+    .agent-job-section{
+      height: 20rem;
+    }
+    .agent-job-container h3{
+      font-size: 2.7rem;
+    }
+    .agent-info-section{
+      height: 68rem;
+    }
+    .agent-image-container{
+      padding-bottom: 3rem;
+    }
+    .agent-image-container img{
+      height: 30rem;
+    }
+    .agent-info-container{
+      height: 34rem;
+    }
+    .tech-section{
+      height: 60rem;
+    }
+    .tech-container h2{
+      font-size: 2.7rem;
+    }
+    .tech-container p{
+      text-align: start;
+    }
+    .investment-section{
+      height: 70rem;
+    }
+    .investment-section .investment-header{
+      height: 25rem;
+    }
+    .investment-section .investment-header h2 {
+      font-size: 2.7rem;
+    }
+    .investment-info {
+      height: 46rem;
+    }
+    .video-container iframe{
+      width: 90%;
+    }
+    .help-section{
+      height: 25rem;
+    }
+    .help-container{
+      width: 100%;
+    }
+    .help-container h1{
+      font-size: 2.7rem;
+    }
+    .footer-container{
+      height: 24rem;
+    }
+    .company-contact-info img{
+      height: 5rem;
+    }
+    .social-links{
+      height: 2.5rem;
+    }
+    .social-links ul{
+      width: 30%;
+    }
+  }
