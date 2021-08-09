@@ -678,3 +678,148 @@
       width: 30%;
     }
   }
+  @media screen and (max-width: 481px){
+    .navbar-container{
+      height: 4rem;
+      padding: 0;
+    }
+    .wfg-logo img{
+      width: 3rem;
+    }
+    .navbar-links{
+      width: 100%;
+    }
+    .training-container{
+      width: 100%;
+    }
+    .training-container h2{
+      font-size: 2.2rem;
+    }
+    .training-image-container img{
+      height: 25rem;
+    }
+    .resources-container-header{
+      width: 100%;
+    }
+    .resources-container-header h3{
+      font-size: 2.2rem;
+    }
+    .resources-container{
+      height: 76rem;
+      border: 3px solid deeppink;
+    }
+    .resources-info{
+      height: 45rem;
+      border: 3px solid purple;
+    }
+    .resources-cover-photo{
+      height: 24rem;
+      border: 2px solid red;
+    }
+    .agent-job-section{
+      height: 27rem;
+      border: 1px solid red;
+    }
+    .agent-job-container{
+      width: 100%;
+    }
+    .agent-job-container h3{
+      font-size: 2.2rem;
+    }
+    .agent-job-container p{
+      padding: 1rem;
+    }
+    .agent-info-section{
+      width: 100%;
+     padding: 0;
+    }
+    .agent-info-buttons{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     width: 100%;
+     height: 10rem;
+     align-items: center;
+    border: 1px solid brown;
+   }
+    .agent-info-container{
+    text-align: center;
+    }
+   .agent-info-container p{
+    padding: 1rem;
+    }
+
+    .get-started-button{
+    text-align: center;
+    }
+    .tech-section{
+      height: 44rem;
+    }
+    .tech-container{
+      width: 100%;
+    }
+    .tech-container h2{
+      font-size: 2.2rem;
+    }
+    .tech-image-container{
+      width: 100%;
+    }
+    .tech-image-container img{
+      height: auto;
+    }
+    .investment-section{
+      height: 82rem;
+    }
+    .investment-section .investment-header h2 {
+      font-size: 2.2rem;
+    }
+    .investment-section .investment-header h3 {
+      font-size: 1.3rem;
+    }
+    .investment-section .investment-header p {
+      font-size: 1rem;
+    }
+    .investment-info{
+      height: 48rem;
+    }
+    .investment-info h4 {
+      font-size: 1.3rem;
+    }
+    .investment-info ul{
+      padding-left: 2rem;
+    }
+    .investment-video-section h2 {
+      font-size: 2.2rem;
+    }
+    .help-container h1{
+      font-size: 2.2rem;
+    }
+    .footer-container{
+      height: 35rem;
+      flex-direction: column;
+      align-items: start;
+    }
+    .company-contact-info{
+      align-items: start;
+      width: 100%;
+      height: 16rem;
+      padding-left: 10px;
+      border-right: 0;
+      border-bottom: .5px solid;
+    }
+    .contact-info{
+      align-items: start;
+      width: 100%;
+      height: 16rem;
+      padding: 0px;
+    }
+    .contact-info h4{
+      padding-left: 13px;
+    }
+    .social-links{
+      justify-content: start;
+    }
+    .social-links ul{
+      width: 35%;
+    }
+  }
