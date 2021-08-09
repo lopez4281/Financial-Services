@@ -1,0 +1,825 @@
+*{
+    box-sizing: border-box;
+  }
+  html{
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+  
+  }
+  a{
+    text-decoration: none;
+  }
+.contact-links-section{
+    /*background-color: #b49132;*/
+    background-color: crimson;
+  }
+  .contact-links{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .contact-links a{
+    color: white;
+    font-size: 14px;
+    padding: 17px;
+  }
+  .contact-links a i{
+    padding-right: 5px;
+  }
+  .navbar-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:black;
+    width: 100%;
+    height: 4rem;
+    padding: 24px;
+    padding-left: 70px;
+  }
+  
+  
+  .navbar-container a{
+    color: whitesmoke;
+  }
+  .wfg-logo{
+    display: flex;
+    align-items: center;
+    width: 25%;
+    /*border: 1px solid red;*/
+  }
+  .wfg-logo img{
+    width: 55px;
+    height: auto;
+  }
+  .navbar-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 45%;
+    /*border: 1px solid blue;*/
+  }
+  .opportunities-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      height: 57rem;
+      width: 100%;
+    /* border: 1px solid red;*/
+  }
+  .training-container{
+     text-align: center;
+      width: 60%;
+  /* border: 1px solid blue;*/
+
+  }
+  .training-container h2{
+      padding-top: 7rem;
+      font-size: 3rem;
+  }
+  .training-container h2 span{
+      color: crimson;
+  }
+  .training-container p{
+      padding: 1rem;
+      line-height: 1.6;
+  }
+  .training-image-container{
+      width: 60%;
+      height: 35rem;
+    text-align: center;
+   /* border: 1px solid blue;*/
+    margin-top: 1rem;
+  }
+  .training-image-container img{
+    width: 100%;
+    height: 30rem;
+    max-width: 73rem;
+    object-fit: cover;
+  }
+  .resources{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      height: 13rem;
+     /* border: 1px solid blueviolet;*/
+  }
+  .resources-container-header {
+   text-align: center;
+   width: 46%;
+   padding-bottom: 5rem;
+  }
+  .resources-container-header h3{
+      height: 7rem;
+      font-size: 3rem;
+     /* border: 1px solid orangered;*/
+  }
+  .resources-container-header h3 span{
+      color: crimson;
+  }
+  .resources-container{
+    display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+      height: 35rem;
+      width: 100%;
+      padding-left: 4rem;
+     /* border: 1px solid orange;*/
+  }
+  .resources-info{
+    width: 40%;
+    /*border: 1px solid purple;*/
+   
+  }
+  .resources-info p{
+      line-height: 1.6;
+      padding: .8rem;
+  }
+  .resources-info h3{
+    font-size: 1.8rem;
+    padding: .8rem;
+    padding-bottom: 2rem;
+  }
+  .resources-info a{
+    padding: 1rem;
+    color: whitesmoke;
+    background-color: crimson;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 2rem;
+    border: 1px solid crimson;
+    margin-left: 1rem;
+  }
+  .resources-cover-photo{
+    width: 40%;
+   /* border: 1px solid green;*/
+  }
+  .resources-cover-photo img{
+    width: 100%;
+    height: 23rem;
+    object-fit: cover;
+    max-width: 46rem;
+  }
+  .agent-job-section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 13rem;
+    background-color:#f5f5f5;
+   /* border: 1px solid red;*/
+  }
+  .agent-job-container{
+    width: 50%;
+    height: 12rem;
+    text-align: center;
+    /*border: 1px solid blue;*/
+  }
+  .agent-job-container h3{
+    font-size: 3rem;
+    padding: 1rem;
+    padding-top: 4rem;
+  }
+  .agent-job-container h3 span{
+    color: crimson;
+  }
+  .agent-job-container p{
+    text-align: start;
+    line-height: 1.6;
+    padding: .4rem;
+  }
+  .agent-info-section{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 42rem;
+    padding: 4rem;
+    background-color:#f5f5f5;
+    /*border: 3px solid purple*/
+  }
+  .agent-image-container{
+    width: 40%;
+   /* border: 3px solid orange;*/
+  }
+  .agent-image-container img{
+    width: 100%;
+    max-width: 48rem;
+    object-fit: cover;
+    height: 33rem;
+
+
+  }
+  .agent-info-container {
+    width: 40%;
+   /* border: 3px solid green;*/
+  }
+  .agent-info-container p {
+    text-align: start;
+    line-height: 1.6;
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 3rem;
+  }
+  .agent-info-container #first {
+    padding-bottom: 2rem;
+  }
+  .agent-info-container .wfg-direct-button{
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 1px solid crimson;
+    margin-left: 1rem;
+  }
+  .agent-info-container .get-started-button{
+    padding: 1rem;
+    color: whitesmoke;
+    background-color: crimson;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 2rem;
+    border: 1px solid crimson;
+    margin-left: 1rem;
+  }
+  .tech-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      height: 55rem;
+      width: 100%;
+     /*border: 1px solid red;*/
+  }
+  .tech-container{
+    text-align: center;
+    width: 50%;
+  }
+  .tech-container h2{
+    font-size: 3rem;
+    padding-top: 4rem;
+  }
+  .tech-container h2 span{
+    color: crimson;
+  }
+  .tech-container p{
+    padding: 1rem;
+      line-height: 1.6;
+  }
+  .tech-image-container{
+    width: 60%;
+    height: 35rem;
+  text-align: center;
+  /*border: 1px solid blue;*/
+  margin-top: 1rem;
+  }
+  .tech-image-container img{
+    width: 100%;
+    height: 30rem;
+    max-width: 73rem;
+    object-fit: cover;
+  }
+  .investment-section{
+    height: 50rem;
+    /*border: 3px solid blue;*/
+  }
+  .investment-section .investment-header{
+    text-align: start;
+    /*border: 1px solid orange;*/
+  }
+  .investment-section .investment-header h2{
+    font-size: 3rem;
+    padding: 1rem;
+  }
+  .investment-section .investment-header h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem;
+  }
+  .investment-section .investment-header p{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: grey;
+    padding: 1rem;
+  }
+  .investment-section .investment-header h2 span{
+    color: crimson;
+  }
+  .investment-info{
+    height: 30rem;
+   /* border: 1px solid green;*/
+  }
+  .investment-info h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem;
+  }
+  .investment-info ul{
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 3rem;
+    list-style-type: circle;
+  }
+  .investment-info ul li{
+    padding: .5rem;
+  }
+  .investment-info h3{
+    font-size: 1rem;
+    color: grey;
+    padding: 1rem;
+  }
+  .investment-video-section{
+    height: 38rem;
+    /*border: 3px solid purple;*/
+  }
+  .investment-video-section h2{
+   text-align: center;
+   font-size: 3rem;
+   padding: 1rem;
+   padding-bottom: 3rem;
+  }
+  .investment-video-section .video-container{
+    text-align: center;
+  }
+  .help-section{
+    display: flex;
+    justify-content: center;
+    height: 22rem;
+    width: 100%;
+    background-color: grey;
+    padding: 10px;
+    
+  }
+  .help-container{
+    color: white;
+    width: 60%;
+    padding-top: 2rem;
+    text-align: center;
+    height: 17rem;
+   
+}
+.help-container h1{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.help-container p{
+  padding-bottom: 2.5rem;
+}
+.help-container a{
+  background-color: white;
+  color: grey;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 3rem;
+}
+  .footer-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 47vh;
+    color: whitesmoke;
+    background-color: black;
+  }
+  .company-contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 31vh;
+    border-right: .5px solid darkgrey;
+    width: 50%;
+  }
+  .company-contact-info img{
+    height: 13vh;
+    margin-bottom: 2em;
+  }
+  .company-contact-info ul li{
+    padding: 2px;
+  }
+  .company-contact-info ul a:link{
+    color:  whitesmoke;
+  }
+  .company-contact-info ul a:visited{
+    color:  whitesmoke;
+  }
+  .company-contact-info ul a:hover{
+    color: gray;
+  }
+  .contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+     align-items: center;
+    width: 50%;
+    padding: 20px;
+  }
+  .contact-info ul{
+    padding: 10px;
+  }
+  .contact-info #name{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .contact-info #license{
+    padding-bottom: 10px;
+  }
+  .contact-info ul li{
+    padding: 2px;
+  }
+  .contact-info ul a:link{
+    color: whitesmoke;
+  }
+  .contact-info ul a:visited{
+    color: whitesmoke;
+  }
+  .contact-info ul a:hover{
+    color: gray;
+  }
+  .social-links{
+    display: flex;
+     justify-content: center;
+    width: 100%;
+    font-size: 27px;
+      height: 7vh;
+      color: white;
+      background-color: black;
+      padding: 5px;
+  }
+  .social-links ul{
+    display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 12%;
+  
+  }
+  .social-links ul li a:link{
+    color: white;
+  }
+  .social-links ul li a:visited{
+    color: white;
+  }
+  .social-links ul li a:hover{
+    color: lightgrey;
+  }
+   /*media queries*/
+   @media screen and (max-width: 1200px){
+     .contact-links{
+       width: 100%;
+     }
+     .training-container{
+       width: 60%;
+     }
+     .resources-container-header {
+      width: 60%;
+   }
+   .resources-container {
+     height: 36rem;
+   }
+   .resources-info{
+     width: 50%;
+   }
+   .resources-cover-photo{
+     width: 40%;
+   }
+   .agent-job-section{
+     height: 16rem;
+   }
+   .agent-job-container{
+     width: 68%;
+   }
+   .agent-info-container{
+     width: 50%;
+   }
+   .tech-section{
+     height: 53rem;
+   }
+   .tech-container{
+     width: 60%;
+     padding-bottom: 2rem;
+   }
+   .tech-image-container{
+     width: 80%;
+   }
+   .help-container{
+     width: 70%;
+   }
+   .footer-container{
+     height: 30rem;
+   }
+   .company-contact-info{
+     height: 20rem;
+   }
+   .company-contact-info img{
+     height: 10rem;
+   }
+   .contact-info{
+     height: 20rem;
+   }
+   .social-links{
+     height: 3rem;
+   }
+  }
+  @media screen and (max-width: 1024px){
+    .nav-bar-links{
+      width: 60%;
+    }
+    .training-container{
+      width: 82%;
+    }
+    .resources{
+      height: 4rem;
+    }
+    .resources-container-header{
+      width: 72%;
+    }
+    .resources-container{
+      flex-direction: column;
+      height: 61rem;
+      padding-left: 0;
+    }
+    .resources-info{
+      width: 100%;
+    }
+    .resources-info p{
+      padding: 1rem;
+    }
+    .resources-cover-photo{
+      width: 100%;
+      text-align: center;
+    }
+    .agent-job-container{
+      width: 90%;
+    }
+    .agent-info-section{
+      flex-direction: column;
+      height: 61rem;
+    }
+    .agent-image-container{
+      width: 100%;
+    }
+    .agent-info-container{
+      width: 100%;
+    }
+    .agent-info-container p{
+      padding-left: 0;
+    }
+    .tech-container{
+      width: 75%;
+    }
+    .tech-section{
+      height: 56rem;
+    }
+    .investment-section{
+      height: 54rem;
+    }
+    .help-section{
+      height: 24rem;
+    }
+    .company-contact-info img{
+      height: 7rem;
+    }
+    .social-links ul{
+      width: 25%;
+    }
+  }
+  @media screen and (max-width: 768px){
+    .contact-links-section{
+      display: none;
+    }
+    .navbar-container .navbar-links{
+      width: 70%;
+    }
+    .opportunities-section{
+      height: 56rem;
+    }
+    .training-image-container{
+      width: 100%;
+    }
+    .training-container h2{
+      font-size: 2.7rem;
+      padding-top: 4rem;
+    }
+    .training-container p{
+      text-align: start;
+    }
+    .training-image-container img{
+      height: 27rem;
+    }
+    .resources-container{
+      height: 75rem;
+    }
+    .resources-container-header{
+      width: 70%;
+    }
+    .resources-container-header h3{
+      font-size: 2.7rem;
+    }
+    .resources-info h3{
+      padding-bottom: 4rem;
+    }
+    .agent-job-section{
+      height: 20rem;
+    }
+    .agent-job-container h3{
+      font-size: 2.7rem;
+    }
+    .agent-info-section{
+      height: 68rem;
+    }
+    .agent-image-container{
+      padding-bottom: 3rem;
+    }
+    .agent-image-container img{
+      height: 30rem;
+    }
+    .agent-info-container{
+      height: 34rem;
+    }
+    .tech-section{
+      height: 60rem;
+    }
+    .tech-container h2{
+      font-size: 2.7rem;
+    }
+    .tech-container p{
+      text-align: start;
+    }
+    .investment-section{
+      height: 70rem;
+    }
+    .investment-section .investment-header{
+      height: 25rem;
+    }
+    .investment-section .investment-header h2 {
+      font-size: 2.7rem;
+    }
+    .investment-info {
+      height: 46rem;
+    }
+    .video-container iframe{
+      width: 90%;
+    }
+    .help-section{
+      height: 25rem;
+    }
+    .help-container{
+      width: 100%;
+    }
+    .help-container h1{
+      font-size: 2.7rem;
+    }
+    .footer-container{
+      height: 24rem;
+    }
+    .company-contact-info img{
+      height: 5rem;
+    }
+    .social-links{
+      height: 2.5rem;
+    }
+    .social-links ul{
+      width: 30%;
+    }
+  }
+  @media screen and (max-width: 481px){
+    .navbar-container{
+      height: 4rem;
+      padding: 0;
+    }
+    .wfg-logo img{
+      width: 3rem;
+    }
+    .navbar-links{
+      width: 100%;
+    }
+    .training-container{
+      width: 100%;
+    }
+    .training-container h2{
+      font-size: 2.2rem;
+    }
+    .training-image-container img{
+      height: 25rem;
+    }
+    .resources-container-header{
+      width: 100%;
+    }
+    .resources-container-header h3{
+      font-size: 2.2rem;
+    }
+    .resources-container{
+      height: 76rem;
+      border: 3px solid deeppink;
+    }
+    .resources-info{
+      height: 45rem;
+      border: 3px solid purple;
+    }
+    .resources-cover-photo{
+      height: 24rem;
+      border: 2px solid red;
+    }
+    .agent-job-section{
+      height: 27rem;
+      border: 1px solid red;
+    }
+    .agent-job-container{
+      width: 100%;
+    }
+    .agent-job-container h3{
+      font-size: 2.2rem;
+    }
+    .agent-job-container p{
+      padding: 1rem;
+    }
+    .agent-info-section{
+      width: 100%;
+     padding: 0;
+    }
+    .agent-info-buttons{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     width: 100%;
+     height: 10rem;
+     align-items: center;
+    border: 1px solid brown;
+   }
+    .agent-info-container{
+    text-align: center;
+    }
+   .agent-info-container p{
+    padding: 1rem;
+    }
+
+    .get-started-button{
+    text-align: center;
+    }
+    .tech-section{
+      height: 44rem;
+    }
+    .tech-container{
+      width: 100%;
+    }
+    .tech-container h2{
+      font-size: 2.2rem;
+    }
+    .tech-image-container{
+      width: 100%;
+    }
+    .tech-image-container img{
+      height: auto;
+    }
+    .investment-section{
+      height: 82rem;
+    }
+    .investment-section .investment-header h2 {
+      font-size: 2.2rem;
+    }
+    .investment-section .investment-header h3 {
+      font-size: 1.3rem;
+    }
+    .investment-section .investment-header p {
+      font-size: 1rem;
+    }
+    .investment-info{
+      height: 48rem;
+    }
+    .investment-info h4 {
+      font-size: 1.3rem;
+    }
+    .investment-info ul{
+      padding-left: 2rem;
+    }
+    .investment-video-section h2 {
+      font-size: 2.2rem;
+    }
+    .help-container h1{
+      font-size: 2.2rem;
+    }
+    .footer-container{
+      height: 35rem;
+      flex-direction: column;
+      align-items: start;
+    }
+    .company-contact-info{
+      align-items: start;
+      width: 100%;
+      height: 16rem;
+      padding-left: 10px;
+      border-right: 0;
+      border-bottom: .5px solid;
+    }
+    .contact-info{
+      align-items: start;
+      width: 100%;
+      height: 16rem;
+      padding: 0px;
+    }
+    .contact-info h4{
+      padding-left: 13px;
+    }
+    .social-links{
+      justify-content: start;
+    }
+    .social-links ul{
+      width: 35%;
+    }
+  }

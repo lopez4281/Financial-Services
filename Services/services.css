@@ -11,7 +11,7 @@
   }
   .contact-links-section{
     /*background-color: #b49132;*/
-    background-color: darkred;
+    background-color: crimson;
   }
   .contact-links{
     display: flex;
@@ -172,7 +172,7 @@
     padding-top: 33px;
   }
   .services-greeting-container h1 span{
-    color: darkred;
+    color: crimson;
   }
   .financial-strategies-section{
     display: flex;
@@ -517,7 +517,7 @@
     color:  black;
   }
   .companies-container h1 span{
-    color: darkred;
+    color: crimson;
   }
   .companies-container p{
     padding: 10px;
@@ -615,9 +615,11 @@
 .help-container p{
   padding-bottom: 37px;
 }
-.help-container a{
-    padding: 11px;
-    border-radius: 20px;
+.help-container .connect-button a{
+    padding: 1rem;
+    padding-left: 1rem;
+    padding-right:1rem;
+    border-radius: 3rem;
     background-color: white;
     color: darkred;
    
@@ -723,6 +725,9 @@
   }
   .navbar-container{
     height: 4rem;
+    justify-content: space-evenly;
+    padding: 24px;
+    padding-left: 70px;
   }
   .top-section{
     height: 35rem;
