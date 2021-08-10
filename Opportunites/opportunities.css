@@ -824,3 +824,96 @@
       width: 35%;
     }
   }
+  @media screen and (max-width: 320px){
+    .navbar-container .nav-bar-links{
+      width: 100%;
+    }
+    .opportunities-section{
+      height: 47rem;
+    }
+    .training-container h2{
+      font-size: 1.8rem;
+    }
+    .training-container p{
+      font-size: .8rem;
+    }
+    .training-image-container img {
+      object-fit: contain;
+  }
+    .resources-container-header h3{
+      font-size: 1.8rem;
+    }
+    .resources-container {
+      height: 72rem;
+    }
+    .resources-info p{
+      font-size: .8rem;
+    }
+    .resources-info h3{
+      font-size: 1.5rem;
+    }
+    .resources-info a{
+      font-size: .8rem;
+    }
+    .resources-cover-photo img {
+      object-fit: contain;
+  }
+  
+    .agent-job-container h3 {
+      font-size: 1.8rem;
+  }
+  .agent-job-container p {
+    font-size: .8rem;
+  } 
+  .agent-image-container img {
+    object-fit: contain;
+  }
+  .agent-image-container{
+    height: 24rem;
+  }
+  .agent-info-container{
+    height: 50rem;
+  }
+  .agent-info-container p {
+   font-size: .8rem;
+}
+.agent-info-buttons a{
+  font-size: .8rem;
+}
+.tech-container h2 {
+  font-size: 1.8rem;
+}
+.tech-container p {
+  font-size: .8rem;
+}
+.investment-section .investment-header h2 {
+  font-size: 1.8rem;
+}
+.investment-section .investment-header h3 {
+  font-size: 1rem;
+}
+.investment-section .investment-header p {
+  font-size: .8rem;
+}
+.investment-info h4 {
+  font-size: 1rem;
+}
+.investment-info ul {
+  font-size: .8rem;
+}
+.investment-info h3 {
+  font-size: .8rem;
+}
+.investment-section {
+  height: 70rem;
+}
+.help-container h1 {
+  font-size: 1.8rem;
+}
+.help-container p {
+  font-size: .8rem;
+}
+.help-container a {
+  font-size: .8rem;
+}
+  }
