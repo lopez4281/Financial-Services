@@ -1573,11 +1573,12 @@ font-size: 3rem;
   height: 25rem;
 }
 .about-us-section .about-us-section-image-container {
-  width: 75%;
+  width: 100%;
   height: 15rem;
 }
 .about-us-picture-container{
   width: 100%;
+  padding: 0;
 }
 .about-us-picture-container img {
   width: 100%;
