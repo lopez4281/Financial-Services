@@ -184,7 +184,7 @@ h1 {
    color: #999999;
    line-height: 1.2;
    font-size: 15px;
-   font-weight: 200;
+   font-weight: 400;
    padding-bottom: 6px;
   }
   #Financial-Planning-Container a:link{
@@ -218,7 +218,7 @@ h1 {
     color: #999999;
     line-height: 1.2;
     font-size: 15px;
-    font-weight: 200;
+    font-weight: 400;
     padding-bottom: 6px;
     
   }
@@ -257,7 +257,7 @@ h1 {
     color: #999999;
     line-height: 1.2;
     font-size: 15px;
-    font-weight: 200;
+    font-weight: 400;
     padding-bottom: 6px;
   }
   #Retirement-Plan-Container a:link{
@@ -307,7 +307,7 @@ h1 {
   }
   .grow-business-container p{
     color: #9d9d9d;
-    font-weight: 200;
+    font-weight: 400;
     max-width: 595px;
     margin: 0 auto;
     padding-top: 3px;
@@ -338,7 +338,7 @@ h1 {
     background-color: #f5f5f5;
   }
   .experience span h4{
-    font-weight: 200;
+    font-weight: 400;
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -372,7 +372,7 @@ h1 {
     background-color:#f5f5f5;
   }
   .award-winning span h4{
-    font-weight: 200;
+    font-weight: 400;
     padding-left: 23px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -392,7 +392,7 @@ h1 {
     font-size: 15px;
   }
   .happy-customers span h4{
-    font-weight: 200;
+    font-weight: 400;
     background-color: #f5f5f5;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -415,7 +415,7 @@ h1 {
     font-size: 15px;
   }
   .satisfied-customers span h4{
-    font-weight: 200;
+    font-weight: 400;
     background-color: #f5f5f5;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -464,7 +464,7 @@ h1 {
     padding-bottom: 47px;
   }
   .about-us-section-container p{
-    font-weight: 200;
+    font-weight: 400;
     /*color: #7d7d7d;*/
     color: black;
     padding: 20px;
@@ -526,7 +526,7 @@ h1 {
 
   .about-section-header p{
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     color: #7d7d7d;
     padding: 20px;
     
@@ -555,11 +555,11 @@ h1 {
 }
 .about-section .profile-picture h4{
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   padding: 2px;
 }
 .about-section .profile-picture h5{
-  font-weight: 200;
+  font-weight: 300;
   text-align: center;
   color: #7d7d7d;
 
@@ -580,7 +580,7 @@ h1 {
    margin: 20px;
   }
   .about-me p{
-    font-weight: 200;
+    font-weight: 400;
     line-height: 1.6;
     font-size: 18px;
     padding: 10px;
@@ -669,7 +669,7 @@ h1 {
   color: crimson;
 }
 .companies-container p{
-  font-weight: 200;
+  font-weight: 400;
   line-height: 1.6;
   color: black;
   padding: 10px;
@@ -754,7 +754,7 @@ h1 {
   text-align: center;
     color: black;
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 400;
     width: 50%;
     padding-bottom: 35px;
 
