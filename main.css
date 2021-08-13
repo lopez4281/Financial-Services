@@ -481,7 +481,7 @@ h1 {
     padding: 10px;
     padding-left: 2rem;
     padding-right: 2rem;
-    border-radius: 3rem;
+    border: 1px solid crimson;
     margin-top: 20px;
     
 
@@ -641,7 +641,6 @@ h1 {
     padding-right: 2rem;
   padding: 10px;
   border: 2px solid  whitesmoke;
-  border-radius: 3rem;
 }
 .companies-section{
   display: flex;
