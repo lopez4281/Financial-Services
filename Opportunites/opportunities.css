@@ -462,6 +462,15 @@
     color: lightgrey;
   }
    /*media queries*/
+   @media screen and (min-width: 1201px) {
+     .help-container{
+       width: 44%;
+     }
+     .help-container h1{
+       font-size: 2.3rem;
+     }
+     
+   }
    @media screen and (max-width: 1200px){
      .contact-links{
        width: 100%;
@@ -574,6 +583,9 @@
     }
     .help-section{
       height: 24rem;
+    }
+    .help-container h1{
+      font-size: 2.3rem;
     }
     .company-contact-info img{
       height: 7rem;
@@ -797,6 +809,9 @@
     }
     .help-container h1{
       font-size: 2.2rem;
+    }
+    .help-container p{
+      font-size: .9rem;
     }
     .footer-container{
       height: 35rem;

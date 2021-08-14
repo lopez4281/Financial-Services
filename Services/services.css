@@ -836,6 +836,7 @@
   }
   .help-container{
     height: 20rem;
+    width: 45%;
     padding-top: 72px;
   }
   .footer-container{
@@ -1300,7 +1301,7 @@
     width: 90%;
   }
   .services-greeting-container p{
-    font-size: 1rem;
+    font-size: .9rem;
   }
   .financial-strategies-section{
     height: 35rem;
@@ -1468,7 +1469,7 @@
     font-size: 2.8rem;
   }
   .help-container p{
-    font-size: 1rem;
+    font-size: .9rem;
   }
   .connect-button{
     font-size: 1rem;

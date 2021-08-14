@@ -361,7 +361,7 @@ h1 {
 
   }
   .award-winning #experience-number{
-    padding-left: 60px;
+    padding-left: 72px;
   }
   .award-winning span{
     color: #7d7d7d;
@@ -1061,7 +1061,7 @@ input[type=submit]:hover {
     padding-left: 2rem;
     padding-right: 2rem;
     border: 3px solid white;
-    border-radius: 3rem;
+  
 }
 .companies-section{
   height: 50rem;
@@ -1355,7 +1355,7 @@ input[type=submit]:hover {
   height: 150px;
 }
 .award-winning #experience-number {
-  padding-left: 51px;
+  padding-left: 66px;
 }
 .award-winning span {
   font-size: 14px;
