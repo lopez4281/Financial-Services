@@ -746,7 +746,11 @@
     }
     .agent-info-section{
       width: 100%;
+      height: 62rem;
      padding: 0;
+    }
+    .agent-image-container img {
+      height: 25rem;
     }
     .agent-info-buttons{
      display: flex;

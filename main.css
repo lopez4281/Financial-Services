@@ -1593,6 +1593,7 @@ font-size: 3rem;
 }
 .about-section .profile-picture {
   height: 45rem;
+  width: 90%;
 }
 .about-section .profile-picture img {
   width: 100%;
