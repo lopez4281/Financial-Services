@@ -556,15 +556,19 @@ h1 {
 .about-section .profile-picture h4{
   text-align: center;
   font-weight: 400;
-  padding: 2px;
+  padding: .2rem;
 }
 .about-section .profile-picture h5{
   font-weight: 300;
   text-align: center;
   color: #7d7d7d;
-
 }
-
+.about-section .profile-picture h6{
+  font-weight: 300;
+  text-align: center;
+  color: #7d7d7d;
+  padding-top: .2rem;
+}
 
   .about-me{
     width: 50%;
@@ -1714,7 +1718,7 @@ font-size: 3rem;
 }
 @media screen and (max-width: 320px){
   .navbar-container {
-    padding-left: 0px;
+    padding: 1rem;
     height: 4rem;
 }
 .top-section .greeting{
