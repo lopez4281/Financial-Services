@@ -687,6 +687,9 @@
   .contact-info ul a:hover{
     color: gray;
   }
+  #agent-address{
+    padding-right: 1.3rem;
+  }
   .social-links{
     display: flex;
      justify-content: center;

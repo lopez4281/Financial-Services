@@ -92,7 +92,7 @@ h1 {
     background-image: url("images/la-coverphoto.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color:lightgoldenrodyellow;
+    background-color: whitesmoke;
     height: 37em;
   }
   .greeting{
@@ -912,6 +912,9 @@ input[type=submit]:hover {
 }
 .contact-info ul a:hover{
   color: gray;
+}
+#agent-address{
+  padding-right: 1.3rem;
 }
 .social-links{
   display: flex;
