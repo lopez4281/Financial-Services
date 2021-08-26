@@ -842,6 +842,10 @@
   .footer-container{
     height: 30rem;
   }
+  .company-contact-info img {
+    height: auto;
+    width: 18%;
+  }
   .social-links{
     font-size: 2rem;
     height: 4rem;
@@ -948,7 +952,11 @@
   height: 20rem;
 }
 .footer-container{
-  height: 20rem;
+  height: 22rem;
+}
+.company-contact-info img {
+  height: auto;
+  width: 25%;
 }
 .social-links{
   height: 3rem;
@@ -1048,9 +1056,6 @@
     height: 14rem;
     padding-top: 35px;
     
-  }
-  .company-contact-info img{
-    height: 5rem;
   }
   .social-links ul{
     width: 20%;
@@ -1245,16 +1250,14 @@
     width: 100%;
   }
   .footer-container{
-    height: 24rem;
+    height: 22rem;
   }
-  .company-contact-info img{
-    height: 5rem;
-  }
+ 
   .social-links{
     height: 2.5rem;
   }
   .social-links ul{
-    width: 30%;
+    width: 25%;
   }
 }
 /*large mobile screem*/
@@ -1475,14 +1478,14 @@
     font-size: 1rem;
   }
   .footer-container{
-    height: 35rem;
+    height: 40rem;
     flex-direction: column;
     align-items: start;
   }
   .company-contact-info{
     align-items: start;
     width: 100%;
-    height: 16rem;
+    height: 20rem;
     padding-left: 10px;
     border-right: 0;
     border-bottom: .5px solid;
@@ -1490,7 +1493,7 @@
   .contact-info{
     align-items: start;
     width: 100%;
-    height: 16rem;
+    height: 20rem;
     padding: 0px;
   }
   .contact-info h4{

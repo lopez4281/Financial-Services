@@ -1077,7 +1077,7 @@ input[type=submit]:hover {
   width: 90%;
 }
 .footer-container{
-  height: 32rem;
+  height: 25rem;
 }
 .company-contact-info img{
   height: auto;
@@ -1262,6 +1262,15 @@ input[type=submit]:hover {
   .money-management-container h1 {
     width: 100%;
 }
+.companies-container{
+  width: 60%;
+}
+.companies-us{
+  width: 70%;
+}
+.companies-canada{
+  width: 70%;
+}
 .company-overview-section{
   height: 38rem;
 }
@@ -1389,7 +1398,7 @@ input[type=submit]:hover {
 }
 .about-us-section{
   flex-direction: column;
-  height: 45rem;
+  height: 52rem;
   width:100%;
 }
 .about-us-section-container{
@@ -1398,7 +1407,7 @@ input[type=submit]:hover {
 }
 .about-us-section .about-us-section-image-container {
   height: auto;
-  width: 75%;
+  width: 90%;
 }
 .about-us-picture-container img {
   width: 100%;
@@ -1445,29 +1454,29 @@ font-size: 3rem;
 }
 
 .companies-section{
-  height: 70rem;
+  height: 56rem;
 }
 .companies-container {
   width: 80%;
 }
 .companies-us {
-  flex-direction: column;
+  /*flex-direction: column;*/
   align-items: center;
   width: 80%;
-  height: 18rem;
+  height: 15rem;
 }
 .companies-us img{
-  width: 30%;
+  width: 18%;
   height: auto;
 }
 .companies-canada {
-  flex-direction: column;
+  /*flex-direction: column;*/
     align-items: center;
     width: 80%;
-    height: 25rem;
+    height: 15rem;
 }
 .companies-canada img{
-  width: 30%;
+  width: 18%;
   height: auto;
 }
 .company-overview-section{
@@ -1503,7 +1512,7 @@ font-size: 3rem;
   align-items: center;
 }
 .social-links ul {
-  width: 40%;
+  width: 25%;
 }
 }
 @media screen and (max-width: 481px){
@@ -1532,19 +1541,23 @@ font-size: 3rem;
   }
   #Financial-Planning-Container{
     width: 100%;
+    /*border-bottom: 1px solid lightgray;*/
   }
   #Investments-Management-Container {
     width: 100%;
+    /*padding-top: 2rem;*/
+   /* border-bottom: 1px solid lightgray;*/
   }
   #Retirement-Plan-Container {
     width: 100%;
+    /*border-bottom: 1px solid lightgray;*/
   }
 .Home-Services-Section{
   height: 65rem;
 }
 .Home-Services-Section .Home-Services-Container{
   flex-direction: column;
-  height: 60rem;
+  height: 62rem;
 }
 
 .grow-business-section {
@@ -1687,14 +1700,14 @@ font-size: 3rem;
   height: 97vh;
 }
 .footer-container{
-  height: 35rem;
+  height: 40rem;
   flex-direction: column;
   align-items: start;
 }
 .company-contact-info{
   align-items: start;
   width: 100%;
-  height: 16rem;
+  height: 20rem;
   padding-left: 10px;
   border-right: 0;
   border-bottom: .5px solid;
@@ -1702,7 +1715,7 @@ font-size: 3rem;
 .contact-info{
   align-items: start;
   width: 100%;
-  height: 16rem;
+  height: 20rem;
   padding: 0px;
 }
 .contact-info h4{

@@ -469,7 +469,10 @@
      .help-container h1{
        font-size: 2.3rem;
      }
-     
+     .company-contact-info img {
+      height: auto;
+      width: 18%;
+  }
    }
    @media screen and (max-width: 1200px){
      .contact-links{
@@ -513,13 +516,14 @@
      width: 70%;
    }
    .footer-container{
-     height: 30rem;
+     height: 22rem;
    }
    .company-contact-info{
      height: 20rem;
    }
    .company-contact-info img{
-     height: 10rem;
+     height: auto;
+     width: 25%;
    }
    .contact-info{
      height: 20rem;
@@ -587,9 +591,7 @@
     .help-container h1{
       font-size: 2.3rem;
     }
-    .company-contact-info img{
-      height: 7rem;
-    }
+    
     .social-links ul{
       width: 25%;
     }
@@ -683,14 +685,11 @@
     .footer-container{
       height: 24rem;
     }
-    .company-contact-info img{
-      height: 5rem;
-    }
     .social-links{
       height: 2.5rem;
     }
     .social-links ul{
-      width: 30%;
+      width: 25%;
     }
   }
   @media screen and (max-width: 481px){
@@ -818,14 +817,14 @@
       font-size: .9rem;
     }
     .footer-container{
-      height: 35rem;
+      height: 40rem;
       flex-direction: column;
       align-items: start;
     }
     .company-contact-info{
       align-items: start;
       width: 100%;
-      height: 16rem;
+      height: 20rem;
       padding-left: 10px;
       border-right: 0;
       border-bottom: .5px solid;
@@ -833,7 +832,7 @@
     .contact-info{
       align-items: start;
       width: 100%;
-      height: 16rem;
+      height: 20rem;
       padding: 0px;
     }
     .contact-info h4{
