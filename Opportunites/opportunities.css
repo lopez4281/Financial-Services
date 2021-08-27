@@ -337,6 +337,37 @@
   .investment-video-section .video-container{
     text-align: center;
   }
+  .document-section{
+    width: 100%;
+    height: 25rem;
+  }
+  .document-section h2{
+    font-size: 3rem;
+    padding: 1rem;
+  }
+  .document-section h2 span{
+    color: crimson;
+  }
+  .document-section ul{
+    text-decoration: underline;
+    list-style: circle;
+    padding: 2rem;
+  }
+  .document-section ul li{
+    padding-bottom: .4rem;
+  }
+  .document-section ul li a:link{
+    color: black;
+  }
+  .document-section ul li a:visited{
+    color:darkslateblue;;
+  }
+  .document-section ul li a:hover{
+    color: silver;
+  }
+  .document-section ul li a:active{
+    color: red;
+  }
   .help-section{
     display: flex;
     justify-content: center;
@@ -813,6 +844,12 @@
     .investment-video-section h2 {
       font-size: 2.2rem;
     }
+    .document-section{
+      height: 30rem;
+    }
+    .document-section h2{
+      font-size: 2.2rem;
+    }
     .help-container h1{
       font-size: 2.2rem;
     }
@@ -930,6 +967,12 @@
 }
 .investment-section {
   height: 70rem;
+}
+.document-section{
+  height: 32rem;
+}
+.document-section h2{
+  font-size: 1.8rem;
 }
 .help-container h1 {
   font-size: 1.8rem;
