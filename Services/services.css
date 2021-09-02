@@ -843,14 +843,13 @@
     padding-top: 72px;
   }
   .footer-container{
-    height: 30rem;
+    height: 25rem;
   }
   .company-contact-info img {
     height: auto;
     width: 18%;
   }
   .social-links{
-    font-size: 2rem;
     height: 4rem;
     
   }
