@@ -221,14 +221,13 @@
     padding-bottom: 2rem;
   }
   .agent-info-container .wfg-direct-button{
+    color: black;
     padding: 1rem;
     border-radius: 2rem;
-    border: 1px solid crimson;
+    border: 2px solid crimson;
     margin-left: 1rem;
   }
-  .agent-info-container a:visited{
-     color: darkred;
-  } 
+  
   .agent-info-container .get-started-button{
     padding: 1rem;
     color: whitesmoke;
@@ -236,7 +235,7 @@
     padding-left: 2rem;
     padding-right: 2rem;
     border-radius: 2rem;
-    border: 1px solid crimson;
+    border: 2px solid crimson;
     margin-left: 1rem;
   }
   .tech-section{
@@ -495,6 +494,13 @@
   .social-links ul li a:hover{
     color: lightgrey;
   }
+  .copywrite{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    height: 2rem;
+  
+  }
    /*media queries*/
    @media screen and (min-width: 1201px) {
      .help-container{
@@ -731,6 +737,9 @@
     .social-links ul{
       width: 25%;
     }
+    .copywrite{
+      font-size: .8rem;
+    }
   }
   @media screen and (max-width: 481px){
     .navbar-container{
@@ -890,6 +899,12 @@
     .social-links ul{
       width: 35%;
     }
+    .copywrite{
+      font-size: .8rem;
+      height: 1.4rem;
+          text-align: start;
+          padding-left: .5rem
+      }
   }
   @media screen and (max-width: 320px){
     .navbar-container .nav-bar-links{
@@ -989,4 +1004,8 @@
 .help-container a {
   font-size: .8rem;
 }
-  }
+.copywrite{
+  font-size: .6rem;
+  height: 1rem;
+}
+ }

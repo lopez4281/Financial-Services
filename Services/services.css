@@ -716,7 +716,13 @@
   .social-links ul li a:hover{
     color: lightgrey;
   }
- 
+  .copywrite{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    height: 2rem;
+  
+  }
 
 
 /*//////////////////////////////////////Media Queries/////////////////////////////////////*/
@@ -1261,6 +1267,9 @@
   .social-links ul{
     width: 25%;
   }
+  .copywrite{
+    font-size: .8rem;
+  }
 }
 /*large mobile screem*/
 @media screen and (max-width: 481px){
@@ -1507,7 +1516,12 @@
   .social-links ul{
     width: 35%;
   }
-  
+  .copywrite{
+    font-size: .8rem;
+    height: 1.4rem;
+    text-align: start;
+    padding-left: .5rem
+  }
 }
 @media screen and (max-width: 320px){
   .top-section h1{
@@ -1626,6 +1640,10 @@
   }
   .social-links ul{
     width: 40%;
+  }
+  .copywrite{
+    font-size: .6rem;
+    height: 1rem;
   }
 }
 
