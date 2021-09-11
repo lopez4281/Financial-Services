@@ -903,7 +903,7 @@
       font-size: .8rem;
       height: 1.4rem;
           text-align: start;
-          padding-left: .5rem
+          padding-left: .6rem
       }
   }
   @media screen and (max-width: 320px){
@@ -1003,6 +1003,9 @@
 }
 .help-container a {
   font-size: .8rem;
+}
+.social-links ul{
+  width: 40%;
 }
 .copywrite{
   font-size: .6rem;
