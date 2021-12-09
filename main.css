@@ -16,6 +16,7 @@
     padding: 24px;
     padding-left: 70px;
     width: 100%;
+    height: 4rem;
   }
   
   
@@ -35,7 +36,7 @@
   .navbar-links{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 45%;
     /*border: 1px solid blue;*/
   }
@@ -77,7 +78,7 @@ h1 {
 .contact-links{
   display: flex;
   justify-content: space-evenly;
-  width: 85%;
+  width: 100%;
 }
 .contact-links a{
   color: white;
@@ -91,7 +92,7 @@ h1 {
     background-image: url("images/la-coverphoto.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color:lightgoldenrodyellow;
+    background-color: whitesmoke;
     height: 37em;
   }
   .greeting{
@@ -183,7 +184,7 @@ h1 {
    color: #999999;
    line-height: 1.2;
    font-size: 15px;
-   font-weight: 200;
+   font-weight: 400;
    padding-bottom: 6px;
   }
   #Financial-Planning-Container a:link{
@@ -217,7 +218,7 @@ h1 {
     color: #999999;
     line-height: 1.2;
     font-size: 15px;
-    font-weight: 200;
+    font-weight: 400;
     padding-bottom: 6px;
     
   }
@@ -256,7 +257,7 @@ h1 {
     color: #999999;
     line-height: 1.2;
     font-size: 15px;
-    font-weight: 200;
+    font-weight: 400;
     padding-bottom: 6px;
   }
   #Retirement-Plan-Container a:link{
@@ -293,6 +294,10 @@ h1 {
       color: black;
       text-transform: uppercase;
   }
+  .grow-business-container h1 span{
+    color: crimson;
+  }
+  /*
   .grow-business-container h1::after{
     content: '';
     width: 40px;
@@ -304,9 +309,10 @@ h1 {
     margin-top: 8px;
   
   }
+  */
   .grow-business-container p{
     color: #9d9d9d;
-    font-weight: 200;
+    font-weight: 400;
     max-width: 595px;
     margin: 0 auto;
     padding-top: 3px;
@@ -337,7 +343,7 @@ h1 {
     background-color: #f5f5f5;
   }
   .experience span h4{
-    font-weight: 200;
+    font-weight: 400;
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -360,7 +366,7 @@ h1 {
 
   }
   .award-winning #experience-number{
-    padding-left: 60px;
+    padding-left: 72px;
   }
   .award-winning span{
     color: #7d7d7d;
@@ -371,7 +377,7 @@ h1 {
     background-color:#f5f5f5;
   }
   .award-winning span h4{
-    font-weight: 200;
+    font-weight: 400;
     padding-left: 23px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -391,7 +397,7 @@ h1 {
     font-size: 15px;
   }
   .happy-customers span h4{
-    font-weight: 200;
+    font-weight: 400;
     background-color: #f5f5f5;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -414,7 +420,7 @@ h1 {
     font-size: 15px;
   }
   .satisfied-customers span h4{
-    font-weight: 200;
+    font-weight: 400;
     background-color: #f5f5f5;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -443,7 +449,7 @@ h1 {
     width: 50%;
    /* border: 1px solid red;*/
   }
-  .about-us-section-container h3:after{
+  /*.about-us-section-container h3:after{
     content: '';
     width: 40px;
     height: 2px;
@@ -454,7 +460,7 @@ h1 {
     margin-top: 8px;
 
   }
-
+*/
   .about-us-section-container h3{
     font-size: 40px;
     font-weight: 300;
@@ -462,8 +468,11 @@ h1 {
     padding: 20px;
     padding-bottom: 47px;
   }
+  .about-us-section-container h3 span{
+    color: crimson;
+  }
   .about-us-section-container p{
-    font-weight: 200;
+    font-weight: 400;
     /*color: #7d7d7d;*/
     color: black;
     padding: 20px;
@@ -480,7 +489,7 @@ h1 {
     padding: 10px;
     padding-left: 2rem;
     padding-right: 2rem;
-    border-radius: 3rem;
+    border: 1px solid crimson;
     margin-top: 20px;
     
 
@@ -511,6 +520,10 @@ h1 {
     padding: 10px;
     color: black;
   }
+  .about-section-header h2 span{
+    color: crimson;
+  }
+  /*
   .about-section-header h2:after{
     content: '';
     width: 40px;
@@ -521,11 +534,12 @@ h1 {
     position: relative;
     margin-top: 8px;
 }
+*/
   
 
   .about-section-header p{
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     color: #7d7d7d;
     padding: 20px;
     
@@ -554,16 +568,20 @@ h1 {
 }
 .about-section .profile-picture h4{
   text-align: center;
-  font-weight: 300;
-  padding: 2px;
+  font-weight: 400;
+  padding: .2rem;
 }
 .about-section .profile-picture h5{
-  font-weight: 200;
+  font-weight: 300;
   text-align: center;
   color: #7d7d7d;
-
 }
-
+.about-section .profile-picture h6{
+  font-weight: 300;
+  text-align: center;
+  color: #7d7d7d;
+  padding-top: .2rem;
+}
 
   .about-me{
     width: 50%;
@@ -579,7 +597,7 @@ h1 {
    margin: 20px;
   }
   .about-me p{
-    font-weight: 200;
+    font-weight: 400;
     line-height: 1.6;
     font-size: 18px;
     padding: 10px;
@@ -636,10 +654,10 @@ h1 {
 .money-management-container a{
   color: #fff;
   font-weight: 200;
+    padding-left: 2rem;
+    padding-right: 2rem;
   padding: 10px;
   border: 2px solid  whitesmoke;
- 
-
 }
 .companies-section{
   display: flex;
@@ -667,7 +685,7 @@ h1 {
   color: crimson;
 }
 .companies-container p{
-  font-weight: 200;
+  font-weight: 400;
   line-height: 1.6;
   color: black;
   padding: 10px;
@@ -741,6 +759,9 @@ h1 {
   color: black;
   font-weight: 300;
 }
+.company-overview-header span{
+  color: crimson;
+}
 
 .company-overview-section .webinar{
   display: flex;
@@ -752,7 +773,7 @@ h1 {
   text-align: center;
     color: black;
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 400;
     width: 50%;
     padding-bottom: 35px;
 
@@ -908,6 +929,9 @@ input[type=submit]:hover {
 .contact-info ul a:hover{
   color: gray;
 }
+#agent-address{
+  padding-right: 1.3rem;
+}
 .social-links{
   display: flex;
    justify-content: center;
@@ -934,6 +958,13 @@ input[type=submit]:hover {
 .social-links ul li a:hover{
   color: lightgrey;
 }
+.copywrite{
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  height: 2rem;
+
+}
 
 /* common breakpoints
 
@@ -947,7 +978,7 @@ input[type=submit]:hover {
 
 /* ///////////////////////Media Query//////////////////////////////////////////////////////////////*/
 @media screen and (min-width: 1201px){
-  .contact-links{
+  /*.contact-links{
     width: 60%;
     justify-content: start;
   }
@@ -955,6 +986,7 @@ input[type=submit]:hover {
     height: 4rem;
     justify-content: space-evenly;
   }
+  */
   .top-section{
     display: flex;
     align-items: center;
@@ -1059,7 +1091,7 @@ input[type=submit]:hover {
     padding-left: 2rem;
     padding-right: 2rem;
     border: 3px solid white;
-    border-radius: 3rem;
+  
 }
 .companies-section{
   height: 50rem;
@@ -1071,21 +1103,21 @@ input[type=submit]:hover {
   width: 90%;
 }
 .footer-container{
-  height: 32rem;
+  height: 25rem;
 }
 .company-contact-info img{
   height: auto;
   width: 18%;
 }
 .social-links{
-  height: 4rem;
+  height: 3rem;
 }
 }
 /* Desktop*/
 @media screen and (max-width: 1200px){
-  .navbar-container{
+  /*.navbar-container{
     height: 4rem;
-  }
+  }*/
   .Home-Services-Section{
     height: 24rem;
   }
@@ -1256,6 +1288,15 @@ input[type=submit]:hover {
   .money-management-container h1 {
     width: 100%;
 }
+.companies-container{
+  width: 60%;
+}
+.companies-us{
+  width: 70%;
+}
+.companies-canada{
+  width: 70%;
+}
 .company-overview-section{
   height: 38rem;
 }
@@ -1271,7 +1312,7 @@ input[type=submit]:hover {
 }
 /* tablets */
 @media screen and (max-width: 768px){
-  .contact-links{
+  /*.contact-links{
     width: 90%;
   }
   .contact-links a{
@@ -1280,7 +1321,13 @@ input[type=submit]:hover {
   .navbar-container{
     padding-left: 25px;
     height: 4rem;
+  }*/
+  .contact-links-section{
+    display: none;
   }
+.navbar-links {
+    width: 70%;
+}
   .greeting h1{
     font-size: 4em;
   }
@@ -1347,7 +1394,7 @@ input[type=submit]:hover {
   height: 150px;
 }
 .award-winning #experience-number {
-  padding-left: 51px;
+  padding-left: 66px;
 }
 .award-winning span {
   font-size: 14px;
@@ -1377,7 +1424,7 @@ input[type=submit]:hover {
 }
 .about-us-section{
   flex-direction: column;
-  height: 45rem;
+  height: 52rem;
   width:100%;
 }
 .about-us-section-container{
@@ -1386,7 +1433,7 @@ input[type=submit]:hover {
 }
 .about-us-section .about-us-section-image-container {
   height: auto;
-  width: 75%;
+  width: 90%;
 }
 .about-us-picture-container img {
   width: 100%;
@@ -1421,6 +1468,7 @@ input[type=submit]:hover {
 }
 .money-management-section{
   height: 21rem;
+  background-attachment: initial;
 }
 .money-management-container{
   width: 100%;
@@ -1432,29 +1480,29 @@ font-size: 3rem;
 }
 
 .companies-section{
-  height: 70rem;
+  height: 56rem;
 }
 .companies-container {
   width: 80%;
 }
 .companies-us {
-  flex-direction: column;
+  /*flex-direction: column;*/
   align-items: center;
   width: 80%;
-  height: 18rem;
+  height: 15rem;
 }
 .companies-us img{
-  width: 30%;
+  width: 18%;
   height: auto;
 }
 .companies-canada {
-  flex-direction: column;
+  /*flex-direction: column;*/
     align-items: center;
     width: 80%;
-    height: 25rem;
+    height: 15rem;
 }
 .companies-canada img{
-  width: 30%;
+  width: 18%;
   height: auto;
 }
 .company-overview-section{
@@ -1490,7 +1538,10 @@ font-size: 3rem;
   align-items: center;
 }
 .social-links ul {
-  width: 40%;
+  width: 25%;
+}
+.copywrite{
+  font-size: .8rem;
 }
 }
 @media screen and (max-width: 481px){
@@ -1498,11 +1549,14 @@ font-size: 3rem;
     display: none;
   }
   .navbar-container{
-    padding-left: 17px;
     height: 4rem;
+    padding: 1rem;
+  }
+  .wfg-logo img{
+    width: 3rem;
   }
   .navbar-links{
-    width: 70%;
+    width: 100%;
   }
   .top-section .greeting h2{
     font-size: 2em;
@@ -1516,19 +1570,23 @@ font-size: 3rem;
   }
   #Financial-Planning-Container{
     width: 100%;
+    /*border-bottom: 1px solid lightgray;*/
   }
   #Investments-Management-Container {
     width: 100%;
+    /*padding-top: 2rem;*/
+   /* border-bottom: 1px solid lightgray;*/
   }
   #Retirement-Plan-Container {
     width: 100%;
+    /*border-bottom: 1px solid lightgray;*/
   }
 .Home-Services-Section{
   height: 65rem;
 }
 .Home-Services-Section .Home-Services-Container{
   flex-direction: column;
-  height: 60rem;
+  height: 62rem;
 }
 
 .grow-business-section {
@@ -1561,11 +1619,12 @@ font-size: 3rem;
   height: 25rem;
 }
 .about-us-section .about-us-section-image-container {
-  width: 75%;
+  width: 100%;
   height: 15rem;
 }
 .about-us-picture-container{
   width: 100%;
+  padding: 0;
 }
 .about-us-picture-container img {
   width: 100%;
@@ -1580,6 +1639,7 @@ font-size: 3rem;
 }
 .about-section .profile-picture {
   height: 45rem;
+  width: 90%;
 }
 .about-section .profile-picture img {
   width: 100%;
@@ -1593,6 +1653,7 @@ font-size: 3rem;
 }
 .money-management-section{
   height: 23rem;
+  background-attachment: initial;
 }
 .money-management-container{
   width: 100%;
@@ -1668,14 +1729,14 @@ font-size: 3rem;
   height: 97vh;
 }
 .footer-container{
-  height: 35rem;
+  height: 40rem;
   flex-direction: column;
   align-items: start;
 }
 .company-contact-info{
   align-items: start;
   width: 100%;
-  height: 16rem;
+  height: 20rem;
   padding-left: 10px;
   border-right: 0;
   border-bottom: .5px solid;
@@ -1683,7 +1744,7 @@ font-size: 3rem;
 .contact-info{
   align-items: start;
   width: 100%;
-  height: 16rem;
+  height: 20rem;
   padding: 0px;
 }
 .contact-info h4{
@@ -1695,11 +1756,16 @@ font-size: 3rem;
 .social-links ul{
   width: 35%;
 }
-
+.copywrite{
+font-size: .8rem;
+height: 1.4rem;
+    text-align: start;
+    padding-left: .6rem
+}
 }
 @media screen and (max-width: 320px){
   .navbar-container {
-    padding-left: 0px;
+    padding: 1rem;
     height: 4rem;
 }
 .top-section .greeting{
@@ -1803,5 +1869,9 @@ font-size: 3rem;
 }
 .social-links ul {
   width: 40%;
+}
+.copywrite{
+  font-size: .6rem;
+  height: 1rem;
 }
 }

@@ -16,7 +16,7 @@
   .contact-links{
     display: flex;
     justify-content: space-evenly;
-    width: 70%;
+    width: 100%;
   }
   .contact-links a{
     color: white;
@@ -28,13 +28,12 @@
   }
   .navbar-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color:black;
-    height: 100px;
-    padding: 10px;
-    padding-left: 10px;
     width: 100%;
-    height: 12vh;
+    height: 4rem;
+    padding: 24px;
+    padding-left: 70px;
   }
   
   
@@ -54,7 +53,7 @@
   .navbar-links{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 45%;
     /*border: 1px solid blue;*/
   }
@@ -688,6 +687,9 @@
   .contact-info ul a:hover{
     color: gray;
   }
+  #agent-address{
+    padding-right: 1.3rem;
+  }
   .social-links{
     display: flex;
      justify-content: center;
@@ -714,13 +716,19 @@
   .social-links ul li a:hover{
     color: lightgrey;
   }
- 
+  .copywrite{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    height: 2rem;
+  
+  }
 
 
 /*//////////////////////////////////////Media Queries/////////////////////////////////////*/
 /*large desktops*/
 @media screen and (min-width: 1201px){
-  .contact-links{
+  /*.contact-links{
     justify-content: start;
   }
   .navbar-container{
@@ -729,6 +737,7 @@
     padding: 24px;
     padding-left: 70px;
   }
+  */
   .top-section{
     height: 35rem;
   }
@@ -836,22 +845,27 @@
   }
   .help-container{
     height: 20rem;
+    width: 45%;
     padding-top: 72px;
   }
   .footer-container{
-    height: 30rem;
+    height: 25rem;
+  }
+  .company-contact-info img {
+    height: auto;
+    width: 18%;
   }
   .social-links{
-    font-size: 2rem;
-    height: 4rem;
+    height: 3rem;
     
   }
 }
 /*small desktops*/
 @media screen and (max-width: 1200px){
-  .navbar-container{
+  /*.navbar-container{
     height: 4rem;
   }
+  */
 .top-section{
   height: 30rem;
 }
@@ -946,7 +960,11 @@
   height: 20rem;
 }
 .footer-container{
-  height: 20rem;
+  height: 22rem;
+}
+.company-contact-info img {
+  height: auto;
+  width: 25%;
 }
 .social-links{
   height: 3rem;
@@ -954,9 +972,10 @@
 }
 /*laptops*/
 @media screen and (max-width: 1024px){
-  .navbar-container{
+  /*.navbar-container{
     height: 3.6rem;
   }
+  */
   .top-section{
     height: 26rem;
   }
@@ -1046,9 +1065,6 @@
     padding-top: 35px;
     
   }
-  .company-contact-info img{
-    height: 5rem;
-  }
   .social-links ul{
     width: 20%;
   }
@@ -1058,6 +1074,9 @@
   .contact-links-section{
     display: none;
   }
+.navbar-links {
+    width: 70%;
+}
   .top-section{
     height: 19rem;
   }
@@ -1239,22 +1258,33 @@
     width: 100%;
   }
   .footer-container{
-    height: 24rem;
+    height: 22rem;
   }
-  .company-contact-info img{
-    height: 5rem;
-  }
+ 
   .social-links{
     height: 2.5rem;
   }
   .social-links ul{
-    width: 30%;
+    width: 25%;
+  }
+  .copywrite{
+    font-size: .8rem;
   }
 }
 /*large mobile screem*/
 @media screen and (max-width: 481px){
+  /*.navbar-container{
+    height: 4rem;
+  }
+  .wfg-logo img{
+    width: 3rem;
+  }*/
+  .contact-links-section{
+    display: none;
+  }
   .navbar-container{
     height: 4rem;
+    padding: 1rem;
   }
   .wfg-logo img{
     width: 3rem;
@@ -1285,7 +1315,7 @@
     width: 90%;
   }
   .services-greeting-container p{
-    font-size: 1rem;
+    font-size: .9rem;
   }
   .financial-strategies-section{
     height: 35rem;
@@ -1453,20 +1483,20 @@
     font-size: 2.8rem;
   }
   .help-container p{
-    font-size: 1rem;
+    font-size: .9rem;
   }
   .connect-button{
     font-size: 1rem;
   }
   .footer-container{
-    height: 35rem;
+    height: 40rem;
     flex-direction: column;
     align-items: start;
   }
   .company-contact-info{
     align-items: start;
     width: 100%;
-    height: 16rem;
+    height: 20rem;
     padding-left: 10px;
     border-right: 0;
     border-bottom: .5px solid;
@@ -1474,7 +1504,7 @@
   .contact-info{
     align-items: start;
     width: 100%;
-    height: 16rem;
+    height: 20rem;
     padding: 0px;
   }
   .contact-info h4{
@@ -1486,7 +1516,12 @@
   .social-links ul{
     width: 35%;
   }
-  
+  .copywrite{
+    font-size: .8rem;
+    height: 1.4rem;
+    text-align: start;
+    padding-left: .6rem
+  }
 }
 @media screen and (max-width: 320px){
   .top-section h1{
@@ -1605,6 +1640,10 @@
   }
   .social-links ul{
     width: 40%;
+  }
+  .copywrite{
+    font-size: .6rem;
+    height: 1rem;
   }
 }
 

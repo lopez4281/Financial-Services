@@ -53,7 +53,7 @@
   .navbar-links{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 45%;
     /*border: 1px solid blue;*/
   }
@@ -221,11 +221,13 @@
     padding-bottom: 2rem;
   }
   .agent-info-container .wfg-direct-button{
+    color: black;
     padding: 1rem;
     border-radius: 2rem;
-    border: 1px solid crimson;
+    border: 2px solid crimson;
     margin-left: 1rem;
   }
+  
   .agent-info-container .get-started-button{
     padding: 1rem;
     color: whitesmoke;
@@ -233,7 +235,7 @@
     padding-left: 2rem;
     padding-right: 2rem;
     border-radius: 2rem;
-    border: 1px solid crimson;
+    border: 2px solid crimson;
     margin-left: 1rem;
   }
   .tech-section{
@@ -334,6 +336,37 @@
   .investment-video-section .video-container{
     text-align: center;
   }
+  .document-section{
+    width: 100%;
+    height: 25rem;
+  }
+  .document-section h2{
+    font-size: 3rem;
+    padding: 1rem;
+  }
+  .document-section h2 span{
+    color: crimson;
+  }
+  .document-section ul{
+    text-decoration: underline;
+    list-style: circle;
+    padding: 2rem;
+  }
+  .document-section ul li{
+    padding-bottom: .4rem;
+  }
+  .document-section ul li a:link{
+    color: black;
+  }
+  .document-section ul li a:visited{
+    color:darkslateblue;;
+  }
+  .document-section ul li a:hover{
+    color: silver;
+  }
+  .document-section ul li a:active{
+    color: red;
+  }
   .help-section{
     display: flex;
     justify-content: center;
@@ -432,6 +465,9 @@
   .contact-info ul a:hover{
     color: gray;
   }
+  #agent-address{
+    padding-right: 1.3rem;
+  }
   .social-links{
     display: flex;
      justify-content: center;
@@ -458,7 +494,32 @@
   .social-links ul li a:hover{
     color: lightgrey;
   }
+  .copywrite{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    height: 2rem;
+  
+  }
    /*media queries*/
+   @media screen and (min-width: 1201px) {
+     .help-container{
+       width: 44%;
+     }
+     .help-container h1{
+       font-size: 2.3rem;
+     }
+     .company-contact-info img {
+      height: auto;
+      width: 18%;
+  }
+  .footer-container {
+    height: 25rem;
+  }
+  .social-links{
+    height: 3rem;
+  }
+   }
    @media screen and (max-width: 1200px){
      .contact-links{
        width: 100%;
@@ -501,13 +562,14 @@
      width: 70%;
    }
    .footer-container{
-     height: 30rem;
+     height: 22rem;
    }
    .company-contact-info{
      height: 20rem;
    }
    .company-contact-info img{
-     height: 10rem;
+     height: auto;
+     width: 25%;
    }
    .contact-info{
      height: 20rem;
@@ -572,9 +634,10 @@
     .help-section{
       height: 24rem;
     }
-    .company-contact-info img{
-      height: 7rem;
+    .help-container h1{
+      font-size: 2.3rem;
     }
+    
     .social-links ul{
       width: 25%;
     }
@@ -583,7 +646,7 @@
     .contact-links-section{
       display: none;
     }
-    .navbar-container .navbar-links{
+     .navbar-links{
       width: 70%;
     }
     .opportunities-section{
@@ -668,20 +731,20 @@
     .footer-container{
       height: 24rem;
     }
-    .company-contact-info img{
-      height: 5rem;
-    }
     .social-links{
       height: 2.5rem;
     }
     .social-links ul{
-      width: 30%;
+      width: 25%;
+    }
+    .copywrite{
+      font-size: .8rem;
     }
   }
   @media screen and (max-width: 481px){
     .navbar-container{
       height: 4rem;
-      padding: 0;
+      padding: 1rem;
     }
     .wfg-logo img{
       width: 3rem;
@@ -706,19 +769,19 @@
     }
     .resources-container{
       height: 76rem;
-      border: 3px solid deeppink;
+      /*border: 3px solid deeppink;*/
     }
     .resources-info{
       height: 45rem;
-      border: 3px solid purple;
+      /*border: 3px solid purple;*/
     }
     .resources-cover-photo{
       height: 24rem;
-      border: 2px solid red;
+     /* border: 2px solid red;*/
     }
     .agent-job-section{
       height: 27rem;
-      border: 1px solid red;
+     /* border: 1px solid red;*/
     }
     .agent-job-container{
       width: 100%;
@@ -731,7 +794,11 @@
     }
     .agent-info-section{
       width: 100%;
+      height: 62rem;
      padding: 0;
+    }
+    .agent-image-container img {
+      height: 25rem;
     }
     .agent-info-buttons{
      display: flex;
@@ -740,7 +807,7 @@
      width: 100%;
      height: 10rem;
      align-items: center;
-    border: 1px solid brown;
+   /* border: 1px solid brown;*/
    }
     .agent-info-container{
     text-align: center;
@@ -792,18 +859,27 @@
     .investment-video-section h2 {
       font-size: 2.2rem;
     }
+    .document-section{
+      height: 30rem;
+    }
+    .document-section h2{
+      font-size: 2.2rem;
+    }
     .help-container h1{
       font-size: 2.2rem;
     }
+    .help-container p{
+      font-size: .9rem;
+    }
     .footer-container{
-      height: 35rem;
+      height: 40rem;
       flex-direction: column;
       align-items: start;
     }
     .company-contact-info{
       align-items: start;
       width: 100%;
-      height: 16rem;
+      height: 20rem;
       padding-left: 10px;
       border-right: 0;
       border-bottom: .5px solid;
@@ -811,7 +887,7 @@
     .contact-info{
       align-items: start;
       width: 100%;
-      height: 16rem;
+      height: 20rem;
       padding: 0px;
     }
     .contact-info h4{
@@ -823,4 +899,116 @@
     .social-links ul{
       width: 35%;
     }
+    .copywrite{
+      font-size: .8rem;
+      height: 1.4rem;
+          text-align: start;
+          padding-left: .6rem
+      }
   }
+  @media screen and (max-width: 320px){
+    .navbar-container .nav-bar-links{
+      width: 100%;
+    }
+    .opportunities-section{
+      height: 47rem;
+    }
+    .training-container h2{
+      font-size: 1.8rem;
+    }
+    .training-container p{
+      font-size: .8rem;
+    }
+    .training-image-container img {
+      object-fit: contain;
+  }
+    .resources-container-header h3{
+      font-size: 1.8rem;
+    }
+    .resources-container {
+      height: 72rem;
+    }
+    .resources-info p{
+      font-size: .8rem;
+    }
+    .resources-info h3{
+      font-size: 1.5rem;
+    }
+    .resources-info a{
+      font-size: .8rem;
+    }
+    .resources-cover-photo img {
+      object-fit: contain;
+  }
+  
+    .agent-job-container h3 {
+      font-size: 1.8rem;
+  }
+  .agent-job-container p {
+    font-size: .8rem;
+  } 
+  .agent-image-container img {
+    object-fit: contain;
+  }
+  .agent-image-container{
+    height: 24rem;
+  }
+  .agent-info-container{
+    height: 50rem;
+  }
+  .agent-info-container p {
+   font-size: .8rem;
+}
+.agent-info-buttons a{
+  font-size: .8rem;
+}
+.tech-container h2 {
+  font-size: 1.8rem;
+}
+.tech-container p {
+  font-size: .8rem;
+}
+.investment-section .investment-header h2 {
+  font-size: 1.8rem;
+}
+.investment-section .investment-header h3 {
+  font-size: 1rem;
+}
+.investment-section .investment-header p {
+  font-size: .8rem;
+}
+.investment-info h4 {
+  font-size: 1rem;
+}
+.investment-info ul {
+  font-size: .8rem;
+}
+.investment-info h3 {
+  font-size: .8rem;
+}
+.investment-section {
+  height: 70rem;
+}
+.document-section{
+  height: 32rem;
+}
+.document-section h2{
+  font-size: 1.8rem;
+}
+.help-container h1 {
+  font-size: 1.8rem;
+}
+.help-container p {
+  font-size: .8rem;
+}
+.help-container a {
+  font-size: .8rem;
+}
+.social-links ul{
+  width: 40%;
+}
+.copywrite{
+  font-size: .6rem;
+  height: 1rem;
+}
+ }
